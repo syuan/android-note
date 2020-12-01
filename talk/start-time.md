@@ -6,7 +6,7 @@ https://medium.com/androiddevelopers/testing-app-startup-performance-36169c27ee5
 ## ActivityTaskManager startup log
 
 KitKat 부터는 logcat 를 통해서 Activity start time 을 확인할 수 있음.
-start time 을 확인 할 수 있지만 logcat 을 읽어서 사용해야하기 때문에 자동화하기가 까다로움
+start time 을 확인 할 수 있지만 logcat 을 읽어서 사용해야하기 때문에 자동화하기가 까다로움  
 ```
 I/ActivityManager: Displayed com.coupang.mobile/.activity.SplashActivity: +3s157ms
 ```
@@ -78,5 +78,5 @@ $ cat test.log
 
 //TODO remove legacy network module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzQwMTA0MF19
+eyJoaXN0b3J5IjpbMTA0MDk4ODg4MCwxMjI3NDAxMDQwXX0=
 -->
