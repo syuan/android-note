@@ -59,7 +59,7 @@ do
 done
 ```
 
-파일로 출력 하려면 아래와 가
+파일로 출력 하려면 아래와 같은 결과가 나옴
 ```
 $ sh test.sh 2>&1 > test.log
 $ cat test.log
@@ -70,7 +70,7 @@ $ cat test.log
 2743
  ```
 
-추가로 정확한 측정을 위해서는 단말기의 CPU 클럽을 잠그는것이 좋다?
+추가로 정확한 측정을 위해서는 단말기의 CPU 클럭을 잠그는것이 좋음
 ```
 $ ./gradlew lockClocks
 $ ./gradlew unlockClocks
@@ -98,6 +98,6 @@ release 6.4.0 = 295.264
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNjExNTA0LC0xMTk4MTY1NzAsODY1Nz
-k2MTc0LDEwNDA5ODg4ODAsMTIyNzQwMTA0MF19
+eyJoaXN0b3J5IjpbMTYyNDQwMzgzOCwtMTE5ODE2NTcwLDg2NT
+c5NjE3NCwxMDQwOTg4ODgwLDEyMjc0MDEwNDBdfQ==
 -->
