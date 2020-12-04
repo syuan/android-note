@@ -18,7 +18,9 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 > Glide 이 어떤 코드가 문제인지, size 가 얼마나 잘못 되는지
 
 해당 Glide 이슈는 이전과 비슷하지만 근본적인 문제가 있었음
-문제가 발생되는 이미지의 크기는 1000 x 10
+문제가 발생되는 이미지의 크기는 1000 x 10 (px) 정도로 사이즈의 비율이 한쪽으로 치우친 비정상인 이미징에서 발생
+
+안드로이드 기본 DownsampleStrategy 은  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE5NTgwNTFdfQ==
+eyJoaXN0b3J5IjpbLTIxNjE2OTU3NV19
 -->
