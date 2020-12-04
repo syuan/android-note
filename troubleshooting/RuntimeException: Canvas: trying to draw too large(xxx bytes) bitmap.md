@@ -18,7 +18,7 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 > Glide 이 어떤 코드가 문제인지, size 가 얼마나 잘못 되는지
 
 해당 Glide 이슈는 이전과 비슷하지만 근본적인 문제가 있었음
-문제가 발생되는 이미지의 크기는 1000 x 10 (px) 정도로 사이즈의 비율이 한쪽으로 치우친 비정상인 이미징에서 발생
+문제가 발생되는 Image size 는 1000 x 10 (px) 정도로 사이즈의 비율이 한쪽으로 치우친 비정상인 이미징에서 발생
 
 안드로이드 기본 DownsampleStrategy은  CenterOutside 로 Bitmap 재사용을 하기 위해서 scale up 을 하는 경우가 있음
 > 항상 scale down 할줄 알았는데, ImageView size 가 Image size 보다 큰 경우 scale up 을 하는게 기본 Strategy 였음
@@ -27,6 +27,27 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 그래서 ImageView 의 size 는 device  size (test device: 1440 x 3120)
 문제의 Image size 1000 x 10 (px)
 
+```
+private static class CenterOutside extends DownsampleStrategy {  
+  
+  @Synthetic  
+  CenterOutside() {}  
+  
+  @Override  
+  public float getScaleFactor(  
+      int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight) {  
+    float widthPercentage = requestedWidth / (float) sourceWidth;  
+    float heightPercentage = requestedHeight / (float) sourceHeight;  
+    return Math.max(widthPercentage, heightPercentage);  
+  }  
+  
+  @Override  
+  public SampleSizeRounding getSampleSizeRounding(  
+      int sourceWidth, int sourceHeight, int requestedWidth, int requestedHeight) {  
+    return SampleSizeRounding.QUALITY;  
+  }  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDAwNjg2Ml19
+eyJoaXN0b3J5IjpbLTc4NDc1Mzg1XX0=
 -->
