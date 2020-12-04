@@ -23,7 +23,8 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 안드로이드 기본 DownsampleStrategy은  CenterOutside 로 Bitmap 재사용을 하기 위해서 scale up 을 하는 경우가 있음
 > 항상 scale down 할줄 알았는데, ImageView size 가 Image size 보다 큰 경우 scale up 을 하는게 기본 Strategy 였음
 
-문제가 발생한 코드의 ImageView size 는 Match
+문제가 발생한 코드의 ImageView size 는 match_parent 였음 
+그래서 ImageView 의 size 는 device 사이즈 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjE5ODU0MjJdfQ==
+eyJoaXN0b3J5IjpbLTM1NjkzODc3Nl19
 -->
