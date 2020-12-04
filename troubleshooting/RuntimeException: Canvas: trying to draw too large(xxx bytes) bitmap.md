@@ -20,7 +20,8 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 해당 Glide 이슈는 이전과 비슷하지만 근본적인 문제가 있었음
 문제가 발생되는 이미지의 크기는 1000 x 10 (px) 정도로 사이즈의 비율이 한쪽으로 치우친 비정상인 이미징에서 발생
 
-안드로이드 기본 DownsampleStrategy은  CenterOutside 로 
+안드로이드 기본 DownsampleStrategy은  CenterOutside 로 Bitmap 재사용을 하기 위해서 scale up 을 하고 있었음
+> 항상 scale down 할줄 알았는데, ImageView 가 큰 경우 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDM4NDA3MV19
+eyJoaXN0b3J5IjpbLTQ4NzgwODQyMV19
 -->
