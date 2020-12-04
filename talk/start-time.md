@@ -59,7 +59,7 @@ do
 done
 ```
 
-파일로 출력 하려면
+파일로 출력 하려면 아래와 가
 ```
 $ sh test.sh 2>&1 > test.log
 $ cat test.log
@@ -70,9 +70,12 @@ $ cat test.log
 2743
  ```
 
-> $ ./gradlew lockClocks
-> $ ./gradlew unlockClocks
-  
+추가로 정확한 측정을 위해서는 단말기의 CPU 클럽을 잠그는것이 좋다?
+```
+$ ./gradlew lockClocks
+$ ./gradlew unlockClocks
+```
+>https://developer.android.com/studio/profile/run-benchmarks-in-ci?hl=ko  
   
 ## Test Results
 
@@ -95,6 +98,6 @@ release 6.4.0 = 295.264
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgxNjU3MCw4NjU3OTYxNzQsMTA0MD
-k4ODg4MCwxMjI3NDAxMDQwXX0=
+eyJoaXN0b3J5IjpbOTYxNjExNTA0LC0xMTk4MTY1NzAsODY1Nz
+k2MTc0LDEwNDA5ODg4ODAsMTIyNzQwMTA0MF19
 -->
