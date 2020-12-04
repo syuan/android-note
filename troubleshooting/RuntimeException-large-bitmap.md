@@ -3,7 +3,7 @@
 
 ```{.java}
 Fatal Exception: java.lang.RuntimeException: Canvas: trying to draw too large(310976100bytes) bitmap.
-    at android.graphics.RecordingCanvas.throwIfCannotDraw(RecordingCanvas.java:281)
+at android.graphics.RecordingCanvas.throwIfCannotDraw(RecordingCanvas.java:281)
     at android.graphics.BaseRecordingCanvas.drawBitmap(BaseRecordingCanvas.java:91)
     at android.graphics.drawable.BitmapDrawable.draw(BitmapDrawable.java:548)
 ```
@@ -64,3 +64,6 @@ height ratio : 312 배
   
 너무 큰 Bitmap 객체가 생성됨 ;;  
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3MTUxNzM0ODddfQ==
+-->
