@@ -76,15 +76,14 @@ $ cat test.log
   
 ## Test Results
 
-|  | 6.4.0 |6.4.0|
-|--|--|--|
-|  |  ||
-|--|--|--|
-|  |  |
+|       | 6.4.0 |6.4.2|
+|-------|-------|-----|
+|       | 6.4.0 |6.4.2|
+|-------|-------|-----|
+|       | 6.4.0 |6.4.2|
 
-6.4.0
-6.4.2
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1ODQ2NTksMTA0MDk4ODg4MCwxMjI3ND
-AxMDQwXX0=
+eyJoaXN0b3J5IjpbMTg1Nzg3MDI0NywxMDQwOTg4ODgwLDEyMj
+c0MDEwNDBdfQ==
 -->
