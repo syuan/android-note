@@ -85,12 +85,17 @@ $ cat test.log
 |MIN          | 148   |143   |
 |MAX          | 359   |346   |
 
-(6.4.0 = 295.264)
+
+
+검증을 위해서 한번 더 테스트
+debug 6.4.0 = 295.264
+release 6.4.0 = 2755.5
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI4NjM1NTAsMTA0MDk4ODg4MCwxMj
-I3NDAxMDQwXX0=
+eyJoaXN0b3J5IjpbLTY2MjE3NTkzNywxMDQwOTg4ODgwLDEyMj
+c0MDEwNDBdfQ==
 -->
