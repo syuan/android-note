@@ -25,8 +25,8 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 
 문제가 발생한 코드의 ImageView size 는 match_parent 였음 
 그래서 ImageView 의 size 는 device  size (test device: 1440 x 3120)
-
+문제의 Image size 1000 x 10 (px)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2ODgyODQ3XX0=
+eyJoaXN0b3J5IjpbLTQ0MDAwNjg2Ml19
 -->
