@@ -87,14 +87,14 @@ Appliaction.class 에서 필요한 코드 삭제
 
 
 검증을 위해서 한번 더 테스트
-debug 6.4.0 = 295.264
-release 6.4.0 = 2755.5
+debug 6.4.0 = 2755.5
+release 6.4.0 = 295.264
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1Nzk2MTc0LDEwNDA5ODg4ODAsMTIyNz
-QwMTA0MF19
+eyJoaXN0b3J5IjpbLTExOTgxNjU3MCw4NjU3OTYxNzQsMTA0MD
+k4ODg4MCwxMjI3NDAxMDQwXX0=
 -->
