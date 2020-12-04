@@ -2,7 +2,7 @@
 
 * [Initial page](README.md)
 
-## italk
+## talk
 
 * [Testing App Startup Performance](talk/start-time.md)
 
