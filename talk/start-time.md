@@ -76,7 +76,15 @@ $ cat test.log
   
 ## Test Results
 
-//TODO remove legacy network module
+|  | 6.4.0 |6.4.0|
+|--|--|--|
+|  |  ||
+|--|--|--|
+|  |  |
+
+6.4.0
+6.4.2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDk4ODg4MCwxMjI3NDAxMDQwXX0=
+eyJoaXN0b3J5IjpbNTc1ODQ2NTksMTA0MDk4ODg4MCwxMjI3ND
+AxMDQwXX0=
 -->
