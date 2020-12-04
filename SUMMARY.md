@@ -8,4 +8,4 @@
 
 ## troubleshooting
 
-* [RuntimeException -: Canvas: trying to draw too large bitmap](troubleshooting/RuntimeException-large-bitmap.md)
+* [RuntimeException : Canvas: trying to draw too large bitmap](troubleshooting/RuntimeException-large-bitmap.md)
