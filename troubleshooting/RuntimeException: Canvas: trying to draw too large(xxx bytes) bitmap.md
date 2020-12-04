@@ -49,7 +49,11 @@ private static class CenterOutside extends DownsampleStrategy {
   }  
 }
 ```
-scale rat
+scale ratio = image view size / image size
+width, height ratio 중에 max 값을 사용
+
+위의 값으로 계산하면
+width ratio : 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyMTA2NDc5XX0=
+eyJoaXN0b3J5IjpbLTE5MTUyMjc4MTNdfQ==
 -->
