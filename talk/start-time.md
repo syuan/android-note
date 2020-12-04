@@ -78,12 +78,12 @@ $ cat test.log
 
 |       | 6.4.0 |6.4.2|
 |-------|-------|-----|
-|       | 6.4.0 |6.4.2|
+|AVERAGE| 301.87|202.47|
 |-------|-------|-----|
 |       | 6.4.0 |6.4.2|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Nzg3MDI0NywxMDQwOTg4ODgwLDEyMj
+eyJoaXN0b3J5IjpbMjAzMDk0NTMyNCwxMDQwOTg4ODgwLDEyMj
 c0MDEwNDBdfQ==
 -->
