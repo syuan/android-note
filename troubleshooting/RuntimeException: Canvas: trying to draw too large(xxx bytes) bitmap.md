@@ -27,6 +27,7 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 그래서 ImageView 의 size 는 device  size (test device: 1440 x 3120)
 문제의 Image size 1000 x 10 (px)
 
+CenterOutside DownsampleStrategy 코드를 살펴보면
 ```
 private static class CenterOutside extends DownsampleStrategy {  
   
@@ -48,6 +49,7 @@ private static class CenterOutside extends DownsampleStrategy {
   }  
 }
 ```
+scale rat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDc1Mzg1XX0=
+eyJoaXN0b3J5IjpbMzIyMTA2NDc5XX0=
 -->
