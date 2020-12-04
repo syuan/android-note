@@ -58,7 +58,10 @@ height ratio : 312 배
 
 1000 x 10 (px) 을 이미지를 decoding 하면,
 1000 x 10 x 312 x 16 = 49920000 byte (47.60MB)
-OutOf
+
+너무 큰 Bitmap 객체가 생성됨 ;;
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTk4MTg0Ml19
+eyJoaXN0b3J5IjpbLTY3NDM4MjA4OV19
 -->
