@@ -76,7 +76,7 @@ $ cat test.log
   
 ## Test Results
 
-
+Appliaction.class 에서 필요한 코드 삭제
 
 |             | 6.4.0 |6.4.2 |
 |-------------|-------|------|
@@ -84,7 +84,6 @@ $ cat test.log
 |PERCENTILE 50| 321   |171   |
 |MIN          | 148   |143   |
 |MAX          | 359   |346   |
-
 
 
 검증을 위해서 한번 더 테스트
@@ -96,6 +95,6 @@ release 6.4.0 = 2755.5
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjE3NTkzNywxMDQwOTg4ODgwLDEyMj
-c0MDEwNDBdfQ==
+eyJoaXN0b3J5IjpbODY1Nzk2MTc0LDEwNDA5ODg4ODAsMTIyNz
+QwMTA0MF19
 -->
