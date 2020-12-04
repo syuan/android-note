@@ -24,7 +24,9 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 > 항상 scale down 할줄 알았는데, ImageView size 가 Image size 보다 큰 경우 scale up 을 하는게 기본 Strategy 였음
 
 문제가 발생한 코드의 ImageView size 는 match_parent 였음 
-그래서 ImageView 의 size 는 device 사이즈 
+그래서 ImageView 의 size 는 device  size (test device: 1440 x 3120)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjkzODc3Nl19
+eyJoaXN0b3J5IjpbMjk2ODgyODQ3XX0=
 -->
