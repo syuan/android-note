@@ -61,7 +61,6 @@ height ratio : 312 배
 
 너무 큰 Bitmap 객체가 생성됨 ;;
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDM4MjA4OV19
+eyJoaXN0b3J5IjpbLTMxNTY2NjY3OSwtNjc0MzgyMDg5XX0=
 -->
