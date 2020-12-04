@@ -1,10 +1,12 @@
 
 # RuntimeException: Canvas: trying to draw too large(xxx bytes) bitmap
 
-       Fatal Exception: java.lang.RuntimeException: Canvas: trying to draw too large(310976100bytes) bitmap.
-           at android.graphics.RecordingCanvas.throwIfCannotDraw(RecordingCanvas.java:281)
-           at android.graphics.BaseRecordingCanvas.drawBitmap(BaseRecordingCanvas.java:91)
-           at android.graphics.drawable.BitmapDrawable.draw(BitmapDrawable.java:548)
+```{.java}
+Fatal Exception: java.lang.RuntimeException: Canvas: trying to draw too large(310976100bytes) bitmap.
+    at android.graphics.RecordingCanvas.throwIfCannotDraw(RecordingCanvas.java:281)
+    at android.graphics.BaseRecordingCanvas.drawBitmap(BaseRecordingCanvas.java:91)
+    at android.graphics.drawable.BitmapDrawable.draw(BitmapDrawable.java:548)
+```
 
 > https://github.com/bumptech/glide/issues/3489
 
@@ -27,8 +29,9 @@ wrap_content 와 같은 경우 target size 를 재대로 산정하지 못하고 
 그래서 ImageView 의 size 는 device  size (test device: 1440 x 3120)
 문제의 Image size 1000 x 10 (px)
 
-CenterOutside DownsampleStrategy 코드를 살펴보면
-```
+CenterOutside DownsampleStrategy 코드를 살펴보면  
+
+```{.java}
 private static class CenterOutside extends DownsampleStrategy {  
   
   @Synthetic  
