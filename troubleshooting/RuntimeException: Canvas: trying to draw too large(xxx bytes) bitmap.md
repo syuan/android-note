@@ -54,7 +54,8 @@ width, height ratio 중에 max 값을 사용
 
 위의 값으로 계산하면
 width ratio : 1.44 배
-height ratio : 
+height ratio : 312 배
+1000 x 10 (px) 을 이미
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NzYwNDIwXX0=
+eyJoaXN0b3J5IjpbMjEzODQ5MDI1MV19
 -->
