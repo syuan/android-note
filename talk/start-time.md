@@ -77,6 +77,7 @@ $ cat test.log
 ## Test Results
 
 
+
 |             | 6.4.0 |6.4.2 |
 |-------------|-------|------|
 |AVERAGE      | 301.87|202.47|
@@ -84,12 +85,12 @@ $ cat test.log
 |MIN          | 148   |143   |
 |MAX          | 359   |346   |
 
-
+(6.4.0 = 295.264)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ2MjIxNjIsMTA0MDk4ODg4MCwxMj
+eyJoaXN0b3J5IjpbLTIwNjI4NjM1NTAsMTA0MDk4ODg4MCwxMj
 I3NDAxMDQwXX0=
 -->
