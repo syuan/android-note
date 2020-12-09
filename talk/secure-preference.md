@@ -55,7 +55,7 @@ sharedPrefsEditor.apply();
 
 저장된 데이터는 이렇게 암호화 되어있음
 > /data/data/[packageName]/shared_prefs/[preferencesName].xml
-```
+
 ```
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>  
 <map>  
@@ -65,5 +65,5 @@ sharedPrefsEditor.apply();
 </map>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTc3OTUzLC0xNjA3ODA5MTY0XX0=
+eyJoaXN0b3J5IjpbLTIzNTk1NzM5LC0xNjA3ODA5MTY0XX0=
 -->
