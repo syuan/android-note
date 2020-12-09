@@ -1,7 +1,7 @@
 
 # How to Secure Android Shared Preferences?
 
-이미 많은 개발자들은 이것과 무관하게 암호화 라이브러리를 매우 잘 활용
+이미 많은 개발자들은 SharedPreference 의 데이터를 암호화 하기 위해 라이브러리를 사용하고 있음 
 https://github.com/scottyab/secure-preferences deprecated
 https://github.com/facebookarchive/conceal
 
@@ -18,5 +18,5 @@ dependencies {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk2MjQ2OTFdfQ==
+eyJoaXN0b3J5IjpbLTQ2MjE1NzE1MF19
 -->
