@@ -21,8 +21,9 @@ Android Security 라이브러리는 크게 2가지 서비스와 Android KeyStore
 -   KeyAlias 생성 : Android KeyStore를 활용하여 MasterKeys generator 제공
 
 
+EncryptedSharedPreferences은 기존 SharedPreferences에 약간의 코드 수정만으로도 암호화를 적용 가능
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzA3NzAzMV19
+eyJoaXN0b3J5IjpbLTE2MDc4MDkxNjRdfQ==
 -->
