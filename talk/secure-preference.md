@@ -15,8 +15,14 @@ dependencies {
 }
 ```
 
+Android Security 라이브러리는 크게 2가지 서비스와 Android KeyStore 활용한 MasterKeys generator을 제공한다.
+
+-   암호화 관련 : EncryptedFile, EncryptedSharedPreferences
+-   KeyAlias 생성 : Android KeyStore를 활용하여 MasterKeys generator 제공
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjE1NzE1MF19
+eyJoaXN0b3J5IjpbMTg4NzA3NzAzMV19
 -->
