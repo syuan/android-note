@@ -6,6 +6,7 @@
 https://github.com/scottyab/secure-preferences deprecated  
 https://github.com/facebookarchive/conceal  
   
+  
 ## Work with data more securely
 https://developer.android.com/topic/security/data#java
   
@@ -66,6 +67,6 @@ sharedPrefsEditor.apply();
 </map>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0OTk2NjY1LDE3Mzc5MDEwNzUsLTIzNT
-k1NzM5LC0xNjA3ODA5MTY0XX0=
+eyJoaXN0b3J5IjpbLTE1MzYxNDU4MTcsMTczNzkwMTA3NSwtMj
+M1OTU3MzksLTE2MDc4MDkxNjRdfQ==
 -->
