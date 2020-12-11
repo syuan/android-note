@@ -2,13 +2,11 @@
 
 * [Initial page](README.md)
 
-## italk
+## talk
 
 * [Testing App Startup Performance](talk/start-time.md)
+* [Work with data more securely](talk/secure-preference.md)
 
-## Ttroubleshooting
+## troubleshooting
 
 * [RuntimeException -: Canvas: trying to draw too large bitmap](troubleshooting/RuntimeException-large-: Canvas: trying to draw too large(xxx bytes) bitlri.md
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ1Nzk0NjJdfQ==
--->
