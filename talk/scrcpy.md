@@ -17,7 +17,9 @@ brew install scrcpy
 ## Run
 ```
 scrcpy
+scrcpy --help
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTExMTM5MTZdfQ==
+eyJoaXN0b3J5IjpbNDk4NjU2NjY3XX0=
 -->
