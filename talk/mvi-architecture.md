@@ -30,15 +30,24 @@ Hannes Dorfmann
 http://hannesdorfmann.com/android/mosby3-mvi-1
 https://github.com/sockeqwe
 
+Model — 모델은 상태를 나타냅니다. MVI의 모델은 아키텍쳐의 다른 레이어와의 단방향 데이터 흐름을 보장하기 위해 변경이 불가능해야 합니다.
+
+View  — View를 나타내며 하나 이상의 Activity나 Fragment로 구현됩니다.
+
+Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모든 Action에 대해 View는 Intent를 수신합니다. Presenter는 Intent를 관찰하고 Model은 새로운 상태로 변환합니다.
+
+
+
 1.  View에 영향을 주는 State는 한 방향으로만 수정할 수 있다 —  **단방향**
 2.  앞 액션이 끝난 후 뒤 액션을 실행한다 —  **동기적 실행**
 3.  Model은 State를 변화시키고 View는 State를 참조만 한다 —  **View와 State 분리**
+
 
 ### MVI Sample
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
-A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
-Mjk0XX0=
+eyJoaXN0b3J5IjpbLTYxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMT
+A0NjI2NzU4LC0yMDkwMTY2OTk1LC00NDU5ODEyNjAsODgxNDE5
+NjExLC0xOTA3MzMyOTRdfQ==
 -->
