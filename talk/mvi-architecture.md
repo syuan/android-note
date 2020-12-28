@@ -4,9 +4,9 @@
 
 
 
-Unidirectional Architecture 
+Unidirectional data flow architecture 
 Flux, Redux, MVI
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzEwNjU2MSwtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbODgxNDE5NjExLC0xOTA3MzMyOTRdfQ==
 -->
