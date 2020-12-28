@@ -30,7 +30,11 @@ Hannes Dorfmann
 http://hannesdorfmann.com/android/mosby3-mvi-1
 https://github.com/sockeqwe
 
+1.  View에 영향을 주는 State는 한 방향으로만 수정할 수 있다 —  **단방향**
+2.  앞 액션이 끝난 후 뒤 액션을 실행한다 —  **동기적 실행**
+3.  Model은 State를 변화시키고 View는 State를 참조만 한다 —  **View와 State 분리**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYyNjc1OCwtMjA5MDE2Njk5NSwtND
-Q1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbLTU3ODc3Njg3MCwtMTA0NjI2NzU4LC0yMD
+kwMTY2OTk1LC00NDU5ODEyNjAsODgxNDE5NjExLC0xOTA3MzMy
+OTRdfQ==
 -->
