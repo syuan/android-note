@@ -4,7 +4,7 @@
 
 
 
-Data Uni-Directional Architecture (데이터 단방향 구조, UDA)
+Unidirectional Architecture 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDczMzI5NF19
+eyJoaXN0b3J5IjpbMTE1MjE3NTgwMCwtMTkwNzMzMjk0XX0=
 -->
