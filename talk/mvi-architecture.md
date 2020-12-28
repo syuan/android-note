@@ -22,9 +22,10 @@ View — Action — Middleware — Reducer — Store
 ### MVI
 
 Hannes Dorfmann
+http://hannesdorfmann.com/android/mosby3-mvi-1
 https://github.com/sockeqwe
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU5NzcyMDcsLTQ0NTk4MTI2MCw4OD
+eyJoaXN0b3J5IjpbLTIwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4OD
 E0MTk2MTEsLTE5MDczMzI5NF19
 -->
