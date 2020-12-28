@@ -21,8 +21,10 @@ View — Action — Middleware — Reducer — Store
 
 ### MVI
 
+Hannes Dorfmann
+https://github.com/sockeqwe
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzQ0NTc5NywtNDQ1OTgxMjYwLDg4MT
-QxOTYxMSwtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbLTExNTU5NzcyMDcsLTQ0NTk4MTI2MCw4OD
+E0MTk2MTEsLTE5MDczMzI5NF19
 -->
