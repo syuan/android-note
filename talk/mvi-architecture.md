@@ -14,7 +14,8 @@ Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤
 Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
 View — Action — Middleware — Reducer — Store
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MD
-czMzI5NF19
+eyJoaXN0b3J5IjpbLTEzNTI2NDI4NDYsLTQ0NTk4MTI2MCw4OD
+E0MTk2MTEsLTE5MDczMzI5NF19
 -->
