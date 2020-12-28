@@ -5,6 +5,8 @@
 
 
 Unidirectional Architecture 
+Flux, Redux, MVI
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjE3NTgwMCwtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbLTM5MzEwNjU2MSwtMTkwNzMzMjk0XX0=
 -->
