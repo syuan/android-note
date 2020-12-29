@@ -10,7 +10,7 @@
 
 MVC 패턴의 큰 특징 중 하나가 ‘양방향 데이터 흐름’이다. 모델이 변경된다면 뷰 또한 변경되고, 사용자에 의해 뷰에서 변경이 일어난다면 모델 또한 변경된다. 이러한 양방향 데이터 흐름은 설계하기 간단하고 코드 작성하기 쉬운 장점이 있다. 하지만 애플케이션 규모가 커진다면 문제가 생긴다. 한 개의 모델이 여러 개의 뷰를 조작하고 한 개의 뷰가 여러 개의 모델을 조작한다면 데이터 흐름을 이해하기 힘들어진다. 버그를 찾기 어려워지고 데이터 흐름을 추적하는 데 많은 시간을 투자해야 한다.  
   
-![mvc-mvp-mvvm](./images/mvc-multi-flow.png)  
+![mvc-multi-flow](./images/mvc-multi-flow.png)  
   
   
 ### Unidirectional data flow architecture 
@@ -19,18 +19,18 @@ Unidirectional data flow architecture
 Flux, Redux, MVI  
   
 #### Flux
-Flux: Facebook이 만든 단방향 구조. 
+Flux: Facebook이 만든 단방향 아키텍쳐
 View — Action — Dispacther — Store. 
-Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자. 
+![mvc-multi-flow](./images/mvc-multi-flow.png)  
+Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자 
 
 #### Redux
-2015년에는 Dan Abramov에 의해서 React + Flux의 구조에 ‘Reducer’를 결합한 ‘Redux’가 등장하게 된다.  
-
-`Redux = (Red)ucer + Fl(ux)`
-
 Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
-View — Action — Middleware — Reducer — Store
-
+2015년에는 Dan Abramov에 의해서 React + Flux의 구조에 ‘Reducer’를 결합한 ‘Redux’가 등장하게 된다.  
+  
+`Redux = (Red)ucer + Fl(ux)`  
+View — Action — Middleware — Reducer — Store  
+![mvc-multi-flow](./images/mvc-multi-flow.png)  
 View에서 일어나는 이벤트는 직접 데이터(상태)를 변경해서는 안 된다. 이벤트는 Action을 Reducer로 전달할 뿐이다. 데이터의 변경은 Reducer만 할 수 있다. Reducer 이외의 공간에서는 데이터(상태)는 읽기모드인 것이다.
 
 데이터가 **집중화(Centralized)** 되어 있어서 **예측 가능하며(Predictable)**데이터 흐름이 단방향이라서 **디버깅하기 쉽다(Debuggable)**. 또 리덕스와 연관된 좋은 생태계가 구축되어 있어서 필요에 맞게 **유연하게(Flexible)** 구현할 수 있다.
@@ -60,9 +60,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MTY5NDA0LDE4ODI2NjI0MDAsNzA5NT
-UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
-LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
-A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
-Mjk0XX0=
+eyJoaXN0b3J5IjpbLTUzNzYwMjg2NSwxODgyNjYyNDAwLDcwOT
+U1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5
+MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLT
+IwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDcz
+MzI5NF19
 -->
