@@ -20,12 +20,16 @@ Flux, Redux, MVI
   
 #### Flux
 Flux: Facebook이 만든 단방향 아키텍쳐  
+> https://haruair.github.io/flux/
+
 View — Action — Dispacther — Store. 
 ![flux-flow](./images/flux-flow3.png)  
 Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자 
 
 #### Redux
 Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
+> https://ko.redux.js.org/
+
 2015년에는 Dan Abramov에 의해서 React + Flux의 구조에 ‘Reducer’를 결합한 ‘Redux’가 등장하게 된다.  
   
 `Redux = (Red)ucer + Fl(ux)`  
@@ -63,10 +67,10 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0NTUxNzE5LC0zNjg3OTg2NTAsMTA2Nj
-YxOTUxMiwxODg5ODI5NzI0LDE4ODI2NjI0MDAsNzA5NTUxODQ1
-LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MT
-I3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMjA5MDE2
-Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMzMjk0XX
-0=
+eyJoaXN0b3J5IjpbMTA2MzkxMDI3MSwtMzY4Nzk4NjUwLDEwNj
+Y2MTk1MTIsMTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0
+NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNj
+EyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAx
+NjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDczMzI5NF
+19
 -->
