@@ -36,7 +36,7 @@ View에서 일어나는 이벤트는 직접 데이터(상태)를 변경해서는
 이벤트(Action) 을 Reducer로 전달할 뿐, 데이터의 변경은 Reducer 만 가능  
 Reducer 이외의 공간에서는 데이터(상태)는 읽기모드  
 
-데이터가 **집중화(Centralized)** 되어 있어서 **예측 가능하며(Predictable)** 데이터 흐름이 단방향이라서 **디버깅하기 쉽다(Debuggable)**. 또 리덕스와 연관된 좋은 생태계가 구축되어 있어서 필요에 맞게 **유연하게(Flexible)** 구현할 수 있다.
+데이터가 **집중화(Centralized)** 되어 있어서 **예측 가능하며(Predictable)** 데이터 흐름이 단방향이라서 **디버깅하기 쉽다(Debuggable)** 또한 필요에 맞게 **유연하게(Flexible)** 구현할 수 있다.
 
 
 ### MVI Architecture
@@ -63,9 +63,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODU3OTE5LDE4ODI2NjI0MDAsNzA5NT
-UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
-LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
-A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
-Mjk0XX0=
+eyJoaXN0b3J5IjpbMTE0NzE3ODQxNywxODgyNjYyNDAwLDcwOT
+U1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5
+MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLT
+IwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDcz
+MzI5NF19
 -->
