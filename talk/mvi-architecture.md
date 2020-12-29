@@ -62,15 +62,20 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 3.  Model은 State를 변화시키고 View는 State를 참조만 한다 —  **View와 State 분리**
   
 ![uda-vs](./images/uda-vs.png)  
-  
+
+| flux | redux | mvi |
+|--|--|--|
+| Action 명시 | Action 명시 | Action 없음 |
+| 
+
 ### MVI Sample
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzkxMDI3MSwtMzY4Nzk4NjUwLDEwNj
-Y2MTk1MTIsMTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0
-NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNj
-EyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAx
-NjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDczMzI5NF
-19
+eyJoaXN0b3J5IjpbLTE1NjMzMjA2NTgsLTM2ODc5ODY1MCwxMD
+Y2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQwMCw3MDk1NTE4
+NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0MjI0MDgyOTIsLT
+YxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2NzU4LC0yMDkw
+MTY2OTk1LC00NDU5ODEyNjAsODgxNDE5NjExLC0xOTA3MzMyOT
+RdfQ==
 -->
