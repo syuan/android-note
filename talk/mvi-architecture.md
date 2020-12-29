@@ -79,14 +79,58 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 public interface MviPresenter<V extends MvpView, VS> extends MvpPresenter<V> {
 
 }
+```java
+
+```java
+public class ProductDetailsPresenter
+
+extends MviBasePresenter<ProductDetailsView, ProductDetailsViewState> {
+
+private final DetailsInteractor interactor;
+
+public ProductDetailsPresenter(DetailsInteractor interactor) {
+
+this.interactor = interactor;
+
+}
+
+@Override protected void bindIntents() {
+
+intent(ProductDetailsView::addToShoppingCartIntent)
+
+.doOnNext(product -> Timber.d("intent: add to shopping cart %s", product))
+
+.flatMap(product -> interactor.addToShoppingCart(product).toObservable()).subscribe();
+
+intent(ProductDetailsView::removeFromShoppingCartIntent)
+
+.doOnNext(product -> Timber.d("intent: remove from shopping cart %s", product))
+
+.flatMap(product -> interactor.removeFromShoppingCart(product).toObservable())
+
+.subscribe();
+
+Observable<ProductDetailsViewState> loadDetails =
+
+intent(ProductDetailsView::loadDetailsIntent)
+
+.doOnNext(productId -> Timber.d("intent: load details for product id = %s", productId))
+
+.flatMap(interactor::getDetails)
+
+.observeOn(AndroidSchedulers.mainThread());
+
+subscribeViewState(loadDetails, ProductDetailsView::render);
+
+}
+
+}
 ```
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0MjY2MTU0LDIwOTU3NzA4ODYsLTM2OD
-c5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQw
-MCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0Mj
-I0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2
-NzU4LC0yMDkwMTY2OTk1LC00NDU5ODEyNjAsODgxNDE5NjExLC
-0xOTA3MzMyOTRdfQ==
+eyJoaXN0b3J5IjpbMTg1Mjk5MDk2MSw3NjQyNjYxNTQsMjA5NT
+c3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIsMTg4OTgyOTcy
+NCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0LDE0Mj
+AxOTM4MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNjA3Nzcx
+NzQwLC0xMDQ2MjY3NTgsLTIwOTAxNjY5OTUsLTQ0NTk4MTI2MC
+w4ODE0MTk2MTEsLTE5MDczMzI5NF19
 -->
