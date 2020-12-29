@@ -21,7 +21,7 @@ Flux, Redux, MVI
 #### Flux
 Flux: Facebook이 만든 단방향 아키텍쳐
 View — Action — Dispacther — Store. 
-![mvc-multi-flow](./images/mvc-multi-flow.png)  
+![mvc-multi-flow](./images/flux-flow.png)  
 Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자 
 
 #### Redux
@@ -30,7 +30,7 @@ Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
   
 `Redux = (Red)ucer + Fl(ux)`  
 View — Action — Middleware — Reducer — Store  
-![mvc-multi-flow](./images/mvc-multi-flow.png)  
+![mvc-multi-flow](./images/redux-flow.png)  
 View에서 일어나는 이벤트는 직접 데이터(상태)를 변경해서는 안 된다. 이벤트는 Action을 Reducer로 전달할 뿐이다. 데이터의 변경은 Reducer만 할 수 있다. Reducer 이외의 공간에서는 데이터(상태)는 읽기모드인 것이다.
 
 데이터가 **집중화(Centralized)** 되어 있어서 **예측 가능하며(Predictable)**데이터 흐름이 단방향이라서 **디버깅하기 쉽다(Debuggable)**. 또 리덕스와 연관된 좋은 생태계가 구축되어 있어서 필요에 맞게 **유연하게(Flexible)** 구현할 수 있다.
@@ -60,9 +60,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzYwMjg2NSwxODgyNjYyNDAwLDcwOT
-U1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5
-MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLT
-IwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDcz
-MzI5NF19
+eyJoaXN0b3J5IjpbLTI0OTczMjE4LDE4ODI2NjI0MDAsNzA5NT
+UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
+LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
+A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
+Mjk0XX0=
 -->
