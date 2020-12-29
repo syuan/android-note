@@ -15,8 +15,8 @@ MVC 패턴의 큰 특징 중 하나가 ‘양방향 데이터 흐름’이다. �
   
 ### Unidirectional data flow architecture 
 
-Unidirectional data flow architecture 
-Flux, Redux, MVI
+Unidirectional data flow architecture.  
+Flux, Redux, MVI. 
 
 #### Flux
 Flux: Facebook이 만든 단방향 구조
@@ -59,8 +59,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjY2MjQwMCw3MDk1NTE4NDUsLTY0OD
-A1Nzk1NCwxNDIwMTkzODAwLDE0MjI0MDgyOTIsLTYxMjcyMjg0
-NCwtMTYwNzc3MTc0MCwtMTA0NjI2NzU4LC0yMDkwMTY2OTk1LC
-00NDU5ODEyNjAsODgxNDE5NjExLC0xOTA3MzMyOTRdfQ==
+eyJoaXN0b3J5IjpbLTE1ODYxODQ5NiwxODgyNjYyNDAwLDcwOT
+U1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5
+MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLT
+IwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDcz
+MzI5NF19
 -->
