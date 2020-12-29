@@ -83,54 +83,40 @@ public interface MviPresenter<V extends MvpView, VS> extends MvpPresenter<V> {
 
 ```java
 public class ProductDetailsPresenter
-
-extends MviBasePresenter<ProductDetailsView, ProductDetailsViewState> {
-
-private final DetailsInteractor interactor;
-
-public ProductDetailsPresenter(DetailsInteractor interactor) {
-
-this.interactor = interactor;
-
-}
-
-@Override protected void bindIntents() {
-
-intent(ProductDetailsView::addToShoppingCartIntent)
-
-.doOnNext(product -> Timber.d("intent: add to shopping cart %s", product))
-
-.flatMap(product -> interactor.addToShoppingCart(product).toObservable()).subscribe();
-
-intent(ProductDetailsView::removeFromShoppingCartIntent)
-
-.doOnNext(product -> Timber.d("intent: remove from shopping cart %s", product))
-
-.flatMap(product -> interactor.removeFromShoppingCart(product).toObservable())
-
-.subscribe();
-
-Observable<ProductDetailsViewState> loadDetails =
-
-intent(ProductDetailsView::loadDetailsIntent)
-
-.doOnNext(productId -> Timber.d("intent: load details for product id = %s", productId))
-
-.flatMap(interactor::getDetails)
-
-.observeOn(AndroidSchedulers.mainThread());
-
-subscribeViewState(loadDetails, ProductDetailsView::render);
-
-}
-
+    extends MviBasePresenter<ProductDetailsView, ProductDetailsViewState> {
+ 
+  private final DetailsInteractor interactor;
+ 
+  public ProductDetailsPresenter(DetailsInteractor interactor) {
+    this.interactor = interactor;
+  }
+ 
+  @Override protected void bindIntents() {
+ 
+    intent(ProductDetailsView::addToShoppingCartIntent)
+        .doOnNext(product -> Timber.d("intent: add to shopping cart %s", product))
+        .flatMap(product -> interactor.addToShoppingCart(product).toObservable()).subscribe();
+ 
+    intent(ProductDetailsView::removeFromShoppingCartIntent)
+        .doOnNext(product -> Timber.d("intent: remove from shopping cart %s", product))
+        .flatMap(product -> interactor.removeFromShoppingCart(product).toObservable())
+        .subscribe();
+ 
+    Observable<ProductDetailsViewState> loadDetails =
+        intent(ProductDetailsView::loadDetailsIntent)
+            .doOnNext(productId -> Timber.d("intent: load details for product id = %s", productId))
+            .flatMap(interactor::getDetails)
+            .observeOn(AndroidSchedulers.mainThread());
+ 
+    subscribeViewState(loadDetails, ProductDetailsView::render);
+  }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk4OTk0MDcsNzY0MjY2MTU0LDIwOT
-U3NzA4ODYsLTM2ODc5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3
-MjQsMTg4MjY2MjQwMCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxND
-IwMTkzODAwLDE0MjI0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3
-MTc0MCwtMTA0NjI2NzU4LC0yMDkwMTY2OTk1LC00NDU5ODEyNj
-AsODgxNDE5NjExLC0xOTA3MzMyOTRdfQ==
+eyJoaXN0b3J5IjpbODMyNTE3MTk1LDc2NDI2NjE1NCwyMDk1Nz
+cwODg2LC0zNjg3OTg2NTAsMTA2NjYxOTUxMiwxODg5ODI5NzI0
+LDE4ODI2NjI0MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQsMTQyMD
+E5MzgwMCwxNDIyNDA4MjkyLC02MTI3MjI4NDQsLTE2MDc3NzE3
+NDAsLTEwNDYyNjc1OCwtMjA5MDE2Njk5NSwtNDQ1OTgxMjYwLD
+g4MTQxOTYxMSwtMTkwNzMzMjk0XX0=
 -->
