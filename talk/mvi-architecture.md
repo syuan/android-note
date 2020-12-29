@@ -67,7 +67,7 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 | Action 명시        | Action 명시          | Action 없음          |
 | Dispatcher 있음    | Dispatcher 없음      | Dispatcher 없음      | 
 | Multiple store    | Single store        | Multiple store      |
-| Business in Store | Business in Reducer | Business in Reducer |
+| Business in Store | Business in Reducer | Business in Model   |
 | Mutable State     | Immutable State     | Immutable State     |
   
     
@@ -75,7 +75,7 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDEwMTY1NSwtMzY4Nzk4NjUwLDEwNj
+eyJoaXN0b3J5IjpbMjA5NTc3MDg4NiwtMzY4Nzk4NjUwLDEwNj
 Y2MTk1MTIsMTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0
 NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNj
 EyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAx
