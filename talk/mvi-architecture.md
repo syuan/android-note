@@ -15,18 +15,19 @@ MVC 패턴의 큰 특징 중 하나가 ‘양방향 데이터 흐름’이다. �
   
 ### Unidirectional data flow architecture 
 
-Unidirectional data flow architecture.  
-Flux, Redux, MVI. 
-
+Unidirectional data flow architecture   
+Flux, Redux, MVI  
+  
 #### Flux
-Flux: Facebook이 만든 단방향 구조
-View — Action — Dispacther — Store
-Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자
+Flux: Facebook이 만든 단방향 구조. 
+View — Action — Dispacther — Store. 
+Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자. 
 
 #### Redux
-2015년에는 Dan Abramov에 의해서 React + Flux의 구조에 ‘Reducer’를 결합한 ‘Redux’가 등장하게 된다.
+2015년에는 Dan Abramov에 의해서 React + Flux의 구조에 ‘Reducer’를 결합한 ‘Redux’가 등장하게 된다.  
 
 `Redux = (Red)ucer + Fl(ux)`
+
 Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
 View — Action — Middleware — Reducer — Store
 
@@ -59,9 +60,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODYxODQ5NiwxODgyNjYyNDAwLDcwOT
-U1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5
-MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLT
-IwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDcz
-MzI5NF19
+eyJoaXN0b3J5IjpbODc4MTY5NDA0LDE4ODI2NjI0MDAsNzA5NT
+UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
+LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
+A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
+Mjk0XX0=
 -->
