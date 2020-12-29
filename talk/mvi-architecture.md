@@ -4,7 +4,7 @@
 
 ### Background
 
-
+![ex_screenshot](./images/mvc-mvp-mvvm.png)
 
 사용자와의 인터렉션 또한 기존 서비스보다 훨씬 많아졌다. 그로 인해서 많은 버그가 발생하게 되었고 수 많은 양방향의 데이터 흐름 때문에 버그를 수정하기도 힘들었다
 
@@ -57,8 +57,8 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MT
-I3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMjA5MDE2
-Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMzMjk0XX
-0=
+eyJoaXN0b3J5IjpbLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0Mj
+I0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2
+NzU4LC0yMDkwMTY2OTk1LC00NDU5ODEyNjAsODgxNDE5NjExLC
+0xOTA3MzMyOTRdfQ==
 -->
