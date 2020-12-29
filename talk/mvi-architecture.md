@@ -63,22 +63,22 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
   
 ![uda-vs](./images/uda-vs.png)  
 
-| flux | redux | mvi |
-|--|--|--|
-| Action 명시 | Action 명시 | Action 없음 |
-| Dispatcher 있음 | Dispatcher 없음 | Dispatcher 없음 | 
-| Multiple store | Single store   | Multiple store (Presenter) |
-| Business logic in Store | business logic in Reducer | business logic in Reducer
-| Mutable State | Immutable State | Mutable State
+| flux              | redux               | mvi                 |
+|-------------------|---------------------|---------------------|
+| Action 명시        | Action 명시          | Action 없음          |
+| Dispatcher 있음    | Dispatcher 없음      | Dispatcher 없음      | 
+| Multiple store    | Single store        | Multiple store      |
+| Business in Store | Business in Reducer | Business in Reducer |
+| Mutable State     | Immutable State     | Immutable State     |
 
 ### MVI Sample
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMzNjkwNiwtMzY4Nzk4NjUwLDEwNj
-Y2MTk1MTIsMTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0
-NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNj
-EyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAx
-NjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDczMzI5NF
-19
+eyJoaXN0b3J5IjpbLTE3NDk4MTk0MjQsLTM2ODc5ODY1MCwxMD
+Y2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQwMCw3MDk1NTE4
+NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0MjI0MDgyOTIsLT
+YxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2NzU4LC0yMDkw
+MTY2OTk1LC00NDU5ODEyNjAsODgxNDE5NjExLC0xOTA3MzMyOT
+RdfQ==
 -->
