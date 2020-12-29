@@ -49,7 +49,8 @@ Hannes Dorfmann
 Model — 모델은 상태, MVI의 모델은 아키텍쳐의 다른 레이어와의 단방향 데이터 흐름을 보장하기 위해 변경이 불가능  
 View  — View를 나타내며 하나 이상의 Activity나 Fragment로 구현  
 Intent — 사용자 또는 앱내 발생하는 Action을 나타냄  
-  
+![uda-vs](./images/mvi-flow.png)  
+    
 1.  View에 영향을 주는 State는 한 방향으로만 수정할 수 있다 —  **단방향**
 2.  앞 액션이 끝난 후 뒤 액션을 실행한다 —  **동기적 실행**
 3.  Model은 State를 변화시키고 View는 State를 참조만 한다 —  **View와 State 분리**
@@ -60,9 +61,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIzMTEwOTIsMTg4OTgyOTcyNCwxOD
-gyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4
-MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC
-0xMDQ2MjY3NTgsLTIwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0
-MTk2MTEsLTE5MDczMzI5NF19
+eyJoaXN0b3J5IjpbMTA2NjYxOTUxMiwxODg5ODI5NzI0LDE4OD
+I2NjI0MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQsMTQyMDE5Mzgw
+MCwxNDIyNDA4MjkyLC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLT
+EwNDYyNjc1OCwtMjA5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQx
+OTYxMSwtMTkwNzMzMjk0XX0=
 -->
