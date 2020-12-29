@@ -21,7 +21,7 @@ Flux, Redux, MVI
 #### Flux
 Flux: Facebook이 만든 단방향 아키텍쳐  
 View — Action — Dispacther — Store. 
-![flux-flow](./images/flux-flow.png)  
+![flux-flow](./images/flux-flow2.png)  
 Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자 
 
 #### Redux
@@ -61,9 +61,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjYxOTUxMiwxODg5ODI5NzI0LDE4OD
-I2NjI0MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQsMTQyMDE5Mzgw
-MCwxNDIyNDA4MjkyLC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLT
-EwNDYyNjc1OCwtMjA5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQx
-OTYxMSwtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbLTM2ODc5ODY1MCwxMDY2NjE5NTEyLDE4OD
+k4Mjk3MjQsMTg4MjY2MjQwMCw3MDk1NTE4NDUsLTY0ODA1Nzk1
+NCwxNDIwMTkzODAwLDE0MjI0MDgyOTIsLTYxMjcyMjg0NCwtMT
+YwNzc3MTc0MCwtMTA0NjI2NzU4LC0yMDkwMTY2OTk1LC00NDU5
+ODEyNjAsODgxNDE5NjExLC0xOTA3MzMyOTRdfQ==
 -->
