@@ -4,6 +4,8 @@
 
 ### Background
 
+
+
 사용자와의 인터렉션 또한 기존 서비스보다 훨씬 많아졌다. 그로 인해서 많은 버그가 발생하게 되었고 수 많은 양방향의 데이터 흐름 때문에 버그를 수정하기도 힘들었다
 
 MVC 패턴의 큰 특징 중 하나가 ‘양방향 데이터 흐름’이다. 모델이 변경된다면 뷰 또한 변경되고, 사용자에 의해 뷰에서 변경이 일어난다면 모델 또한 변경된다. 이러한 양방향 데이터 흐름은 설계하기 간단하고 코드 작성하기 쉬운 장점이 있다. 하지만 애플케이션 규모가 커진다면 문제가 생긴다. 한 개의 모델이 여러 개의 뷰를 조작하고 한 개의 뷰가 여러 개의 모델을 조작한다면 데이터 흐름을 이해하기 힘들어진다. 버그를 찾기 어려워지고 데이터 흐름을 추적하는 데 많은 시간을 투자해야 한다.
@@ -55,7 +57,8 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냅니다. 모�
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNj
-A3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAxNjY5OTUsLTQ0NTk4
-MTI2MCw4ODE0MTk2MTEsLTE5MDczMzI5NF19
+eyJoaXN0b3J5IjpbMTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MT
+I3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMjA5MDE2
+Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMzMjk0XX
+0=
 -->
