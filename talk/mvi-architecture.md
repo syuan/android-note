@@ -72,14 +72,21 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
   
     
 ### MVI Sample
-https://github.com/sockeqwe/mosby/tree/master/sample-mvi
+
+> https://github.com/sockeqwe/mosby/tree/master/sample-mvi
+
+```
+public interface MviPresenter<V extends MvpView, VS> extends MvpPresenter<V> {
+
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTc0NTMzMiwyMDk1NzcwODg2LC0zNj
-g3OTg2NTAsMTA2NjYxOTUxMiwxODg5ODI5NzI0LDE4ODI2NjI0
-MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxND
-IyNDA4MjkyLC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYy
-Njc1OCwtMjA5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMS
-wtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbNzY0MjY2MTU0LDIwOTU3NzA4ODYsLTM2OD
+c5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQw
+MCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0Mj
+I0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2
+NzU4LC0yMDkwMTY2OTk1LC00NDU5ODEyNjAsODgxNDE5NjExLC
+0xOTA3MzMyOTRdfQ==
 -->
