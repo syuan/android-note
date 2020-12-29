@@ -21,7 +21,7 @@ Flux, Redux, MVI
 #### Flux
 Flux: Facebook이 만든 단방향 아키텍쳐
 View — Action — Dispacther — Store. 
-![mvc-multi-flow](./images/flux-flow.png)  
+![flux-flow](./images/flux-flow.png)  
 Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자 
 
 #### Redux
@@ -30,7 +30,7 @@ Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
   
 `Redux = (Red)ucer + Fl(ux)`  
 View — Action — Middleware — Reducer — Store  
-![mvc-multi-flow](./images/redux-flow.png)  
+![redux-flow](./images/redux-flow.png)  
   
 View에서 일어나는 이벤트는 직접 데이터(상태)를 변경해서는 안됨  
 이벤트(Action) 을 Reducer로 전달할 뿐, 데이터의 변경은 Reducer 만 가능  
@@ -49,22 +49,20 @@ https://github.com/sockeqwe
 Model — 모델은 상태, MVI의 모델은 아키텍쳐의 다른 레이어와의 단방향 데이터 흐름을 보장하기 위해 변경이 불가능  
 View  — View를 나타내며 하나 이상의 Activity나 Fragment로 구현  
 Intent — 사용자 또는 앱내 발생하는 Action을 나타냄  
-
-
-
-
+  
 1.  View에 영향을 주는 State는 한 방향으로만 수정할 수 있다 —  **단방향**
 2.  앞 액션이 끝난 후 뒤 액션을 실행한다 —  **동기적 실행**
 3.  Model은 State를 변화시키고 View는 State를 참조만 한다 —  **View와 State 분리**
-
-
+  
+![uda-vs](./images/uda-vs.png)  
+  
 ### MVI Sample
 https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNDE2NzA4LDE4ODI2NjI0MDAsNzA5NT
-UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
-LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
-A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
-Mjk0XX0=
+eyJoaXN0b3J5IjpbMTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOT
+U1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5
+MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLT
+IwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDcz
+MzI5NF19
 -->
