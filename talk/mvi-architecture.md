@@ -75,11 +75,11 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 
 > https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
-```
+```java
 public interface MviPresenter<V extends MvpView, VS> extends MvpPresenter<V> {
 
 }
-```java
+```
 
 ```java
 public class ProductDetailsPresenter
@@ -127,10 +127,10 @@ subscribeViewState(loadDetails, ProductDetailsView::render);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Mjk5MDk2MSw3NjQyNjYxNTQsMjA5NT
-c3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIsMTg4OTgyOTcy
-NCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0LDE0Mj
-AxOTM4MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNjA3Nzcx
-NzQwLC0xMDQ2MjY3NTgsLTIwOTAxNjY5OTUsLTQ0NTk4MTI2MC
-w4ODE0MTk2MTEsLTE5MDczMzI5NF19
+eyJoaXN0b3J5IjpbLTE5Mjk4OTk0MDcsNzY0MjY2MTU0LDIwOT
+U3NzA4ODYsLTM2ODc5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3
+MjQsMTg4MjY2MjQwMCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxND
+IwMTkzODAwLDE0MjI0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3
+MTc0MCwtMTA0NjI2NzU4LC0yMDkwMTY2OTk1LC00NDU5ODEyNj
+AsODgxNDE5NjExLC0xOTA3MzMyOTRdfQ==
 -->
