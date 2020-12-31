@@ -169,11 +169,36 @@ HomePresenter
         HomeView::render);
   }
 ```
+
+mobsy MVI 는 RxJava 로 State 변경/관리 를 구현
+```java
+Observable<PartialStateChanges> aObservable = RxView.clicks(findViewById(R.id.button_a))  
+      .share()  
+      .map(ignore -> new PartialStateChanges("a"));  
+  
+Observable<PartialStateChanges> bObservable = RxView.clicks(findViewById(R.id.button_b))  
+      .share()  
+      .map(ignore -> new PartialStateChanges("b"));  
+  
+Observable<PartialStateChanges> cObservable = RxView.clicks(findViewById(R.id.button_c))  
+      .share()  
+      .map(ignore -> new PartialStateChanges("c"));  
+  
+Observable<PartialStateChanges> allObservable = Observable.merge(aObservable, bObservable, cObservable)  
+      .observeOn(AndroidSchedulers.mainThread());  
+  
+ViewState initialState = new ViewState();  
+  
+Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)  
+      .distinctUntilChanged()  
+      .subscribe(viewState -> Log.e("test", viewState.getSet().toString()));
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NzYyODAwLDgzMjUxNzE5NSw3NjQyNj
-YxNTQsMjA5NTc3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIs
-MTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MD
-U3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0
-LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAxNjY5OTUsLT
-Q0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDczMzI5NF19
+eyJoaXN0b3J5IjpbMTkyNTY4NDk0NiwzODQ3NjI4MDAsODMyNT
+E3MTk1LDc2NDI2NjE1NCwyMDk1NzcwODg2LC0zNjg3OTg2NTAs
+MTA2NjYxOTUxMiwxODg5ODI5NzI0LDE4ODI2NjI0MDAsNzA5NT
+UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
+LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
+A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
+Mjk0XX0=
 -->
