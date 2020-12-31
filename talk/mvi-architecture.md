@@ -75,12 +75,14 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 
 > https://github.com/sockeqwe/mosby/tree/master/sample-mvi
 
+Mvi Presenter  
 ```java
 public interface MviPresenter<V extends MvpView, VS> extends MvpPresenter<V> {
 
 }
 ```
-
+  
+ProductDetailsPresenter    
 ```java
 public class ProductDetailsPresenter
     extends MviBasePresenter<ProductDetailsView, ProductDetailsViewState> {
@@ -112,11 +114,65 @@ public class ProductDetailsPresenter
   }
 }
 ```
+
+HomePresenter
+```java
+  @Override protected void bindIntents() {
+ 
+    Observable<PartialStateChanges> loadFirstPage = intent(HomeView::loadFirstPageIntent).doOnNext(
+        ignored -> Timber.d("intent: load first page"))
+        .flatMap(ignored -> feedLoader.loadFirstPage()
+            .map(items -> (PartialStateChanges) new PartialStateChanges.FirstPageLoaded(items))
+            .startWith(new PartialStateChanges.FirstPageLoading())
+            .onErrorReturn(PartialStateChanges.FirstPageError::new)
+            .subscribeOn(Schedulers.io()));
+ 
+    Observable<PartialStateChanges> nextPage =
+        intent(HomeView::loadNextPageIntent).doOnNext(ignored -> Timber.d("intent: load next page"))
+            .flatMap(ignored -> feedLoader.loadNextPage()
+                .map(items -> (PartialStateChanges) new PartialStateChanges.NextPageLoaded(items))
+                .startWith(new PartialStateChanges.NextPageLoading())
+                .onErrorReturn(PartialStateChanges.NexPageLoadingError::new)
+                .subscribeOn(Schedulers.io()));
+ 
+    Observable<PartialStateChanges> pullToRefresh = intent(HomeView::pullToRefreshIntent).doOnNext(
+        ignored -> Timber.d("intent: pull to refresh"))
+        .flatMap(ignored -> feedLoader.loadNewestPage()
+            .subscribeOn(Schedulers.io())
+            .map(items -> (PartialStateChanges) new PartialStateChanges.PullToRefreshLoaded(items))
+            .startWith(new PartialStateChanges.PullToRefreshLoading())
+            .onErrorReturn(PartialStateChanges.PullToRefeshLoadingError::new));
+ 
+    Observable<PartialStateChanges> loadMoreFromGroup =
+        intent(HomeView::loadAllProductsFromCategoryIntent).doOnNext(
+            categoryName -> Timber.d("intent: load more from category %s", categoryName))
+            .flatMap(categoryName -> feedLoader.loadProductsOfCategory(categoryName)
+                .subscribeOn(Schedulers.io())
+                .map(
+                    products -> (PartialStateChanges) new PartialStateChanges.ProductsOfCategoryLoaded(
+                        categoryName, products))
+                .startWith(new PartialStateChanges.ProductsOfCategoryLoading(categoryName))
+                .onErrorReturn(
+                    error -> new PartialStateChanges.ProductsOfCategoryLoadingError(categoryName,
+                        error)));
+ 
+    Observable<PartialStateChanges> allIntentsObservable =
+        Observable.merge(loadFirstPage, nextPage, pullToRefresh, loadMoreFromGroup)
+            .observeOn(AndroidSchedulers.mainThread());
+ 
+    HomeViewState initialState = new HomeViewState.Builder().firstPageLoading(true).build();
+ 
+    subscribeViewState(
+        allIntentsObservable
+        .scan(initialState,this::viewStateReducer).distinctUntilChanged(),
+        HomeView::render);
+  }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNTE3MTk1LDc2NDI2NjE1NCwyMDk1Nz
-cwODg2LC0zNjg3OTg2NTAsMTA2NjYxOTUxMiwxODg5ODI5NzI0
-LDE4ODI2NjI0MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQsMTQyMD
-E5MzgwMCwxNDIyNDA4MjkyLC02MTI3MjI4NDQsLTE2MDc3NzE3
-NDAsLTEwNDYyNjc1OCwtMjA5MDE2Njk5NSwtNDQ1OTgxMjYwLD
-g4MTQxOTYxMSwtMTkwNzMzMjk0XX0=
+eyJoaXN0b3J5IjpbMzk3MTQ1OTg2LDgzMjUxNzE5NSw3NjQyNj
+YxNTQsMjA5NTc3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIs
+MTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MD
+U3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0
+LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAxNjY5OTUsLT
+Q0NTk4MTI2MCw4ODE0MTk2MTEsLTE5MDczMzI5NF19
 -->
