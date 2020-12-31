@@ -164,12 +164,13 @@ HomePresenter
  
     subscribeViewState(
         allIntentsObservable
-        .scan(initialState,this::viewStateReducer).distinctUntilChanged(),
+        .scan(initialState,this::viewStateReducer)
+        .distinctUntilChanged(),
         HomeView::render);
   }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTQ1OTg2LDgzMjUxNzE5NSw3NjQyNj
+eyJoaXN0b3J5IjpbMzg0NzYyODAwLDgzMjUxNzE5NSw3NjQyNj
 YxNTQsMjA5NTc3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIs
 MTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MD
 U3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0
