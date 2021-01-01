@@ -11,14 +11,14 @@
 MVC 패턴의 큰 특징 중 하나가 ‘양방향 데이터 흐름’이다. 모델이 변경된다면 뷰 또한 변경되고, 사용자에 의해 뷰에서 변경이 일어난다면 모델 또한 변경된다. 이러한 양방향 데이터 흐름은 설계하기 간단하고 코드 작성하기 쉬운 장점이 있다. 하지만 애플케이션 규모가 커진다면 문제가 생긴다. 한 개의 모델이 여러 개의 뷰를 조작하고 한 개의 뷰가 여러 개의 모델을 조작한다면 데이터 흐름을 이해하기 힘들어진다. 버그를 찾기 어려워지고 데이터 흐름을 추적하는 데 많은 시간을 투자해야 한다.  
   
 ![mvc-multi-flow](./images/mvc-multi-flow.png) 
-  
-  
+    
+    
 ### Unidirectional data flow architecture 
 
 Unidirectional data flow architecture   
 Flux, Redux, MVI  
   
-#### Flux
+#### 1. Flux
 Flux: Facebook이 만든 단방향 아키텍쳐  
 > https://haruair.github.io/flux/
 
@@ -26,7 +26,7 @@ View — Action — Dispacther — Store.
 ![flux-flow](./images/flux-flow3.png)  
 Dispatcher는 EventBus, Otto, RxBus 등으로 구현할 수 있는 전역 이벤트 전달자 
 
-#### Redux
+#### 2. Redux
 Redux: Redux는 Flux에서 고안한 State 관리 라이브러리
 > https://ko.redux.js.org/
 
@@ -193,12 +193,18 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
       .distinctUntilChanged()  
       .subscribe(viewState -> Log.e("test", viewState.getSet().toString()));
 ```
+> merge
+> 
+
+> scan
+
+> distinctUntilChanged
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTY4NDk0NiwzODQ3NjI4MDAsODMyNT
-E3MTk1LDc2NDI2NjE1NCwyMDk1NzcwODg2LC0zNjg3OTg2NTAs
-MTA2NjYxOTUxMiwxODg5ODI5NzI0LDE4ODI2NjI0MDAsNzA5NT
-UxODQ1LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4Mjky
-LC02MTI3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMj
-A5MDE2Njk5NSwtNDQ1OTgxMjYwLDg4MTQxOTYxMSwtMTkwNzMz
-Mjk0XX0=
+eyJoaXN0b3J5IjpbNzA0NTE0NTM4LDE5MjU2ODQ5NDYsMzg0Nz
+YyODAwLDgzMjUxNzE5NSw3NjQyNjYxNTQsMjA5NTc3MDg4Niwt
+MzY4Nzk4NjUwLDEwNjY2MTk1MTIsMTg4OTgyOTcyNCwxODgyNj
+YyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAs
+MTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMD
+Q2MjY3NTgsLTIwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2
+MTFdfQ==
 -->
