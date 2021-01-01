@@ -198,16 +198,16 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 
 > scan()
 > 이전 처리로 반환된 값이 첫 번째 인수, 다음 값이 두 번째 인수로 전달
-> 
+> 실행할 때마다 입력값에 맞는 중간 결과 및 최종 결과를 구독자에게 발행
 
 > distinctUntilChanged()
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTA4Mzk4LC0yNzM1NjU3OTksNzA0NT
-E0NTM4LDE5MjU2ODQ5NDYsMzg0NzYyODAwLDgzMjUxNzE5NSw3
-NjQyNjYxNTQsMjA5NTc3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MT
-k1MTIsMTg4OTgyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0NSwt
-NjQ4MDU3OTU0LDE0MjAxOTM4MDAsMTQyMjQwODI5MiwtNjEyNz
-IyODQ0LC0xNjA3NzcxNzQwLC0xMDQ2MjY3NTgsLTIwOTAxNjY5
-OTVdfQ==
+eyJoaXN0b3J5IjpbLTE5MDM3ODE2MDAsLTI3MzU2NTc5OSw3MD
+Q1MTQ1MzgsMTkyNTY4NDk0NiwzODQ3NjI4MDAsODMyNTE3MTk1
+LDc2NDI2NjE1NCwyMDk1NzcwODg2LC0zNjg3OTg2NTAsMTA2Nj
+YxOTUxMiwxODg5ODI5NzI0LDE4ODI2NjI0MDAsNzA5NTUxODQ1
+LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MT
+I3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMjA5MDE2
+Njk5NV19
 -->
