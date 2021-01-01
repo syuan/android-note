@@ -194,7 +194,7 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
       .subscribe(viewState -> Log.e("test", viewState.getSet().toString()));
 ```
 > merge()
-> Observable를 merge시켜 하나로 결합해 전송하는것
+> Observable들을 merge시켜 하나로 결합
 
 > scan()
 > 이전 처리로 반환된 값이 첫 번째 인수, 다음 값이 두 번째 인수로 전달
@@ -203,11 +203,11 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 > distinctUntilChanged()
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUyMzA0NDgsLTI3MzU2NTc5OSw3MD
-Q1MTQ1MzgsMTkyNTY4NDk0NiwzODQ3NjI4MDAsODMyNTE3MTk1
-LDc2NDI2NjE1NCwyMDk1NzcwODg2LC0zNjg3OTg2NTAsMTA2Nj
-YxOTUxMiwxODg5ODI5NzI0LDE4ODI2NjI0MDAsNzA5NTUxODQ1
-LC02NDgwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MT
-I3MjI4NDQsLTE2MDc3NzE3NDAsLTEwNDYyNjc1OCwtMjA5MDE2
-Njk5NV19
+eyJoaXN0b3J5IjpbLTE5ODU0ODQxNiwtMTYwNTIzMDQ0OCwtMj
+czNTY1Nzk5LDcwNDUxNDUzOCwxOTI1Njg0OTQ2LDM4NDc2Mjgw
+MCw4MzI1MTcxOTUsNzY0MjY2MTU0LDIwOTU3NzA4ODYsLTM2OD
+c5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQw
+MCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0Mj
+I0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2
+NzU4XX0=
 -->
