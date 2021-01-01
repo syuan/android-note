@@ -193,18 +193,20 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
       .distinctUntilChanged()  
       .subscribe(viewState -> Log.e("test", viewState.getSet().toString()));
 ```
-> merge
+> merge()
 > 
 
-> scan
+> scan()
+> scan() 함수는 실행할 때마다 입력값에 맞는 중간 결과 및 최종 결과를 구독자에게 발행
 
-> distinctUntilChanged
+> distinctUntilChanged()
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NTE0NTM4LDE5MjU2ODQ5NDYsMzg0Nz
-YyODAwLDgzMjUxNzE5NSw3NjQyNjYxNTQsMjA5NTc3MDg4Niwt
-MzY4Nzk4NjUwLDEwNjY2MTk1MTIsMTg4OTgyOTcyNCwxODgyNj
-YyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0LDE0MjAxOTM4MDAs
-MTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNjA3NzcxNzQwLC0xMD
-Q2MjY3NTgsLTIwOTAxNjY5OTUsLTQ0NTk4MTI2MCw4ODE0MTk2
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTI3MzU2NTc5OSw3MDQ1MTQ1MzgsMTkyNT
+Y4NDk0NiwzODQ3NjI4MDAsODMyNTE3MTk1LDc2NDI2NjE1NCwy
+MDk1NzcwODg2LC0zNjg3OTg2NTAsMTA2NjYxOTUxMiwxODg5OD
+I5NzI0LDE4ODI2NjI0MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQs
+MTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MTI3MjI4NDQsLTE2MD
+c3NzE3NDAsLTEwNDYyNjc1OCwtMjA5MDE2Njk5NSwtNDQ1OTgx
+MjYwXX0=
 -->
