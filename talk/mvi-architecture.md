@@ -195,15 +195,18 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 ```
 > merge()
 > Observable들을 merge시켜 하나로 결합
+![rx-merge](./images/rx-operator-merge.png)  
 
 > scan()
 > 이전 처리로 반환된 값이 첫 번째 인수, 다음 값이 두 번째 인수로 전달
 > 상태 누적 값을 계속 변화시킨 방법으로 사용
+![rx-scan](./images/rx-operator-scan.png)  
 
 > distinctUntilChanged()
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출
+![rx-distinctUntilChanged](./images/rx-operator-distinctUntilChanged.png)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU0ODQxNiwtMTYwNTIzMDQ0OCwtMj
+eyJoaXN0b3J5IjpbMTUxMTQ1NzYyOCwtMTYwNTIzMDQ0OCwtMj
 czNTY1Nzk5LDcwNDUxNDUzOCwxOTI1Njg0OTQ2LDM4NDc2Mjgw
 MCw4MzI1MTcxOTUsNzY0MjY2MTU0LDIwOTU3NzA4ODYsLTM2OD
 c5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQw
