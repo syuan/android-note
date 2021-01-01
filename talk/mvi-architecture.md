@@ -195,7 +195,7 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 ```
 > merge()
 > Observable들을 merge시켜 하나로 결합
-![rx-merge](./images/rx-operator-merge.png)  
+![rx-merge](./images/rx-operator-merge2.png)  
 
 > scan()
 > 이전 처리로 반환된 값이 첫 번째 인수, 다음 값이 두 번째 인수로 전달
@@ -206,11 +206,11 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출
 ![rx-distinctUntilChanged](./images/rx-operator-distinctUntilChanged.png)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTQ1NzYyOCwtMTYwNTIzMDQ0OCwtMj
-czNTY1Nzk5LDcwNDUxNDUzOCwxOTI1Njg0OTQ2LDM4NDc2Mjgw
-MCw4MzI1MTcxOTUsNzY0MjY2MTU0LDIwOTU3NzA4ODYsLTM2OD
-c5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQw
-MCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0Mj
-I0MDgyOTIsLTYxMjcyMjg0NCwtMTYwNzc3MTc0MCwtMTA0NjI2
-NzU4XX0=
+eyJoaXN0b3J5IjpbLTMyNTE2NTgzOCwxNTExNDU3NjI4LC0xNj
+A1MjMwNDQ4LC0yNzM1NjU3OTksNzA0NTE0NTM4LDE5MjU2ODQ5
+NDYsMzg0NzYyODAwLDgzMjUxNzE5NSw3NjQyNjYxNTQsMjA5NT
+c3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIsMTg4OTgyOTcy
+NCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0LDE0Mj
+AxOTM4MDAsMTQyMjQwODI5MiwtNjEyNzIyODQ0LC0xNjA3Nzcx
+NzQwXX0=
 -->
