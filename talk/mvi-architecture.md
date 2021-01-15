@@ -85,7 +85,9 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 -   **Testability** 
 
 #### 단점
-
+-   **너무 많은 상용구** — 작은 UI 변경도 intent 로 시작하여 한 사이클을 통과해야 합니다. 아주 간단한 구현도 앱에서 수행하는 모든 작업들은 어김없이 최소한 intent와 state가 필요합니다.
+-   **복잡성** — 내부엔 많은 규칙이 있어야하며 함께 작업하는 모든 사람이 그것을 업격하게 따라야합니다. 하지만 새로운 사람은 그런걸 알기 쉽지 않기때문에 팀이 확장 되면서 문제가 발생 할 수 있습니다. 특히 신입사원이 익숙해지기 위해 더 많은 시간이 필요합니다.
+-   **객체 생성**
     
 ### MVI Sample
 
@@ -222,11 +224,11 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출  
 ![rx-distinctUntilChanged](./images/rx-operator-distinctUntilChanged2.png)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjU4NTI5MywtNzM4Mjc4NzcsLTc2MD
-Y5ODMyOCwxOTQ3NDg4NzQwLDE1MTE0NTc2MjgsLTE2MDUyMzA0
-NDgsLTI3MzU2NTc5OSw3MDQ1MTQ1MzgsMTkyNTY4NDk0NiwzOD
-Q3NjI4MDAsODMyNTE3MTk1LDc2NDI2NjE1NCwyMDk1NzcwODg2
-LC0zNjg3OTg2NTAsMTA2NjYxOTUxMiwxODg5ODI5NzI0LDE4OD
-I2NjI0MDAsNzA5NTUxODQ1LC02NDgwNTc5NTQsMTQyMDE5Mzgw
-MF19
+eyJoaXN0b3J5IjpbODM3NjUwNTE0LC03MzgyNzg3NywtNzYwNj
+k4MzI4LDE5NDc0ODg3NDAsMTUxMTQ1NzYyOCwtMTYwNTIzMDQ0
+OCwtMjczNTY1Nzk5LDcwNDUxNDUzOCwxOTI1Njg0OTQ2LDM4ND
+c2MjgwMCw4MzI1MTcxOTUsNzY0MjY2MTU0LDIwOTU3NzA4ODYs
+LTM2ODc5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4Mj
+Y2MjQwMCw3MDk1NTE4NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAw
+XX0=
 -->
