@@ -80,14 +80,14 @@ Intent — 사용자 또는 앱내 발생하는 Action을 나타냄
 -   **상태의 충돌이 없습니다**  상태는 하나 뿐이라서
 -   **단방향 데이터 흐름을 갖습니다**  로직이 예측가능하고 이해하기 쉽움
 -   **불변성** 각각의 출력값이 불변값이기 때문에 불변성이 갖는 쓰레드 안전성
--   **디버그의 용이함** 단방향 데이터 흐름은 앱을 쉽게 디버깅
--   **분리된 로직**  각각의 컴포넌트는 자체적으로 책임
+-   **디버그 용이함** 단방향 데이터 흐름은 앱을 쉽게 디버깅
+-   **Separation of concerns**  각각의 컴포넌트는 자체적으로 책임
 -   **Testability** 
 
 #### 단점
 -   **너무 많은 상용구** — 작은 UI 변경도 intent 로 시작하여 한 사이클을 통과함, 아주 간단한 구현도 intent와 state가 필요
 -   **복잡성** — 내부엔 많은 규칙이 있어야하며 하고 모든 사람이 엄격하게 따라야함, 하지만 새로운 사람은 그런걸 알기 쉽지 않기때문에 팀이 확장 되면서 문제가 발생 할 수 있음
--   **객체 생성**
+
     
 ### MVI Sample
 
@@ -224,7 +224,7 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출  
 ![rx-distinctUntilChanged](./images/rx-operator-distinctUntilChanged2.png)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTYzMDE5OSwtNzM4Mjc4NzcsLTc2MD
+eyJoaXN0b3J5IjpbLTIyMzMwMjkzNiwtNzM4Mjc4NzcsLTc2MD
 Y5ODMyOCwxOTQ3NDg4NzQwLDE1MTE0NTc2MjgsLTE2MDUyMzA0
 NDgsLTI3MzU2NTc5OSw3MDQ1MTQ1MzgsMTkyNTY4NDk0NiwzOD
 Q3NjI4MDAsODMyNTE3MTk1LDc2NDI2NjE1NCwyMDk1NzcwODg2
