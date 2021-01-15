@@ -2,6 +2,8 @@
 
 # MVI Architecture with Android
 
+
+
 ### Background
 
 ![mvc-mvp-mvvm](./images/mvc-mvp-mvvm.png)
@@ -206,11 +208,11 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출  
 ![rx-distinctUntilChanged](./images/rx-operator-distinctUntilChanged2.png)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDY5ODMyOCwxOTQ3NDg4NzQwLDE1MT
-E0NTc2MjgsLTE2MDUyMzA0NDgsLTI3MzU2NTc5OSw3MDQ1MTQ1
-MzgsMTkyNTY4NDk0NiwzODQ3NjI4MDAsODMyNTE3MTk1LDc2ND
-I2NjE1NCwyMDk1NzcwODg2LC0zNjg3OTg2NTAsMTA2NjYxOTUx
-MiwxODg5ODI5NzI0LDE4ODI2NjI0MDAsNzA5NTUxODQ1LC02ND
-gwNTc5NTQsMTQyMDE5MzgwMCwxNDIyNDA4MjkyLC02MTI3MjI4
-NDRdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzQ5ODYyOCwtNzYwNjk4MzI4LDE5ND
+c0ODg3NDAsMTUxMTQ1NzYyOCwtMTYwNTIzMDQ0OCwtMjczNTY1
+Nzk5LDcwNDUxNDUzOCwxOTI1Njg0OTQ2LDM4NDc2MjgwMCw4Mz
+I1MTcxOTUsNzY0MjY2MTU0LDIwOTU3NzA4ODYsLTM2ODc5ODY1
+MCwxMDY2NjE5NTEyLDE4ODk4Mjk3MjQsMTg4MjY2MjQwMCw3MD
+k1NTE4NDUsLTY0ODA1Nzk1NCwxNDIwMTkzODAwLDE0MjI0MDgy
+OTJdfQ==
 -->
