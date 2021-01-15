@@ -3,8 +3,8 @@
 # MVI Architecture with Android
 
 앱 개발에 왜 아키텍쳐를 사용하는지에 대한 이해가 있는가?  
-팀에서 사용하는 아키틱쳐 이해가 팀원 모두 동일한 수준인가?  
-팀에서 사용한 아키텍쳐를 올바르게 사용하고 있는가?  
+팀이 선택한 아키틱쳐에 대한 이해가 팀원 모두 동일한 수준인가?  
+팀이 선택한 아키텍쳐를 올바르게 사용하고 있는가?  
   
   
 
@@ -230,11 +230,11 @@ Disposable disposable = allObservable.scan(initialState, this::viewStateReducer)
 > 같은 원소인지 비교해서 다른 원소일때에만 이벤트 방출  
 ![rx-distinctUntilChanged](./images/rx-operator-distinctUntilChanged2.png)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTE4MDcsODg5MTU0MzM3LC03MzgyNz
-g3NywtNzYwNjk4MzI4LDE5NDc0ODg3NDAsMTUxMTQ1NzYyOCwt
-MTYwNTIzMDQ0OCwtMjczNTY1Nzk5LDcwNDUxNDUzOCwxOTI1Nj
-g0OTQ2LDM4NDc2MjgwMCw4MzI1MTcxOTUsNzY0MjY2MTU0LDIw
-OTU3NzA4ODYsLTM2ODc5ODY1MCwxMDY2NjE5NTEyLDE4ODk4Mj
-k3MjQsMTg4MjY2MjQwMCw3MDk1NTE4NDUsLTY0ODA1Nzk1NF19
-
+eyJoaXN0b3J5IjpbMTY2MzQyMDQ0Nyw4ODkxNTQzMzcsLTczOD
+I3ODc3LC03NjA2OTgzMjgsMTk0NzQ4ODc0MCwxNTExNDU3NjI4
+LC0xNjA1MjMwNDQ4LC0yNzM1NjU3OTksNzA0NTE0NTM4LDE5Mj
+U2ODQ5NDYsMzg0NzYyODAwLDgzMjUxNzE5NSw3NjQyNjYxNTQs
+MjA5NTc3MDg4NiwtMzY4Nzk4NjUwLDEwNjY2MTk1MTIsMTg4OT
+gyOTcyNCwxODgyNjYyNDAwLDcwOTU1MTg0NSwtNjQ4MDU3OTU0
+XX0=
 -->
