@@ -26,8 +26,11 @@ E/test: onDestroy() - isFinishing: false
 //TODO finish 함수 - isFinishing()
 //TODO onDestory 함수 - isDestory() <- version
 
+### isDestroyed()
 
-#### 예외처리 방식  
+
+
+### 예외처리 방식  
 ```java
   if  (activity ==  null  || activity.isFinishing()  || activity.isDestroyed())  {  
   return;  
@@ -37,6 +40,6 @@ E/test: onDestroy() - isFinishing: false
 가장 정석적인 방법은 요청을 취소하는것,   
 (완료 콜백 이후 isCancelled 와 같은 것으로 확인)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzkwNTA2NywtNjIyNjYyMTgwLDYxOD
+eyJoaXN0b3J5IjpbLTEzNTM0NTk0MSwtNjIyNjYyMTgwLDYxOD
 Y3OTIsLTQzNDQwMzA1NV19
 -->
