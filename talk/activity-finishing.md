@@ -90,7 +90,7 @@ final void performDestroy() {
 
 시스템에 의해서 종료되는 경우, onDestory() 호출을 보장할 수 없음
 그래서 우리는 데이터를 저장하거나, 리소스를 해제할때
-onPuase(), onStop(), 
+onPuase(), onStop(), onSaveInstanceState(Bundle) f
 
 ### 예외처리 방식  
 ```java
@@ -130,8 +130,8 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjMxNjAxOSwxMTIwNzQxMjA3LDI5MD
-k5ODgwNiwxNDUxMTAyNjMzLDEwMjMyNDgxMTgsMTc5NDk1MTI5
-MSwtMTM1MzQ1OTQxLC02MjI2NjIxODAsNjE4Njc5MiwtNDM0ND
-AzMDU1XX0=
+eyJoaXN0b3J5IjpbLTE3MDEwODU5OTAsMTEyMDc0MTIwNywyOT
+A5OTg4MDYsMTQ1MTEwMjYzMywxMDIzMjQ4MTE4LDE3OTQ5NTEy
+OTEsLTEzNTM0NTk0MSwtNjIyNjYyMTgwLDYxODY3OTIsLTQzND
+QwMzA1NV19
 -->
