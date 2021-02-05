@@ -92,7 +92,7 @@ final void performDestroy() {
 가장 정석적인 방법은 종료 시점에 요청을 취소하는것,   
 (추가로, 완료 콜백 이후 isCancelled 와 같은 것으로 확인해서 후처리)  
 
-
+아래와 같은 callback 에서는 cancel 호출시 onCancel() 만 호출됨
 ```java
 public interface ResponseCallback<T> {
 
@@ -119,7 +119,7 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDcyNTAzNCwxNDUxMTAyNjMzLDEwMj
-MyNDgxMTgsMTc5NDk1MTI5MSwtMTM1MzQ1OTQxLC02MjI2NjIx
-ODAsNjE4Njc5MiwtNDM0NDAzMDU1XX0=
+eyJoaXN0b3J5IjpbMjkwOTk4ODA2LDE0NTExMDI2MzMsMTAyMz
+I0ODExOCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2MjE4
+MCw2MTg2NzkyLC00MzQ0MDMwNTVdfQ==
 -->
