@@ -58,7 +58,7 @@ private void finish(int finishTask) {
 }
 ```
   
-  
+
 
 ### isDestroyed()
 ```java
@@ -88,10 +88,11 @@ final void performDestroy() {
   }
 ```
   
-가장 정석적인 방법은 요청을 취소하는것,   
-(완료 콜백 이후 isCancelled 와 같은 것으로 확인)  
+### 결론  
+가장 정석적인 방법은 종료 시점에 요청을 취소하는것,   
+(추가로, 완료 콜백 이후 isCancelled 와 같은 것으로 확인해서 후처리)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzUxNDE4NywxMDIzMjQ4MTE4LDE3OT
+eyJoaXN0b3J5IjpbMTQ1MTEwMjYzMywxMDIzMjQ4MTE4LDE3OT
 Q5NTEyOTEsLTEzNTM0NTk0MSwtNjIyNjYyMTgwLDYxODY3OTIs
 LTQzNDQwMzA1NV19
 -->
