@@ -23,10 +23,9 @@ E/test: onDestroy() - isFinishing: false
 일시적인 destory 에는 false 를 반환함.  
 예) rotation, (또 뭐가 있을까?)
   
-  
+#### finish()  
 ```java
-/**  
- * Finishes the current activity and specifies whether to remove the task associated with this * activity. */private void finish(int finishTask) {  
+private void finish(int finishTask) {  
     if (mParent == null) {  
         int resultCode;  
         Intent resultData;  
@@ -45,16 +44,11 @@ E/test: onDestroy() - isFinishing: false
             }  
         } catch (RemoteException e) {  
             // Empty  
-  }  
+        }  
     } else {  
         mParent.finishFromChild(this);  
     }  
-  
-    // Activity was launched when user tapped a link in the Autofill Save UI - Save UI must  
- // be restored now.  if (mIntent != null && mIntent.hasExtra(AutofillManager.EXTRA_RESTORE_SESSION_TOKEN)) {  
-        getAutofillManager().onPendingSaveUi(AutofillManager.PENDING_UI_OPERATION_RESTORE,  
-                mIntent.getIBinderExtra(AutofillManager.EXTRA_RESTORE_SESSION_TOKEN));  
-    }  
+    ...
 }
 ```
 
@@ -76,6 +70,6 @@ E/test: onDestroy() - isFinishing: false
 가장 정석적인 방법은 요청을 취소하는것,   
 (완료 콜백 이후 isCancelled 와 같은 것으로 확인)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI1Njc2OTUsLTEzNTM0NTk0MSwtNj
-IyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1NV19
+eyJoaXN0b3J5IjpbMTc5NDk1MTI5MSwtMTM1MzQ1OTQxLC02Mj
+I2NjIxODAsNjE4Njc5MiwtNDM0NDAzMDU1XX0=
 -->
