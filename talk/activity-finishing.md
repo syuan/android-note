@@ -23,7 +23,13 @@ E/test: onDestroy() - isFinishing: false
 일시적인 destory 에는 false 를 반환함.  
 예) rotation, (또 뭐가 있을까?)
   
-#### finish()  
+#### finish()
+```java
+public boolean isFinishing() {  
+    return mFinished;  
+}
+```
+  
 ```java
 private void finish(int finishTask) {  
     if (mParent == null) {  
@@ -70,6 +76,7 @@ private void finish(int finishTask) {
 가장 정석적인 방법은 요청을 취소하는것,   
 (완료 콜백 이후 isCancelled 와 같은 것으로 확인)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDk1MTI5MSwtMTM1MzQ1OTQxLC02Mj
-I2NjIxODAsNjE4Njc5MiwtNDM0NDAzMDU1XX0=
+eyJoaXN0b3J5IjpbMTAyMzI0ODExOCwxNzk0OTUxMjkxLC0xMz
+UzNDU5NDEsLTYyMjY2MjE4MCw2MTg2NzkyLC00MzQ0MDMwNTVd
+fQ==
 -->
