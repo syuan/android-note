@@ -22,8 +22,8 @@ E/test: onDestroy() - isFinishing: false
 ```
   
 `isFinishing () == false` 가 Activity 가 꼭 살아있음을 의미하지는 않음.
-일시적인 destory 에는 false 를 반환함.  
-예) rotation, (또 뭐가 있을까?)
+일시적인 소멸 시점에는 false 를 반환함.  
+예) rotation, multi window (configuration change)
   
 #### 
 ```java
@@ -130,8 +130,8 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTgxMDI2MSwxMTIwNzQxMjA3LDI5MD
-k5ODgwNiwxNDUxMTAyNjMzLDEwMjMyNDgxMTgsMTc5NDk1MTI5
-MSwtMTM1MzQ1OTQxLC02MjI2NjIxODAsNjE4Njc5MiwtNDM0ND
-AzMDU1XX0=
+eyJoaXN0b3J5IjpbMTk5MzY5MzI2MSwxODkxODEwMjYxLDExMj
+A3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2MzMsMTAyMzI0ODEx
+OCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2MjE4MCw2MT
+g2NzkyLC00MzQ0MDMwNTVdfQ==
 -->
