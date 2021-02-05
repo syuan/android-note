@@ -91,8 +91,51 @@ final void performDestroy() {
 ### 결론  
 가장 정석적인 방법은 종료 시점에 요청을 취소하는것,   
 (추가로, 완료 콜백 이후 isCancelled 와 같은 것으로 확인해서 후처리)  
+
+```java
+public interface ResponseCallback<T> {
+void onStart(HttpRequest request);
+
+  
+
+_/* Runs on the UI thread */_
+
+void onFinish();
+
+  
+
+_/* Runs on the UI thread */_
+
+void onResponse(@Nullable T response);
+
+  
+
+_/* Runs on the UI thread */_
+
+void onError(HttpNetworkError error);
+
+  
+
+_/* Runs on the UI thread */_
+
+void onCancel();
+
+  
+
+_/* Runs on a worker thread */_
+
+void onParse(int code, Map<String, String> header, byte[] data, long networkTime, HttpRequestVO httpRequestVO);
+
+  
+
+_/* Runs on Worker Thread */_
+
+void onParseFinished(T object);
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTEwMjYzMywxMDIzMjQ4MTE4LDE3OT
-Q5NTEyOTEsLTEzNTM0NTk0MSwtNjIyNjYyMTgwLDYxODY3OTIs
-LTQzNDQwMzA1NV19
+eyJoaXN0b3J5IjpbLTYyMjExMjY3NiwxNDUxMTAyNjMzLDEwMj
+MyNDgxMTgsMTc5NDk1MTI5MSwtMTM1MzQ1OTQxLC02MjI2NjIx
+ODAsNjE4Njc5MiwtNDM0NDAzMDU1XX0=
 -->
