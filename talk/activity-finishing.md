@@ -26,42 +26,7 @@ E/test: onDestroy() - isFinishing: false
 2.  구성  변경(rotation, multi window .. ) 으로  인해  시스템이  일시적으로  Activity 를  destroy 시키는  경우  
   
 위 2가지 상황을 구분하기 위해서  isFinishing() 을 사용할 수 있음
-  
-#### 
-```java
-public boolean isFinishing() {  
-    return mFinished;  
-}
-```
-  
-```java
-private void finish(int finishTask) {  
-    if (mParent == null) {  
-        int resultCode;  
-        Intent resultData;  
-        synchronized (this) {  
-            resultCode = mResultCode;  
-            resultData = mResultData;  
-        }  
-        if (false) Log.v(TAG, "Finishing self: token=" + mToken);  
-        try {  
-            if (resultData != null) {  
-                resultData.prepareToLeaveProcess(this);  
-            }  
-            if (ActivityManager.getService()  
-                    .finishActivity(mToken, resultCode, resultData, finishTask)) {  
-                mFinished = true;  
-            }  
-        } catch (RemoteException e) {  
-            // Empty  
-        }  
-    } else {  
-        mParent.finishFromChild(this);  
-    }  
-    ...
-}
-```
-  
+
 
 
 ### isDestroyed()
@@ -132,8 +97,8 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDYwMDc1OSwxODkxODEwMjYxLDExMj
-A3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2MzMsMTAyMzI0ODEx
-OCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2MjE4MCw2MT
-g2NzkyLC00MzQ0MDMwNTVdfQ==
+eyJoaXN0b3J5IjpbMTI3Njk3MTI0NywxMjYwNjAwNzU5LDE4OT
+E4MTAyNjEsMTEyMDc0MTIwNywyOTA5OTg4MDYsMTQ1MTEwMjYz
+MywxMDIzMjQ4MTE4LDE3OTQ5NTEyOTEsLTEzNTM0NTk0MSwtNj
+IyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1NV19
 -->
