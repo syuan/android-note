@@ -26,13 +26,16 @@ E/test: onDestroy() - isFinishing: false
 //TODO onDestory 함수 - isDestory() <- version
 
 
-
-
-
-
-가장 정석적인 방법은 요청을 취소하는것, 
-(완료 콜백 이후 isCancelled 와 같은 것으로 확인)
+예외처리 방식  
+```java
+  if  (activity ==  null  || activity.isFinishing()  || activity.isDestroyed())  {  
+  return;  
+  }
+```
+  
+가장 정석적인 방법은 요청을 취소하는것,   
+(완료 콜백 이후 isCancelled 와 같은 것으로 확인)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTQxNjUwNyw2MTg2NzkyLC00MzQ0MD
+eyJoaXN0b3J5IjpbLTYyMjY2MjE4MCw2MTg2NzkyLC00MzQ0MD
 MwNTVdfQ==
 -->
