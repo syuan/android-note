@@ -21,12 +21,12 @@ E/test: onStop() - isFinishing: false
 E/test: onDestroy() - isFinishing: false
 ```
   
-`isFinishing () == false` 가 Activity 가 꼭 살아있음을 의미하지는 않음.
-1.  사용자가  Activity 를  완전히  닫거나  Activity 에서 finish() 가  호출되어 종료되는  경우
-2.  구성  변경(rotation, multi window .. ) 으로  인해  시스템이  일시적으로  Activity 를  destroy 시키는  경우
-
+`isFinishing () == false` 가 Activity 가 꼭 살아있음을 의미하지는 않음.  
+1.  사용자가  Activity 를  완전히  닫거나  Activity 에서 finish() 가  호출되어 종료되는  경우  
+2.  구성  변경(rotation, multi window .. ) 으로  인해  시스템이  일시적으로  Activity 를  destroy 시키는  경우  
+  
 위 2가지 상황을 구분하기 위해서  isFinishing() 을 사용할 수 있음
-
+  
 #### 
 ```java
 public boolean isFinishing() {  
@@ -132,7 +132,7 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTgxNTYyNSwxODkxODEwMjYxLDExMj
+eyJoaXN0b3J5IjpbMTI2MDYwMDc1OSwxODkxODEwMjYxLDExMj
 A3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2MzMsMTAyMzI0ODEx
 OCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2MjE4MCw2MT
 g2NzkyLC00MzQ0MDMwNTVdfQ==
