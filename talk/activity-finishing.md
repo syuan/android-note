@@ -110,38 +110,12 @@ onPuase(), onStop(), onSaveInstanceState(Bundle) 의 위치를 사용함
   
 ### 결론  
 가장 정석적인 방법은 종료 시점에 요청을 취소하는것,   
-(추가로, 완료 콜백 이후 isCancelled 와 같은 것으로 확인해서 후처리)  
+(필요에 따라 완료 콜백 이후 isCancelled 와 같은 함수로 확인해서 후처리)  
 
-아래와 같은 callback 에서는 cancel 호출시 onCancel() 만 호출됨
-```java
-public interface ResponseCallback<T> {
-
-	_/* Runs on the UI thread */_
-	void onStart(HttpRequest request);
-
-	_/* Runs on the UI thread */_
-	void onFinish();
-
-	_/* Runs on the UI thread */_
-	void onResponse(@Nullable T response);
-
-	_/* Runs on the UI thread */_
-	void onError(HttpNetworkError error);
-
-	_/* Runs on the UI thread */_
-	void onCancel();
-
-	_/* Runs on a worker thread */_
-	void onParse(int code, Map<String, String> header, byte[] data, long networkTime, HttpRequestVO httpRequestVO);
-
-	_/* Runs on Worker Thread */_
-	void onParseFinished(T object);
-}
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzE3NDczNCwxODkwMjAwNzQyLC0xMz
-I2NTM3MzE1LDEyNjA2MDA3NTksMTg5MTgxMDI2MSwxMTIwNzQx
-MjA3LDI5MDk5ODgwNiwxNDUxMTAyNjMzLDEwMjMyNDgxMTgsMT
-c5NDk1MTI5MSwtMTM1MzQ1OTQxLC02MjI2NjIxODAsNjE4Njc5
-MiwtNDM0NDAzMDU1XX0=
+eyJoaXN0b3J5IjpbLTc3MDA1Njg0MiwxNDIzMTc0NzM0LDE4OT
+AyMDA3NDIsLTEzMjY1MzczMTUsMTI2MDYwMDc1OSwxODkxODEw
+MjYxLDExMjA3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2MzMsMT
+AyMzI0ODExOCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2
+MjE4MCw2MTg2NzkyLC00MzQ0MDMwNTVdfQ==
 -->
