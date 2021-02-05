@@ -1,6 +1,8 @@
 
 # Activity.isFinishing
-  
+
+> https://github.com/bumptech/glide/issues/1126  
+
 ### isFinishing()
   
 > **onDestroy**: The final call you receive before your activity is destroyed. This can happen either because the activity is finishing (someone called finish() on it, or because the system is temporarily destroying this instance of the activity to save space. You can distinguish between these two scenarios with the isFinishing() method.
@@ -81,6 +83,9 @@ final void performDestroy() {
 }
 ```
 
+> https://developer.android.com/reference/android/app/Activity#isDestroyed()
+> Added in API level 17
+
 ### 예외처리 방식  
 ```java
   if  (activity ==  null  || activity.isFinishing()  || activity.isDestroyed())  {  
@@ -119,7 +124,7 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwOTk4ODA2LDE0NTExMDI2MzMsMTAyMz
-I0ODExOCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2MjE4
-MCw2MTg2NzkyLC00MzQ0MDMwNTVdfQ==
+eyJoaXN0b3J5IjpbMTEyMDc0MTIwNywyOTA5OTg4MDYsMTQ1MT
+EwMjYzMywxMDIzMjQ4MTE4LDE3OTQ5NTEyOTEsLTEzNTM0NTk0
+MSwtNjIyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1NV19
 -->
