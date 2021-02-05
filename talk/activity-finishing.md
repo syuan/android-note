@@ -107,15 +107,16 @@ onPuase(), onStop(), onSaveInstanceState(Bundle) 의 위치를 사용함
 	  return;  
   }
 ```
+위와 같은 방식으로 예외처리가 가능하지만, 
   
 ### 결론  
 가장 정석적인 방법은 종료 시점에 요청을 취소하는것,   
 (필요에 따라 완료 콜백 이후 isCancelled 와 같은 함수로 확인해서 후처리)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDA1Njg0MiwxNDIzMTc0NzM0LDE4OT
-AyMDA3NDIsLTEzMjY1MzczMTUsMTI2MDYwMDc1OSwxODkxODEw
-MjYxLDExMjA3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2MzMsMT
-AyMzI0ODExOCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLTYyMjY2
-MjE4MCw2MTg2NzkyLC00MzQ0MDMwNTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NjkxNzA0NjQsMTQyMzE3NDczNCwxOD
+kwMjAwNzQyLC0xMzI2NTM3MzE1LDEyNjA2MDA3NTksMTg5MTgx
+MDI2MSwxMTIwNzQxMjA3LDI5MDk5ODgwNiwxNDUxMTAyNjMzLD
+EwMjMyNDgxMTgsMTc5NDk1MTI5MSwtMTM1MzQ1OTQxLC02MjI2
+NjIxODAsNjE4Njc5MiwtNDM0NDAzMDU1XX0=
 -->
