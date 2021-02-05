@@ -4,6 +4,43 @@
 > https://github.com/bumptech/glide/issues/1126  
 
 ### isFinishing()
+
+  
+#### 
+```java
+public boolean isFinishing() {  
+    return mFinished;  
+}
+```
+  
+```java
+private void finish(int finishTask) {  
+    if (mParent == null) {  
+        int resultCode;  
+        Intent resultData;  
+        synchronized (this) {  
+            resultCode = mResultCode;  
+            resultData = mResultData;  
+        }  
+        if (false) Log.v(TAG, "Finishing self: token=" + mToken);  
+        try {  
+            if (resultData != null) {  
+                resultData.prepareToLeaveProcess(this);  
+            }  
+            if (ActivityManager.getService()  
+                    .finishActivity(mToken, resultCode, resultData, finishTask)) {  
+                mFinished = true;  
+            }  
+        } catch (RemoteException e) {  
+            // Empty  
+        }  
+    } else {  
+        mParent.finishFromChild(this);  
+    }  
+    ...
+}
+```
+      
   
 > **onDestroy**: The final call you receive before your activity is destroyed. This can happen either because the activity is finishing (someone called finish() on it, or because the system is temporarily destroying this instance of the activity to save space. You can distinguish between these two scenarios with the isFinishing() method.
   
@@ -97,8 +134,8 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Njk3MTI0NywxMjYwNjAwNzU5LDE4OT
-E4MTAyNjEsMTEyMDc0MTIwNywyOTA5OTg4MDYsMTQ1MTEwMjYz
-MywxMDIzMjQ4MTE4LDE3OTQ5NTEyOTEsLTEzNTM0NTk0MSwtNj
-IyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1NV19
+eyJoaXN0b3J5IjpbLTEzMjY1MzczMTUsMTI2MDYwMDc1OSwxOD
+kxODEwMjYxLDExMjA3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2
+MzMsMTAyMzI0ODExOCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLT
+YyMjY2MjE4MCw2MTg2NzkyLC00MzQ0MDMwNTVdfQ==
 -->
