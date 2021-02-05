@@ -104,7 +104,7 @@ onPuase(), onStop(), onSaveInstanceState(Bundle) 의 위치를 사용함
 ### 예외처리 방식  
 ```java
   if  (activity ==  null  || activity.isFinishing()  || activity.isDestroyed())  {  
-  return;  
+	  return;  
   }
 ```
   
@@ -139,9 +139,9 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDIwMDc0MiwtMTMyNjUzNzMxNSwxMj
-YwNjAwNzU5LDE4OTE4MTAyNjEsMTEyMDc0MTIwNywyOTA5OTg4
-MDYsMTQ1MTEwMjYzMywxMDIzMjQ4MTE4LDE3OTQ5NTEyOTEsLT
-EzNTM0NTk0MSwtNjIyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1
-NV19
+eyJoaXN0b3J5IjpbMTQyMzE3NDczNCwxODkwMjAwNzQyLC0xMz
+I2NTM3MzE1LDEyNjA2MDA3NTksMTg5MTgxMDI2MSwxMTIwNzQx
+MjA3LDI5MDk5ODgwNiwxNDUxMTAyNjMzLDEwMjMyNDgxMTgsMT
+c5NDk1MTI5MSwtMTM1MzQ1OTQxLC02MjI2NjIxODAsNjE4Njc5
+MiwtNDM0NDAzMDU1XX0=
 -->
