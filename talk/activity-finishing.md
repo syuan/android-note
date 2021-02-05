@@ -19,9 +19,11 @@ E/test: onDestroy() - isFinishing: false
 ```
   
 `isFinishing () == false` 가 Activity 가 꼭 살아있음을 의미하지는 않음.
+일시적인 destory 에는 false 를 반환함 예로 rotation, 또??
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1NjQ1ODMxLDYxODY3OTIsLTQzNDQwMz
-A1NV19
+eyJoaXN0b3J5IjpbMTM3Mjc4MDExMyw2MTg2NzkyLC00MzQ0MD
+MwNTVdfQ==
 -->
