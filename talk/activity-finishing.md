@@ -1,6 +1,7 @@
 
 # Activity.isFinishing
   
+### isFinishing()
   
 > **onDestroy**: The final call you receive before your activity is destroyed. This can happen either because the activity is finishing (someone called finish() on it, or because the system is temporarily destroying this instance of the activity to save space. You can distinguish between these two scenarios with the isFinishing() method.
   
@@ -26,7 +27,7 @@ E/test: onDestroy() - isFinishing: false
 //TODO onDestory 함수 - isDestory() <- version
 
 
-예외처리 방식  
+#### 예외처리 방식  
 ```java
   if  (activity ==  null  || activity.isFinishing()  || activity.isDestroyed())  {  
   return;  
@@ -36,6 +37,6 @@ E/test: onDestroy() - isFinishing: false
 가장 정석적인 방법은 요청을 취소하는것,   
 (완료 콜백 이후 isCancelled 와 같은 것으로 확인)  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjY2MjE4MCw2MTg2NzkyLC00MzQ0MD
-MwNTVdfQ==
+eyJoaXN0b3J5IjpbLTY0NzkwNTA2NywtNjIyNjYyMTgwLDYxOD
+Y3OTIsLTQzNDQwMzA1NV19
 -->
