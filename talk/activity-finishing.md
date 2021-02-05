@@ -1,7 +1,12 @@
 
 # Activity.isFinishing
 
-> https://github.com/bumptech/glide/issues/1126  
+
+> android.view.WindowManager$**BadTokenException**: Unable to add window – token android.os.BinderProxy@40b47bd8 is not valid; is your activity running?
+
+> java.lang.RuntimeException: java.lang.IllegalArgumentException: You cannot start a load for a destroyed activity  
+>  https://github.com/bumptech/glide/issues/1126  
+
 
 ### isFinishing()
 
@@ -134,8 +139,9 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY1MzczMTUsMTI2MDYwMDc1OSwxOD
-kxODEwMjYxLDExMjA3NDEyMDcsMjkwOTk4ODA2LDE0NTExMDI2
-MzMsMTAyMzI0ODExOCwxNzk0OTUxMjkxLC0xMzUzNDU5NDEsLT
-YyMjY2MjE4MCw2MTg2NzkyLC00MzQ0MDMwNTVdfQ==
+eyJoaXN0b3J5IjpbMTg5MDIwMDc0MiwtMTMyNjUzNzMxNSwxMj
+YwNjAwNzU5LDE4OTE4MTAyNjEsMTEyMDc0MTIwNywyOTA5OTg4
+MDYsMTQ1MTEwMjYzMywxMDIzMjQ4MTE4LDE3OTQ5NTEyOTEsLT
+EzNTM0NTk0MSwtNjIyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1
+NV19
 -->
