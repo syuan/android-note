@@ -86,6 +86,12 @@ final void performDestroy() {
 > https://developer.android.com/reference/android/app/Activity#isDestroyed()
 > Added in API level 17
 
+> **onDestroy**: There are situations where the system will simply kill the activity's hosting process without calling this method (or any others) in it,
+
+시스템에 의해서 종료되는 경우, onDestory() 호출을 보장할 수 없음
+그래서 우리는 데이터를 저장하거나, 리소스를 해제할때
+onPuase(), onStop(), 
+
 ### 예외처리 방식  
 ```java
   if  (activity ==  null  || activity.isFinishing()  || activity.isDestroyed())  {  
@@ -124,7 +130,8 @@ public interface ResponseCallback<T> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDc0MTIwNywyOTA5OTg4MDYsMTQ1MT
-EwMjYzMywxMDIzMjQ4MTE4LDE3OTQ5NTEyOTEsLTEzNTM0NTk0
-MSwtNjIyNjYyMTgwLDYxODY3OTIsLTQzNDQwMzA1NV19
+eyJoaXN0b3J5IjpbMTA2NjMxNjAxOSwxMTIwNzQxMjA3LDI5MD
+k5ODgwNiwxNDUxMTAyNjMzLDEwMjMyNDgxMTgsMTc5NDk1MTI5
+MSwtMTM1MzQ1OTQxLC02MjI2NjIxODAsNjE4Njc5MiwtNDM0ND
+AzMDU1XX0=
 -->
