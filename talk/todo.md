@@ -14,8 +14,9 @@
 - gradle cleansing 
 https://medium.com/swlh/gradle-dependencies-a-mesh-6e057a11326e
 
-- 
+- fragment mistake
+https://medium.com/mobile-app-development-publication/7-common-mistakes-easily-made-with-android-fragment-6fc85c44e783
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjE2NzU2NCwxOTQyNzE5OTA3LC0zNT
-A1Mjc4NzNdfQ==
+eyJoaXN0b3J5IjpbMTk0NjU4Nzk0LDE5NDI3MTk5MDcsLTM1MD
+UyNzg3M119
 -->
