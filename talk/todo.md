@@ -13,6 +13,9 @@
 
 - gradle cleansing 
 https://medium.com/swlh/gradle-dependencies-a-mesh-6e057a11326e
+
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbMTE0MjE2NzU2NCwxOTQyNzE5OTA3LC0zNT
+A1Mjc4NzNdfQ==
 -->
