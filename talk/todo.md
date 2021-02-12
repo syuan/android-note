@@ -18,7 +18,10 @@ https://medium.com/swlh/gradle-dependencies-a-mesh-6e057a11326e
 
 - fragment mistake
 https://medium.com/mobile-app-development-publication/7-common-mistakes-easily-made-with-android-fragment-6fc85c44e783
+
+
+https://www.scalablepath.com/blog/recommended-architecture-for-android-apps/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIxMTk0MzIsMTk0NjU4Nzk0LDE5ND
-I3MTk5MDcsLTM1MDUyNzg3M119
+eyJoaXN0b3J5IjpbMTQ2NzU0NjA3OCwtMTcyMjExOTQzMiwxOT
+Q2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
 -->
