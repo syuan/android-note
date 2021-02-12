@@ -21,7 +21,9 @@ https://medium.com/mobile-app-development-publication/7-common-mistakes-easily-m
 
 
 https://www.scalablepath.com/blog/recommended-architecture-for-android-apps/
+
+https://www.scalablepath.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzU0NjA3OCwtMTcyMjExOTQzMiwxOT
+eyJoaXN0b3J5IjpbLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOT
 Q2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
 -->
