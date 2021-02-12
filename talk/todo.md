@@ -11,8 +11,8 @@
 
 - DAU
 
-
-
+- gradle cleansing 
+https://medium.com/swlh/gradle-dependencies-a-mesh-6e057a11326e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTM4MTQ4LC0zNTA1Mjc4NzNdfQ==
+eyJoaXN0b3J5IjpbMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
 -->
