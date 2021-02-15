@@ -23,7 +23,12 @@ https://medium.com/mobile-app-development-publication/7-common-mistakes-easily-m
 https://www.scalablepath.com/blog/recommended-architecture-for-android-apps/
 
 https://www.scalablepath.com/
+
+
+- spotless
+https://github.com/diffplug/spotless/tree/main/plugin-gradle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOT
-Q2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbLTExMjY1NzAwMzQsLTgyMjE4NjIxMCwtMT
+cyMjExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3
+ODczXX0=
 -->
