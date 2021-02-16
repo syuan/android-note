@@ -32,9 +32,24 @@ spotless {
 }
 ```
 
-#
+#### kotlin
+```groovy
+spotless { 
+  kotlin {
+    // by default the target is every '.kt' and '.kts` file in the java sourcesets
+    ktfmt()    
+    ktlint()   
+    diktat()   
+    prettier() 
+  }
+  kotlinGradle {
+    target '*.gradle.kts' // default target for kotlinGradle
+    ktlint() // or ktfmt() or prettier()
+  }
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIxODkxNzgsMTcwNTk1MzIyMywtNz
+eyJoaXN0b3J5IjpbLTIwOTk0MzMxODcsMTcwNTk1MzIyMywtNz
 MxMTkzNzIzLC0xOTIzMTQyOTBdfQ==
 -->
