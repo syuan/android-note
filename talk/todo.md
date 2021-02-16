@@ -27,8 +27,12 @@ https://www.scalablepath.com/
 
 - spotless
 https://github.com/diffplug/spotless/tree/main/plugin-gradle
+
+
+https://github.com/facebookincubator/InjKit
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY1NzAwMzQsLTgyMjE4NjIxMCwtMT
-cyMjExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3
-ODczXX0=
+eyJoaXN0b3J5IjpbLTE4MDEwODMwNDUsLTExMjY1NzAwMzQsLT
+gyMjE4NjIxMCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQsMTk0Mjcx
+OTkwNywtMzUwNTI3ODczXX0=
 -->
