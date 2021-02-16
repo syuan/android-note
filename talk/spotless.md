@@ -31,6 +31,11 @@ spotless {
 ```groovy
 spotless {
   java {
+    removeUnusedImports()
+    trimTrailingWhitespace()
+    indentWithTabs()
+    endWithNewline()
+    
     googleJavaFormat()
     // optional: you can specify a specific version and/or switch to AOSP style
     googleJavaFormat('1.7').aosp()
@@ -58,6 +63,6 @@ spotless {
 > https://github.com/pinterest/ktlint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzg5MzAzOCwxNzA1OTUzMjIzLC03Mz
-ExOTM3MjMsLTE5MjMxNDI5MF19
+eyJoaXN0b3J5IjpbLTg4MDg5MDcxNCwxMDgzODkzMDM4LDE3MD
+U5NTMyMjMsLTczMTE5MzcyMywtMTkyMzE0MjkwXX0=
 -->
