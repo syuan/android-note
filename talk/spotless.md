@@ -15,7 +15,7 @@ plugins {
 spotless {  
   kotlin {  
   target "**/*.kt"  
-  ktlint('0.38.1').userData(['max_line_length' : '160'])  
+  ktlint('0.38.1').userData(['max_line_length' : '100'])  
    }  
 }
 ```
@@ -35,6 +35,6 @@ spotless {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5Nzg5NDQxLC03MzExOTM3MjMsLTE5Mj
-MxNDI5MF19
+eyJoaXN0b3J5IjpbMTcwNTk1MzIyMywtNzMxMTkzNzIzLC0xOT
+IzMTQyOTBdfQ==
 -->
