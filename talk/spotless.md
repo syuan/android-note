@@ -6,7 +6,7 @@ https://github.com/diffplug/spotless/tree/main/plugin-gradle
 
 Spotless is a general-purpose formatting plugin used by 4,000 projects on GitHub (August 2020).
 
-```groov
+```groovy
 spotless {
   java {
     googleJavaFormat()
@@ -19,6 +19,6 @@ spotless {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODcxMzYzNSwtNzMxMTkzNzIzLC0xOT
-IzMTQyOTBdfQ==
+eyJoaXN0b3J5IjpbLTE0MDg4ODU4MTAsLTczMTE5MzcyMywtMT
+kyMzE0MjkwXX0=
 -->
