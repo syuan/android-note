@@ -28,11 +28,12 @@ https://www.scalablepath.com/
 - spotless
 https://github.com/diffplug/spotless/tree/main/plugin-gradle
 
-
+- InjKit
+InjKit is a framework for bytecode manipulation.
 https://github.com/facebookincubator/InjKit
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDEwODMwNDUsLTExMjY1NzAwMzQsLT
-gyMjE4NjIxMCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQsMTk0Mjcx
-OTkwNywtMzUwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbLTE5MjY1MDUwNiwtMTEyNjU3MDAzNCwtOD
+IyMTg2MjEwLC0xNzIyMTE5NDMyLDE5NDY1ODc5NCwxOTQyNzE5
+OTA3LC0zNTA1Mjc4NzNdfQ==
 -->
