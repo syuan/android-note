@@ -6,6 +6,7 @@ https://github.com/diffplug/spotless/tree/main/plugin-gradle
 
 Spotless is a general-purpose formatting plugin used by 4,000 projects on GitHub (August 2020).
 
+#### Usage
 ```
 $ ./gradlew build
 $ ./gradlew spotlessApply
@@ -57,6 +58,6 @@ spotless {
 > https://github.com/pinterest/ktlint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk5MDk4MjMsMTcwNTk1MzIyMywtNz
-MxMTkzNzIzLC0xOTIzMTQyOTBdfQ==
+eyJoaXN0b3J5IjpbMTA4Mzg5MzAzOCwxNzA1OTUzMjIzLC03Mz
+ExOTM3MjMsLTE5MjMxNDI5MF19
 -->
