@@ -63,9 +63,9 @@ spotless {
 > https://github.com/pinterest/ktlint
 
 
-
+> VideoPlayerView.kt 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODI4MDcwMiwtODgwODkwNzE0LDEwOD
+eyJoaXN0b3J5IjpbMTI5ODIwNzY1OCwtODgwODkwNzE0LDEwOD
 M4OTMwMzgsMTcwNTk1MzIyMywtNzMxMTkzNzIzLC0xOTIzMTQy
 OTBdfQ==
 -->
