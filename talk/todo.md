@@ -44,9 +44,11 @@ https://houlisha.medium.com/new-year-faster-builds-dc555f75f2fc
 
 
 https://navczydev.medium.com/sms-verification-api-android-f351a3e81112
+
+https://medium.com/androiddevelopers/animating-your-keyboard-fb776a8fb66d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5Mz
-I1ODI1LC0xOTI2NTA1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIx
-MCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMz
-UwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbLTMzNzU1MzMxLDIxMTQ2MTA2MTgsLTgzMz
+k4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0xMTI2NTcwMDM0
+LC04MjIxODYyMTAsLTE3MjIxMTk0MzIsMTk0NjU4Nzk0LDE5ND
+I3MTk5MDcsLTM1MDUyNzg3M119
 -->
