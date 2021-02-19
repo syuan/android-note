@@ -35,10 +35,11 @@ https://github.com/facebookincubator/InjKit
 
 - joiner
 https://gist.github.com/ihoneymon/6c8eeff0e8a451787274c8d60ac17298
+https://tourspace.tistory.com/8
 Iterable<T>.joinToString
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM4Nzc3MTIsLTE5MjY1MDUwNiwtMT
-EyNjU3MDAzNCwtODIyMTg2MjEwLC0xNzIyMTE5NDMyLDE5NDY1
-ODc5NCwxOTQyNzE5OTA3LC0zNTA1Mjc4NzNdfQ==
+eyJoaXN0b3J5IjpbNzI5MzI1ODI1LC0xOTI2NTA1MDYsLTExMj
+Y1NzAwMzQsLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOTQ2NTg3
+OTQsMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
 -->
