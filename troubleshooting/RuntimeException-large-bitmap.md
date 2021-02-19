@@ -64,6 +64,8 @@ height ratio : 312 배
   
 너무 큰 Bitmap 객체가 생성됨 ;;  
 
+
+> Glide 옵션을 FitCenter, CenterInside 로 설정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTUxNzM0ODddfQ==
+eyJoaXN0b3J5IjpbLTg1MTg3NzQ3OSwtMTcxNTE3MzQ4N119
 -->
