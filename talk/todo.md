@@ -38,8 +38,11 @@ https://gist.github.com/ihoneymon/6c8eeff0e8a451787274c8d60ac17298
 https://tourspace.tistory.com/8
 Iterable<T>.joinToString
 
+
+- gradle
+https://houlisha.medium.com/new-year-faster-builds-dc555f75f2fc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MzI1ODI1LC0xOTI2NTA1MDYsLTExMj
-Y1NzAwMzQsLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOTQ2NTg3
-OTQsMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNj
+UwNTA2LC0xMTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0
+MzIsMTk0NjU4Nzk0LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
 -->
