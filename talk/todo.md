@@ -41,8 +41,12 @@ Iterable<T>.joinToString
 
 - gradle
 https://houlisha.medium.com/new-year-faster-builds-dc555f75f2fc
+
+
+https://navczydev.medium.com/sms-verification-api-android-f351a3e81112
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNj
-UwNTA2LC0xMTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0
-MzIsMTk0NjU4Nzk0LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
+eyJoaXN0b3J5IjpbMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5Mz
+I1ODI1LC0xOTI2NTA1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIx
+MCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMz
+UwNTI3ODczXX0=
 -->
