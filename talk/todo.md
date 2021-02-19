@@ -39,7 +39,9 @@ https://tourspace.tistory.com/8
 Iterable<T>.joinToString
 
 
+- CircularProgressIndicator
 https://kennay-kermani.medium.com/android-material-progress-indicator-2ff44b7296cb
+https://material.io/components/progress-indicators/android
 
 
 - gradle
@@ -53,8 +55,8 @@ https://medium.com/androiddevelopers/animating-your-keyboard-fb776a8fb66d
 
 epoxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MDA0MDc5LC0zMzc1NTMzMSwyMTE0Nj
-EwNjE4LC04MzM5ODE5NCw3MjkzMjU4MjUsLTE5MjY1MDUwNiwt
-MTEyNjU3MDAzNCwtODIyMTg2MjEwLC0xNzIyMTE5NDMyLDE5ND
-Y1ODc5NCwxOTQyNzE5OTA3LC0zNTA1Mjc4NzNdfQ==
+eyJoaXN0b3J5IjpbNjcyNTYwMzcsLTMzNzU1MzMxLDIxMTQ2MT
+A2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0x
+MTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0MzIsMTk0Nj
+U4Nzk0LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
 -->
