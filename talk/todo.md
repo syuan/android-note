@@ -39,6 +39,9 @@ https://tourspace.tistory.com/8
 Iterable<T>.joinToString
 
 
+https://kennay-kermani.medium.com/android-material-progress-indicator-2ff44b7296cb
+
+
 - gradle
 https://houlisha.medium.com/new-year-faster-builds-dc555f75f2fc
 
@@ -46,9 +49,12 @@ https://houlisha.medium.com/new-year-faster-builds-dc555f75f2fc
 https://navczydev.medium.com/sms-verification-api-android-f351a3e81112
 
 https://medium.com/androiddevelopers/animating-your-keyboard-fb776a8fb66d
+
+
+epoxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzU1MzMxLDIxMTQ2MTA2MTgsLTgzMz
-k4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0xMTI2NTcwMDM0
-LC04MjIxODYyMTAsLTE3MjIxMTk0MzIsMTk0NjU4Nzk0LDE5ND
-I3MTk5MDcsLTM1MDUyNzg3M119
+eyJoaXN0b3J5IjpbMjk3MDA0MDc5LC0zMzc1NTMzMSwyMTE0Nj
+EwNjE4LC04MzM5ODE5NCw3MjkzMjU4MjUsLTE5MjY1MDUwNiwt
+MTEyNjU3MDAzNCwtODIyMTg2MjEwLC0xNzIyMTE5NDMyLDE5ND
+Y1ODc5NCwxOTQyNzE5OTA3LC0zNTA1Mjc4NzNdfQ==
 -->
