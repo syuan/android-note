@@ -13,6 +13,9 @@ layout tag <- data binding
 상태바 및 소프트키 영역을 제외한 영역까지 확장해 주는 역할
 
 
+ShapeAppearancePathProvider??
+
+
 DiffUtil
 -   getOldListSize : 현재 리스트에 노출하고 있는 List size
 -   getNewListSize : 새로 추가하거나, 갱신해야 할 List size
@@ -21,6 +24,6 @@ DiffUtil
 
 -   areContentsTheSame : 현재 리스트에 노출하고 있는 아이템과 새로운 아이템의 equals를 비교한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM2NDMzMywtMzUxNjY5MDYsLTE3MD
-YwOTY4MjhdfQ==
+eyJoaXN0b3J5IjpbMTU3NTQ3ODI2MiwtMTIyMzY0MzMzLC0zNT
+E2NjkwNiwtMTcwNjA5NjgyOF19
 -->
