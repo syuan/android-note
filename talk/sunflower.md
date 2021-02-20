@@ -4,6 +4,8 @@
 # Sunflower
 
 
+Flow -> codelab 
+
 TabLayoutMediator  
 
 layout tag <- data binding  
@@ -27,6 +29,7 @@ DiffUtil
 
 RecyclerViewHolder init 에서 clickListener 연결하기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDYyOTg4NCwxNTc1NDc4MjYyLC0xMj
-IzNjQzMzMsLTM1MTY2OTA2LC0xNzA2MDk2ODI4XX0=
+eyJoaXN0b3J5IjpbMTMwMzQ4ODU4MSwtNzEwNjI5ODg0LDE1Nz
+U0NzgyNjIsLTEyMjM2NDMzMywtMzUxNjY5MDYsLTE3MDYwOTY4
+MjhdfQ==
 -->
