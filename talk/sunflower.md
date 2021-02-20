@@ -23,7 +23,10 @@ DiffUtil
 (ViewType, EntityType, ID, 등을 비교할까?)
 
 -   areContentsTheSame : 현재 리스트에 노출하고 있는 아이템과 새로운 아이템의 equals를 비교한다.
+
+
+RecyclerViewHolder init 에서 clickListener 연결하기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTQ3ODI2MiwtMTIyMzY0MzMzLC0zNT
-E2NjkwNiwtMTcwNjA5NjgyOF19
+eyJoaXN0b3J5IjpbLTcxMDYyOTg4NCwxNTc1NDc4MjYyLC0xMj
+IzNjQzMzMsLTM1MTY2OTA2LC0xNzA2MDk2ODI4XX0=
 -->
