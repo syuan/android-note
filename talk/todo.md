@@ -54,9 +54,13 @@ https://medium.com/androiddevelopers/animating-your-keyboard-fb776a8fb66d
 
 
 epoxy
+
+
+public infix fun <A, B> A.to(that: B): Pair<A, B> = Pair(this, that)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyNTYwMzcsLTMzNzU1MzMxLDIxMTQ2MT
-A2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0x
-MTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0MzIsMTk0Nj
-U4Nzk0LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
+eyJoaXN0b3J5IjpbMTEwNjcxOTAyNCw2NzI1NjAzNywtMzM3NT
+UzMzEsMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1LC0x
+OTI2NTA1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIxMCwtMTcyMj
+ExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3ODcz
+XX0=
 -->
