@@ -53,14 +53,19 @@ https://navczydev.medium.com/sms-verification-api-android-f351a3e81112
 https://medium.com/androiddevelopers/animating-your-keyboard-fb776a8fb66d
 
 
-epoxy
+- epoxy
 
-infix
+
+- infix
 public infix fun <A, B> A.to(that: B): Pair<A, B> = Pair(this, that)
+
+
+- use
+public inline fun <T : Closeable?, R> T.use(block: (T) -> R): R
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDc2MjgzNCw2NzI1NjAzNywtMzM3NT
-UzMzEsMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1LC0x
-OTI2NTA1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIxMCwtMTcyMj
-ExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3ODcz
-XX0=
+eyJoaXN0b3J5IjpbLTcyOTAxODQ1NSwyMDUwNzYyODM0LDY3Mj
+U2MDM3LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04MzM5ODE5NCw3
+MjkzMjU4MjUsLTE5MjY1MDUwNiwtMTEyNjU3MDAzNCwtODIyMT
+g2MjEwLC0xNzIyMTE5NDMyLDE5NDY1ODc5NCwxOTQyNzE5OTA3
+LC0zNTA1Mjc4NzNdfQ==
 -->
