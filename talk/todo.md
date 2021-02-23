@@ -62,10 +62,12 @@ public infix fun <A, B> A.to(that: B): Pair<A, B> = Pair(this, that)
 
 - use
 public inline fun <T : Closeable?, R> T.use(block: (T) -> R): R
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTAxODQ1NSwyMDUwNzYyODM0LDY3Mj
-U2MDM3LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04MzM5ODE5NCw3
-MjkzMjU4MjUsLTE5MjY1MDUwNiwtMTEyNjU3MDAzNCwtODIyMT
-g2MjEwLC0xNzIyMTE5NDMyLDE5NDY1ODc5NCwxOTQyNzE5OTA3
-LC0zNTA1Mjc4NzNdfQ==
+eyJoaXN0b3J5IjpbMTQwMjA1MDYxLC03MjkwMTg0NTUsMjA1MD
+c2MjgzNCw2NzI1NjAzNywtMzM3NTUzMzEsMjExNDYxMDYxOCwt
+ODMzOTgxOTQsNzI5MzI1ODI1LC0xOTI2NTA1MDYsLTExMjY1Nz
+AwMzQsLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQs
+MTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
 -->
