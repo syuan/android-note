@@ -64,10 +64,15 @@ public infix fun <A, B> A.to(that: B): Pair<A, B> = Pair(this, that)
 public inline fun <T : Closeable?, R> T.use(block: (T) -> R): R
 
 
+
+- https://proandroiddev.com/make-your-android-views-accessible-with-only-one-line-of-code-79714ab6ca7f
+```java
+parent.touchDelegate = TouchDelegate(delegateArea, smallButton)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjA1MDYxLC03MjkwMTg0NTUsMjA1MD
-c2MjgzNCw2NzI1NjAzNywtMzM3NTUzMzEsMjExNDYxMDYxOCwt
-ODMzOTgxOTQsNzI5MzI1ODI1LC0xOTI2NTA1MDYsLTExMjY1Nz
-AwMzQsLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQs
-MTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbLTg3NDYxOTk3NiwtNzI5MDE4NDU1LDIwNT
+A3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMxLDIxMTQ2MTA2MTgs
+LTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0xMTI2NT
+cwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0MzIsMTk0NjU4Nzk0
+LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
 -->
