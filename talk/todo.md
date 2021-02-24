@@ -69,10 +69,14 @@ public inline fun <T : Closeable?, R> T.use(block: (T) -> R): R
 ```java
 parent.touchDelegate = TouchDelegate(delegateArea, smallButton)
 ```
+
+
+- linear commit ??
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDYxOTk3NiwtNzI5MDE4NDU1LDIwNT
-A3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMxLDIxMTQ2MTA2MTgs
-LTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0xMTI2NT
-cwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0MzIsMTk0NjU4Nzk0
-LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
+eyJoaXN0b3J5IjpbLTE2NDc1ODUzODAsLTg3NDYxOTk3NiwtNz
+I5MDE4NDU1LDIwNTA3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMx
+LDIxMTQ2MTA2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNj
+UwNTA2LC0xMTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0
+MzIsMTk0NjU4Nzk0LDE5NDI3MTk5MDcsLTM1MDUyNzg3M119
 -->
