@@ -73,8 +73,10 @@ parent.touchDelegate = TouchDelegate(delegateArea, smallButton)
 
 - linear commit ??
 
+
+- https://developer.android.com/reference/kotlin/androidx/paging/PagingSource#getrefreshkey
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjI5NjMzNSwtMTY0NzU4NTM4MCwtOD
+eyJoaXN0b3J5IjpbLTk0NTc3ODE4NSwtMTY0NzU4NTM4MCwtOD
 c0NjE5OTc2LC03MjkwMTg0NTUsMjA1MDc2MjgzNCw2NzI1NjAz
 NywtMzM3NTUzMzEsMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5Mz
 I1ODI1LC0xOTI2NTA1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIx
