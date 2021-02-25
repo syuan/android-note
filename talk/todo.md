@@ -2,7 +2,7 @@
 오늘은  무엇을  배웠습니까? 또는  무엇을 처음 해보았는가?
 
 - sunflower
-
+- 
 - 코루틴
 - kotlin block
 - mvvm, mvp 에서 자식<-> 부모 이벤트 전달 방법 / 
@@ -76,10 +76,10 @@ parent.touchDelegate = TouchDelegate(delegateArea, smallButton)
 
 - https://developer.android.com/reference/kotlin/androidx/paging/PagingSource#getrefreshkey
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTc3ODE4NSwtMTY0NzU4NTM4MCwtOD
-c0NjE5OTc2LC03MjkwMTg0NTUsMjA1MDc2MjgzNCw2NzI1NjAz
-NywtMzM3NTUzMzEsMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5Mz
-I1ODI1LC0xOTI2NTA1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIx
-MCwtMTcyMjExOTQzMiwxOTQ2NTg3OTQsMTk0MjcxOTkwNywtMz
-UwNTI3ODczXX0=
+eyJoaXN0b3J5IjpbLTg4OTY2NjM2NCwtOTQ1Nzc4MTg1LC0xNj
+Q3NTg1MzgwLC04NzQ2MTk5NzYsLTcyOTAxODQ1NSwyMDUwNzYy
+ODM0LDY3MjU2MDM3LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04Mz
+M5ODE5NCw3MjkzMjU4MjUsLTE5MjY1MDUwNiwtMTEyNjU3MDAz
+NCwtODIyMTg2MjEwLC0xNzIyMTE5NDMyLDE5NDY1ODc5NCwxOT
+QyNzE5OTA3LC0zNTA1Mjc4NzNdfQ==
 -->
