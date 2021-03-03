@@ -4,6 +4,7 @@
 # Progress indicators
 
 > https://material.io/components/progress-indicators/android
+> https://github.com/material-components/material-components-android/blob/master/docs/components/ProgressIndicator.md
 
 ```xml
 <!-- Linear progress indicator -->
@@ -18,5 +19,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODYwNjgzM119
+eyJoaXN0b3J5IjpbLTQzNDcyMzI5OF19
 -->
