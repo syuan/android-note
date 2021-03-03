@@ -17,6 +17,9 @@ Fatal Exception: java.lang.IndexOutOfBoundsException: Inconsistency detected. In
 ```
 
 
+notifyItemRangeChanged(int positionStart, int itemCount)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MTk1MDE2XX0=
+eyJoaXN0b3J5IjpbMTc5NTI5MTY1LDQ1OTE5NTAxNl19
 -->
