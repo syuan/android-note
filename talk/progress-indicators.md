@@ -20,7 +20,9 @@
 1.3.0-alpha01 에 추가 됨
 > https://github.com/material-components/material-components-android/releases/tag/1.3.0-alpha01
 
-
+```
+implementation "com.google.android.material:material:1.3.0"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ1MjY5NzZdfQ==
+eyJoaXN0b3J5IjpbLTY0NjMyMTY2NV19
 -->
