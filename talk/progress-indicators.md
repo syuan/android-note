@@ -17,7 +17,10 @@
     android:layout_height="wrap_content" />
 ```
 
+1.3.0-alpha01 에 추가 됨
+> https://github.com/material-components/material-components-android/releases/tag/1.3.0-alpha01
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDcyMzI5OF19
+eyJoaXN0b3J5IjpbLTE2MzQ1MjY5NzZdfQ==
 -->
