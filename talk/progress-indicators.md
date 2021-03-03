@@ -11,6 +11,7 @@
 <com.google.android.material.progressindicator.LinearProgressIndicator
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
+    
 <!-- Circular progress indicator -->
 <com.google.android.material.progressindicator.CircularProgressIndicator
     android:layout_width="wrap_content"
@@ -24,5 +25,5 @@
 implementation "com.google.android.material:material:1.3.0"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjMyMTY2NV19
+eyJoaXN0b3J5IjpbMTIyNTk0MTcxM119
 -->
