@@ -19,7 +19,8 @@ Fatal Exception: java.lang.IndexOutOfBoundsException: Inconsistency detected. In
 
 notifyItemRangeChanged(int positionStart, int itemCount)
 
+와 같은 함수에서 범위를 잘못 지정한 경우 exception 발생
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTI5MTY1LDQ1OTE5NTAxNl19
+eyJoaXN0b3J5IjpbMzc0ODQxNjgzLDQ1OTE5NTAxNl19
 -->
