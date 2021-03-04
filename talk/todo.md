@@ -75,11 +75,17 @@ parent.touchDelegate = TouchDelegate(delegateArea, smallButton)
 
 
 - https://developer.android.com/reference/kotlin/androidx/paging/PagingSource#getrefreshkey
+
+
+
+- algorithm
+(Character.isAlphabetic(l) || Character.isDigit(l))
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTY2NjM2NCwtOTQ1Nzc4MTg1LC0xNj
-Q3NTg1MzgwLC04NzQ2MTk5NzYsLTcyOTAxODQ1NSwyMDUwNzYy
-ODM0LDY3MjU2MDM3LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04Mz
-M5ODE5NCw3MjkzMjU4MjUsLTE5MjY1MDUwNiwtMTEyNjU3MDAz
-NCwtODIyMTg2MjEwLC0xNzIyMTE5NDMyLDE5NDY1ODc5NCwxOT
-QyNzE5OTA3LC0zNTA1Mjc4NzNdfQ==
+eyJoaXN0b3J5IjpbNzE1ODc5NjcxLC04ODk2NjYzNjQsLTk0NT
+c3ODE4NSwtMTY0NzU4NTM4MCwtODc0NjE5OTc2LC03MjkwMTg0
+NTUsMjA1MDc2MjgzNCw2NzI1NjAzNywtMzM3NTUzMzEsMjExND
+YxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1LC0xOTI2NTA1MDYs
+LTExMjY1NzAwMzQsLTgyMjE4NjIxMCwtMTcyMjExOTQzMiwxOT
+Q2NTg3OTQsMTk0MjcxOTkwNywtMzUwNTI3ODczXX0=
 -->
