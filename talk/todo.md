@@ -82,12 +82,18 @@ parent.touchDelegate = TouchDelegate(delegateArea, smallButton)
 (Character.isAlphabetic(l) || Character.isDigit(l))
 
 피보나치
+
+
+
+
+theme
+https://medium.com/plum-engineering/leveraging-the-power-of-android-design-language-3e931bc4c58
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Mzk5ODUzLDcxNTg3OTY3MSwtODg5Nj
-Y2MzY0LC05NDU3NzgxODUsLTE2NDc1ODUzODAsLTg3NDYxOTk3
-NiwtNzI5MDE4NDU1LDIwNTA3NjI4MzQsNjcyNTYwMzcsLTMzNz
-U1MzMxLDIxMTQ2MTA2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwt
-MTkyNjUwNTA2LC0xMTI2NTcwMDM0LC04MjIxODYyMTAsLTE3Mj
-IxMTk0MzIsMTk0NjU4Nzk0LDE5NDI3MTk5MDcsLTM1MDUyNzg3
-M119
+eyJoaXN0b3J5IjpbLTEwODg0MTA1NDYsMjY4Mzk5ODUzLDcxNT
+g3OTY3MSwtODg5NjY2MzY0LC05NDU3NzgxODUsLTE2NDc1ODUz
+ODAsLTg3NDYxOTk3NiwtNzI5MDE4NDU1LDIwNTA3NjI4MzQsNj
+cyNTYwMzcsLTMzNzU1MzMxLDIxMTQ2MTA2MTgsLTgzMzk4MTk0
+LDcyOTMyNTgyNSwtMTkyNjUwNTA2LC0xMTI2NTcwMDM0LC04Mj
+IxODYyMTAsLTE3MjIxMTk0MzIsMTk0NjU4Nzk0LDE5NDI3MTk5
+MDddfQ==
 -->
