@@ -34,6 +34,10 @@ dependencies {
   androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'  
 }
 ```
+
+한 앱의 멀티 모듈은 동일한 dependency 버전을 사용해야 됨
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDIwOTMxMF19
+eyJoaXN0b3J5IjpbNDY2MTg0NzYyXX0=
 -->
