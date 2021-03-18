@@ -54,49 +54,51 @@ dependencies {
 ```
 
 build.gradle
-
+```
 ext {  
   kt = [  
-  'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version'  
+	  'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version'  
   ]  
   
   meterial = [  
-  'com.google.android.material:material:1.2.1'  
+	  'com.google.android.material:material:1.2.1'  
   ]  
   
   androidx = [  
-  'androidx.core:core-ktx:1.3.2',  
-            'androidx.appcompat:appcompat:1.2.0',  
-            'androidx.constraintlayout:constraintlayout:2.0.4',  
-            'androidx.activity:activity-ktx:1.2.0-beta02',  
-            'androidx.fragment:fragment-ktx:1.3.0-beta02',  
-    ]  
+	  'androidx.core:core-ktx:1.3.2',  
+      'androidx.appcompat:appcompat:1.2.0',  
+      'androidx.constraintlayout:constraintlayout:2.0.4',  
+      'androidx.activity:activity-ktx:1.2.0-beta02',  
+      'androidx.fragment:fragment-ktx:1.3.0-beta02',  
+  ]  
   
   qrcode = [  
-  'cn.bingoogolapple:bga-qrcode-zxing:1.3.7'  
+	  'cn.bingoogolapple:bga-qrcode-zxing:1.3.7'  
   ]  
   
   retrofit = [  
-  'com.squareup.retrofit2:retrofit:2.9.0',  
-            'com.squareup.retrofit2:converter-gson:2.9.0',  
-            'com.squareup.retrofit2:adapter-rxjava2:2.9.0',  
-            'com.squareup.okhttp3:logging-interceptor:4.7.2'  
+	  'com.squareup.retrofit2:retrofit:2.9.0',  
+      'com.squareup.retrofit2:converter-gson:2.9.0',  
+      'com.squareup.retrofit2:adapter-rxjava2:2.9.0',  
+      'com.squareup.okhttp3:logging-interceptor:4.7.2'  
   ]  
   
   rxjava = [  
-  'io.reactivex.rxjava2:rxandroid:2.1.1'  
+	  'io.reactivex.rxjava2:rxandroid:2.1.1'  
   ]  
   
   junit = [  
-  'junit:junit:4.13.1'  
+	  'junit:junit:4.13.1'  
   ]  
   
   testing = [  
-  'androidx.test.ext:junit:1.1.2',  
-            'androidx.test.espresso:espresso-core:3.3.0'  
+	  'androidx.test.ext:junit:1.1.2',  
+      'androidx.test.espresso:espresso-core:3.3.0'  
   ]  
 }
 ```
+
+kotlin 이라는 이름은 안되네, 정의된 이름인듯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTczODg3Nyw0NjYxODQ3NjJdfQ==
+eyJoaXN0b3J5IjpbMTU2MzI0NzcwMiw0NjYxODQ3NjJdfQ==
 -->
