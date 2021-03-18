@@ -98,7 +98,8 @@ ext {
 }
 ```
 
-kotlin 이라는 이름은 안되네, 정의된 이름인듯
+kotlin 이라는 이름은 안되네, 이미 정의된 이름인듯?
+크게 가독성이 좋아지는 느낌은 아님, 멀티 모듈이라면 고민해볼 수 있을듯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzI0NzcwMiw0NjYxODQ3NjJdfQ==
+eyJoaXN0b3J5IjpbMTAyMzAwNDg5LDQ2NjE4NDc2Ml19
 -->
