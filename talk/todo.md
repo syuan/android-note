@@ -91,12 +91,13 @@ https://medium.com/plum-engineering/leveraging-the-power-of-android-design-langu
 
 
 SharedFlow, StateFlow
+https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=ko
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzYzMjM2LDc3MTg5NzA5MywtMTA4OD
-QxMDU0NiwyNjgzOTk4NTMsNzE1ODc5NjcxLC04ODk2NjYzNjQs
-LTk0NTc3ODE4NSwtMTY0NzU4NTM4MCwtODc0NjE5OTc2LC03Mj
-kwMTg0NTUsMjA1MDc2MjgzNCw2NzI1NjAzNywtMzM3NTUzMzEs
-MjExNDYxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1LC0xOTI2NT
-A1MDYsLTExMjY1NzAwMzQsLTgyMjE4NjIxMCwtMTcyMjExOTQz
-Ml19
+eyJoaXN0b3J5IjpbLTgyOTg1NTgzMCw3NzE4OTcwOTMsLTEwOD
+g0MTA1NDYsMjY4Mzk5ODUzLDcxNTg3OTY3MSwtODg5NjY2MzY0
+LC05NDU3NzgxODUsLTE2NDc1ODUzODAsLTg3NDYxOTk3NiwtNz
+I5MDE4NDU1LDIwNTA3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMx
+LDIxMTQ2MTA2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNj
+UwNTA2LC0xMTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0
+MzJdfQ==
 -->
