@@ -92,12 +92,16 @@ https://medium.com/plum-engineering/leveraging-the-power-of-android-design-langu
 
 SharedFlow, StateFlow
 https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=ko
+
+
+
+ProcessLifecycleOwner.get().lifecycle.addObserver(this)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTg1NTgzMCw3NzE4OTcwOTMsLTEwOD
-g0MTA1NDYsMjY4Mzk5ODUzLDcxNTg3OTY3MSwtODg5NjY2MzY0
-LC05NDU3NzgxODUsLTE2NDc1ODUzODAsLTg3NDYxOTk3NiwtNz
-I5MDE4NDU1LDIwNTA3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMx
-LDIxMTQ2MTA2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNj
-UwNTA2LC0xMTI2NTcwMDM0LC04MjIxODYyMTAsLTE3MjIxMTk0
-MzJdfQ==
+eyJoaXN0b3J5IjpbNzg4NTEyMzI5LC04Mjk4NTU4MzAsNzcxOD
+k3MDkzLC0xMDg4NDEwNTQ2LDI2ODM5OTg1Myw3MTU4Nzk2NzEs
+LTg4OTY2NjM2NCwtOTQ1Nzc4MTg1LC0xNjQ3NTg1MzgwLC04Nz
+Q2MTk5NzYsLTcyOTAxODQ1NSwyMDUwNzYyODM0LDY3MjU2MDM3
+LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04MzM5ODE5NCw3MjkzMj
+U4MjUsLTE5MjY1MDUwNiwtMTEyNjU3MDAzNCwtODIyMTg2MjEw
+XX0=
 -->
