@@ -101,12 +101,14 @@ ProcessLifecycleOwner.get().lifecycle.addObserver(this)
 https://github.com/tachiyomiorg/tachiyomi/blob/master/app/src/main/java/eu/kanade/tachiyomi/App.kt
 
 
+https://proandroiddev.com/create-android-studio-plugin-to-toggle-show-layout-bounds-part-1-91fd530d633a
+https://gpeal.medium.com/ten-androidlifehacks-you-can-use-today-9f74186fc207
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMzQzNzk0LC0yMDMzMjExNjkwLDc4OD
-UxMjMyOSwtODI5ODU1ODMwLDc3MTg5NzA5MywtMTA4ODQxMDU0
-NiwyNjgzOTk4NTMsNzE1ODc5NjcxLC04ODk2NjYzNjQsLTk0NT
-c3ODE4NSwtMTY0NzU4NTM4MCwtODc0NjE5OTc2LC03MjkwMTg0
-NTUsMjA1MDc2MjgzNCw2NzI1NjAzNywtMzM3NTUzMzEsMjExND
-YxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1LC0xOTI2NTA1MDZd
-fQ==
+eyJoaXN0b3J5IjpbLTEyODgyMTc1NiwtMjAzMzIxMTY5MCw3OD
+g1MTIzMjksLTgyOTg1NTgzMCw3NzE4OTcwOTMsLTEwODg0MTA1
+NDYsMjY4Mzk5ODUzLDcxNTg3OTY3MSwtODg5NjY2MzY0LC05ND
+U3NzgxODUsLTE2NDc1ODUzODAsLTg3NDYxOTk3NiwtNzI5MDE4
+NDU1LDIwNTA3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMxLDIxMT
+Q2MTA2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2
+XX0=
 -->
