@@ -10,6 +10,7 @@
 - Hilt
 - Flow !
 - mvvm
+- Kotlin DSL
 
 - DAU
 
@@ -104,11 +105,11 @@ https://github.com/tachiyomiorg/tachiyomi/blob/master/app/src/main/java/eu/kanad
 https://proandroiddev.com/create-android-studio-plugin-to-toggle-show-layout-bounds-part-1-91fd530d633a
 https://gpeal.medium.com/ten-androidlifehacks-you-can-use-today-9f74186fc207
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgyMTc1NiwtMjAzMzIxMTY5MCw3OD
-g1MTIzMjksLTgyOTg1NTgzMCw3NzE4OTcwOTMsLTEwODg0MTA1
-NDYsMjY4Mzk5ODUzLDcxNTg3OTY3MSwtODg5NjY2MzY0LC05ND
-U3NzgxODUsLTE2NDc1ODUzODAsLTg3NDYxOTk3NiwtNzI5MDE4
-NDU1LDIwNTA3NjI4MzQsNjcyNTYwMzcsLTMzNzU1MzMxLDIxMT
-Q2MTA2MTgsLTgzMzk4MTk0LDcyOTMyNTgyNSwtMTkyNjUwNTA2
+eyJoaXN0b3J5IjpbMjA3ODAwODM1MywtMTI4ODIxNzU2LC0yMD
+MzMjExNjkwLDc4ODUxMjMyOSwtODI5ODU1ODMwLDc3MTg5NzA5
+MywtMTA4ODQxMDU0NiwyNjgzOTk4NTMsNzE1ODc5NjcxLC04OD
+k2NjYzNjQsLTk0NTc3ODE4NSwtMTY0NzU4NTM4MCwtODc0NjE5
+OTc2LC03MjkwMTg0NTUsMjA1MDc2MjgzNCw2NzI1NjAzNywtMz
+M3NTUzMzEsMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1
 XX0=
 -->
