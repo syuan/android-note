@@ -20,10 +20,12 @@ val height = 8.dp
   
   
 #### Density 변경 방법
-
-
-
+  
+1. Go to **Settings** > Select **Display** > **Display size settings**
+2. Go to **Settings** > **Developer Options** > Under ‘Drawing’ option tap on **Smallest width.**
+  
 #### Density 변경에 따른 상태 변화
+  
 ```java
 public static int dpToPx(int dp) {  
    return (int) (dp * Resources.getSystem().getDisplayMetrics().density);  
@@ -53,7 +55,7 @@ Resources.getSystem().getString(android.R.string.cancel) // ok
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTgwMDU2MTAsLTE2OTA4NzAxNjAsLT
-IxMjM3ODEwMDIsNTQ5NTY3NDM0LDUxNzQ5NDk4Miw3MjA5MzM3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTEyNzc3MDIzNjgsLTEwMTgwMDU2MTAsLT
+E2OTA4NzAxNjAsLTIxMjM3ODEwMDIsNTQ5NTY3NDM0LDUxNzQ5
+NDk4Miw3MjA5MzM3ODldfQ==
 -->
