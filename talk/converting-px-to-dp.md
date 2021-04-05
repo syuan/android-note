@@ -12,11 +12,11 @@ val Number.dp get() = toFloat() * (Resources.getSystem().displayMetrics.densityD
 
 val height = 8.dp
 ```
-편하고 코드가 깔끔하긴 한데  
+편하고 코드가 깔끔하긴 한데... 
   
-- 과연 Resources.getSystem() 은 시스템 리소스 전용인데 사용해도 될까?
-- 
-application(context) 에서 density 가 변화해도 변경되지 않는 문제가 있나? / 테스트 해볼까?
+- Resources.getSystem() 은 시스템 리소스 전용인데 사용해도 될까?
+- ApplicationContext, ActivityContext 가 시스템과 다른 density 를 가지는 경우가 있을까?
+- Activity? Application? 이 동적으로 density 변화가 가능한가?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1Mzk5ODMzLDcyMDkzMzc4OV19
+eyJoaXN0b3J5IjpbNTE3NDk0OTgyLDcyMDkzMzc4OV19
 -->
