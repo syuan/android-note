@@ -24,7 +24,11 @@ val height = 8.dp
 
 
 #### Resources.getSystem() 사용이 문제가 되는 경우
+```kotlin
+getResources().getString(R.string.app_name)
+Resources.getSystem().getString(android.R.string.cancel)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NTY3NDM0LDUxNzQ5NDk4Miw3MjA5Mz
-M3ODldfQ==
+eyJoaXN0b3J5IjpbLTEyNDM1MjY4MzgsNTQ5NTY3NDM0LDUxNz
+Q5NDk4Miw3MjA5MzM3ODldfQ==
 -->
