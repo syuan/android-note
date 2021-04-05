@@ -33,11 +33,11 @@ Resources.getSystem().getString(R.string.app_name) // exception
 
 시스템 리소스에 접근하는 경우
 ```kotlin
-getResources().getString(R.string.app_name) // ok
-Resources.getSystem().getString(R.string.app_name) // ok
+getResources().getString(android.R.string.cancel) // ok
+Resources.getSystem().getString(android.R.string.cancel) // ok
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Njk4OTczNCw1NDk1Njc0MzQsNTE3ND
-k0OTgyLDcyMDkzMzc4OV19
+eyJoaXN0b3J5IjpbLTIxMjM3ODEwMDIsNTQ5NTY3NDM0LDUxNz
+Q5NDk4Miw3MjA5MzM3ODldfQ==
 -->
