@@ -39,6 +39,8 @@ public static int dpToPx(Context context, int dp) {
 단말기에서 density 를 변경하면 전체에 반영되므로?
 하나의 Application 또는 Activity 가 다른 density 를 가지는 케이스 찾지 못함
   
+####   
+    
 #### Resources.getSystem() 사용이 문제가 되는 경우
 > https://stackoverflow.com/questions/8633539/resources-getsystem-vs-getresources
   
@@ -55,7 +57,7 @@ Resources.getSystem().getString(android.R.string.cancel) // ok
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc3MDIzNjgsLTEwMTgwMDU2MTAsLT
+eyJoaXN0b3J5IjpbLTE3MTg3Mzc2NzgsLTEwMTgwMDU2MTAsLT
 E2OTA4NzAxNjAsLTIxMjM3ODEwMDIsNTQ5NTY3NDM0LDUxNzQ5
 NDk4Miw3MjA5MzM3ODldfQ==
 -->
