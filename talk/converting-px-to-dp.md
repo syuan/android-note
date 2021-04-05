@@ -39,8 +39,9 @@ public static int dpToPx(Context context, int dp) {
 단말기에서 density 를 변경하면 전체에 반영되므로?
 하나의 Application 또는 Activity 가 다른 density 를 가지는 케이스 찾지 못함
   
-####   
-
+####  AOSP 에서 Resources.getSystem().getDisplayMetrics()  사용하는 곳이 있나? 
+3 곳 정도?
+NavigationBarCompat.class
 ```java
 private static int convertDpToPixel(float dp){  
     return (int) (dp * Resources.getSystem().getDisplayMetrics().density);  
@@ -63,7 +64,7 @@ Resources.getSystem().getString(android.R.string.cancel) // ok
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNDM5NDAsLTEwMTgwMDU2MTAsLTE2OT
-A4NzAxNjAsLTIxMjM3ODEwMDIsNTQ5NTY3NDM0LDUxNzQ5NDk4
-Miw3MjA5MzM3ODldfQ==
+eyJoaXN0b3J5IjpbLTE0OTA3OTA2NDAsLTEwMTgwMDU2MTAsLT
+E2OTA4NzAxNjAsLTIxMjM3ODEwMDIsNTQ5NTY3NDM0LDUxNzQ5
+NDk4Miw3MjA5MzM3ODldfQ==
 -->
