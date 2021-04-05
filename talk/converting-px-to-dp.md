@@ -23,6 +23,19 @@ val height = 8.dp
 
 
 
+#### Density 변경에 따른 상태 변화
+```java
+public static int dpToPx(int dp) {  
+   return (int) (dp * Resources.getSystem().getDisplayMetrics().density);  
+}  
+  
+public static int dpToPx(Context context, int dp) {  
+   return (int) (dp * context.getResources().getDisplayMetrics().density);  
+}
+```
+항상 동일한 값이 반환됨
+디바이스에서 
+  
 #### Resources.getSystem() 사용이 문제가 되는 경우
 > https://stackoverflow.com/questions/8633539/resources-getsystem-vs-getresources
   
@@ -39,6 +52,7 @@ Resources.getSystem().getString(android.R.string.cancel) // ok
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA4NzAxNjAsLTIxMjM3ODEwMDIsNT
-Q5NTY3NDM0LDUxNzQ5NDk4Miw3MjA5MzM3ODldfQ==
+eyJoaXN0b3J5IjpbMjIxMzY0NjQxLC0xNjkwODcwMTYwLC0yMT
+IzNzgxMDAyLDU0OTU2NzQzNCw1MTc0OTQ5ODIsNzIwOTMzNzg5
+XX0=
 -->
