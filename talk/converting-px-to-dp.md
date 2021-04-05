@@ -24,11 +24,20 @@ val height = 8.dp
 
 
 #### Resources.getSystem() 사용이 문제가 되는 경우
+
+App  리소스에 접근하는 경우
 ```kotlin
-getResources().getString(R.string.app_name)
-Resources.getSystem().getString(android.R.string.cancel)
+getResources().getString(R.string.app_name) // ok
+Resources.getSystem().getString(R.string.app_name) // exception
 ```
+
+시스템 리소스에 접근하는 경우
+```kotlin
+getResources().getString(R.string.app_name) // ok
+Resources.getSystem().getString(R.string.app_name) // ok
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM1MjY4MzgsNTQ5NTY3NDM0LDUxNz
-Q5NDk4Miw3MjA5MzM3ODldfQ==
+eyJoaXN0b3J5IjpbLTk3Njk4OTczNCw1NDk1Njc0MzQsNTE3ND
+k0OTgyLDcyMDkzMzc4OV19
 -->
