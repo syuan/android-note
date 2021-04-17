@@ -4,7 +4,7 @@
 
 > https://opentutorials.org/module/432/3742
 > https://arsviator.blogspot.com/2015/04/ssh-ssh-key.html
-
+> https://medium.com/@labcloud/ssh-%EC%95%94%ED%98%B8%ED%99%94-%EC%9B%90%EB%A6%AC-%EB%B0%8F-aws-ssh-%EC%A0%91%EC%86%8D-%EC%8B%A4%EC%8A%B5-33a08fa76596
   
 서버에 접속 할 때 비밀번호 대신 key를 제출하는 방식  
   
@@ -55,17 +55,19 @@ SSH 설치시 비대칭키 생성
 
 ##### 서버 인증 과정
 1. client 가 server에 SSH 시도하면, 서버의 공개키를 받아와 .ssh/known_hosts 저장
-2. client 받은 공개키로 난수를 암호화해서 server 전달 (난수의 hash 값을 저장해둠)
+2. client 받은 공개키로 난수를 암호화해서 server 전달 (난수의 hash 값을 저장)
 3. server 는 비밀키로 client 로 부터 받은 암호화된 난수를 복호화
 4. server 는 알아낸 난수의 hash 값을 client 로 전달
-5. client 는 처음 만든 난수의 hash 와 server 로 붙은 hash 를 비교
+5. client 는 처음 만든 난수의 hash 와 server 로 부터 전달 받은 hash 를 비교
 
 ##### 사용자 인증 과정
-1. server 는 난수를 하나 만들어서 암호화해서 client 로 전달 (authorized_keys 에 저장된 공개키로 암호화) (난수는 저장해둠)
+1. server 는 난수를 하나 만들어서 암호화해서 client 로 전달 (authorized_keys 에 저장된 공개키로 암호화) (난수의 hash 값을 저장)
 2. client 는 server 로 부터 받은 암호화된 난수를 비밀키로 복호화
 3. client 는 복호화된 난수의 hash 값을 서버로 전달
-4. 
+4. server 는 client 로 부터 전달 받은 hash 와 저장해둔 hash 값을 비교
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTk0NDY0NCwtMTkxMjk3NzY0MCwxOD
+eyJoaXN0b3J5IjpbMTcyOTA1OTA4NSwtMTkxMjk3NzY0MCwxOD
 I0NDc3NDIsLTExMTk3MjU4MTYsMTI5MjQ3Mzg1NF19
 -->
