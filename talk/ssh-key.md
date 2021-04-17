@@ -39,17 +39,20 @@ chmod 644 ~/.ssh/known_hosts
 파일 권한은 위와 같이 설정하는게 좋음
 
 
-#### ssh 사용
+#### SSH 사용 방법
 
 ``` sh
 $ ssh <ip>
 ```
 
 ``` sh
-$ ssh <><ip>
+$ ssh <id_rsa path> <ip>
 ```
 
+#### SSH 동작 원리
+remote 서버가 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjkyNTY1NSwtMTkxMjk3NzY0MCwxOD
-I0NDc3NDIsLTExMTk3MjU4MTYsMTI5MjQ3Mzg1NF19
+eyJoaXN0b3J5IjpbLTE5NDU4OTk5OTYsLTE5MTI5Nzc2NDAsMT
+gyNDQ3NzQyLC0xMTE5NzI1ODE2LDEyOTI0NzM4NTRdfQ==
 -->
