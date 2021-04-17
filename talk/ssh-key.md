@@ -21,7 +21,9 @@ SSH Key를 통해서 서버에 접속 할 때 Unix 계열(리눅스, 맥)에서�
 |authorized_keys|remote의.ssh 디렉토리에 위치 id_rsa.pub 키의 값을 저장 |
 
 client 에서 생성한 id_res.pub 을 remote 의 authorized_keys 에 추가해야함
-authorized_keys 의 복수개의 p 
+authorized_keys 의 복수개의 공개키를 가질수 있으니 append 할 것 
+
+//TODO 명령어로 추가하기도 하기도 하던데?
 
 ``` 
 chmod 700 ~/.ssh
@@ -38,6 +40,6 @@ chmod 644 ~/.ssh/known_hosts
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg5ODkxMTUsLTExMTk3MjU4MTYsMT
-I5MjQ3Mzg1NF19
+eyJoaXN0b3J5IjpbMTgyNDQ3NzQyLC0xMTE5NzI1ODE2LDEyOT
+I0NzM4NTRdfQ==
 -->
