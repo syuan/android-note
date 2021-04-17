@@ -20,7 +20,10 @@ SSH Key를 통해서 서버에 접속 할 때 Unix 계열(리눅스, 맥)에서�
 |id_rsa.pub     |public key, remote의 authorized_keys 파일에 추가  |
 |authorized_keys|remote의.ssh 디렉토리에 위치 id_rsa.pub 키의 값을 저장 |
 
-```
+client 에서 생성한 id_res.pub 을 remote 의 authorized_keys 에 추가해야함
+authorized_keys 의 복수개의 p 
+
+``` 
 chmod 700 ~/.ssh
 
 chmod 600 ~/.ssh/id_rsa
@@ -31,7 +34,10 @@ chmod 644 ~/.ssh/authorized_keys
 
 chmod 644 ~/.ssh/known_hosts
 ```
+파일 권한은 위와 같이 설정하는게 좋음
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDY3MjY4OSwtMTExOTcyNTgxNiwxMj
-kyNDczODU0XX0=
+eyJoaXN0b3J5IjpbLTE1OTg5ODkxMTUsLTExMTk3MjU4MTYsMT
+I5MjQ3Mzg1NF19
 -->
