@@ -53,12 +53,16 @@ $ ssh <id_rsa path> <ip>
 remote server에 SSH 데몬이 설치되어 있어야 가능
 SSH 설치시 비대칭키 생성
 
+#####
 1. client 가 server에 SSH 시도하면, 서버의 공개키를 받아와 .ssh/known_hosts 저장
 2. client 받은 공개키로 난수를 암호화해서 server 전달
-3. server는 비공개키로 client 로 부터 받은 난수를 복호화
-4. ㄴ 
+3. server는 비밀키로 client 로 부터 받은 난수를 복호화
+4. server 는 알아낸 난수의 hash 값을 client 로 전달
+5. client 는 처음 만든 난수의 hash 와 server 로 붙은 hash 를 비교
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MTQzMjgzLC0xOTEyOTc3NjQwLDE4Mj
+eyJoaXN0b3J5IjpbNjU5NjA3MDUzLC0xOTEyOTc3NjQwLDE4Mj
 Q0Nzc0MiwtMTExOTcyNTgxNiwxMjkyNDczODU0XX0=
 -->
