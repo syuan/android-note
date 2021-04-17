@@ -50,9 +50,12 @@ $ ssh <id_rsa path> <ip>
 ```
 
 #### SSH 동작 원리
-remote 서버가 
+remote 서버에 SSH 데몬이 설치되어 있어야 가능
+SSH 설치시 비대칭키 생성
+
+client 가 서버에 SSH 시도하면, 서버의 공개키를 받아와.ssh/known_hosts 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU4OTk5OTYsLTE5MTI5Nzc2NDAsMT
+eyJoaXN0b3J5IjpbLTEzOTYxODE1ODEsLTE5MTI5Nzc2NDAsMT
 gyNDQ3NzQyLC0xMTE5NzI1ODE2LDEyOTI0NzM4NTRdfQ==
 -->
