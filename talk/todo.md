@@ -104,12 +104,16 @@ https://github.com/tachiyomiorg/tachiyomi/blob/master/app/src/main/java/eu/kanad
 
 https://proandroiddev.com/create-android-studio-plugin-to-toggle-show-layout-bounds-part-1-91fd530d633a
 https://gpeal.medium.com/ten-androidlifehacks-you-can-use-today-9f74186fc207
+
+
+
+https://medium.com/androiddevelopers/working-with-package-visibility-dc252829de2d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODAwODM1MywtMTI4ODIxNzU2LC0yMD
-MzMjExNjkwLDc4ODUxMjMyOSwtODI5ODU1ODMwLDc3MTg5NzA5
-MywtMTA4ODQxMDU0NiwyNjgzOTk4NTMsNzE1ODc5NjcxLC04OD
-k2NjYzNjQsLTk0NTc3ODE4NSwtMTY0NzU4NTM4MCwtODc0NjE5
-OTc2LC03MjkwMTg0NTUsMjA1MDc2MjgzNCw2NzI1NjAzNywtMz
-M3NTUzMzEsMjExNDYxMDYxOCwtODMzOTgxOTQsNzI5MzI1ODI1
-XX0=
+eyJoaXN0b3J5IjpbLTk2Mjk2MzAzOSwyMDc4MDA4MzUzLC0xMj
+g4MjE3NTYsLTIwMzMyMTE2OTAsNzg4NTEyMzI5LC04Mjk4NTU4
+MzAsNzcxODk3MDkzLC0xMDg4NDEwNTQ2LDI2ODM5OTg1Myw3MT
+U4Nzk2NzEsLTg4OTY2NjM2NCwtOTQ1Nzc4MTg1LC0xNjQ3NTg1
+MzgwLC04NzQ2MTk5NzYsLTcyOTAxODQ1NSwyMDUwNzYyODM0LD
+Y3MjU2MDM3LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04MzM5ODE5
+NF19
 -->
