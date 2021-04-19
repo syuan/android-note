@@ -52,23 +52,59 @@
 :
 
 16.  What is the difference between commit and apply in SharedPrefs? Which is more performant SharedPrefs vs Databases?
+:
+
 17.  Describe how you could implement observable SharedPrefs or observable Databases i.e. Observe a certain key/table/query?
+:
+
 18.  How is sharing data and sharing control between process on Android different? How would you do both?
+:
+
 19.  What is the difference between Serializable and Parcelable? What are the disadvantages of Serializable?
+:
+
 20.  What are the different ways to protect api key inside a shipped apk?
+:
+
 21.  What is a man in the middle attack, how do you secure your apis from it and other attacks?
+:
+
 22.  What are the steps in Android build process from java/kt files to packaging? Explain in detail what is R.java, resources.arsc, manifest merging & signing etc.
+:
+
 23.  How is app bundle different from apk? What are build flavours and how are they different from product flavours and splits?
+:
+
 24.  How would you communicate between an Activity & Activity, Fragment & Fragment and Activity & Fragment?
+:
+
 25.  What are the different activity launch modes?
+:
+
 26.  What is the viewholder pattern, how will you implement it on a ListView? Explain the best practice to specify the listeners on the items inside the RecyclerView?
+:
+
 27.  What are the steps you can think of optimising RecyclerView performance?
+:
+
 28.  How would you implement a Sticky header in a RecyclerView from scratch.
+:
+
 29.  How is change in the dataset reflected in the RecyclerView? What is DiffUtil?
+:
+
 30.  What is Reflection in Java and why is it advised to use minimally?
+:
+
 31.  What are Generics in Java? In what cases are they useful and how do you restrict them?
+:
+
 32.  What is a Content Provider in Android and how do you access the content it provides?
+:
+
 33.  Implement an Android Content Provider on top of a dataset of comma separated files. Is it possible?
+:
+
 34.  How is data stored on databases on Android? What is an ORM & a Data Access Object? What are some ways to optimise Database read, write and update?
 35.  How thread safe is SQLite? Table-level lock or DB-level lock?
 36.  What is Dependency Injection Pattern? How does it compare to Service Registry Pattern?
@@ -77,5 +113,5 @@
 39.  What is the different between unit and instrumentation tests? Mockito vs RoboElectric?
 40.  What is CI/CD in context of Android? What are the pipelines and their guard-rails you have encountered in your experience before code merge, testing, release & rollout?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTY5NjQwNF19
+eyJoaXN0b3J5IjpbMjE1NjMwMDQwXX0=
 -->
