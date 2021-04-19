@@ -106,12 +106,26 @@
 :
 
 34.  How is data stored on databases on Android? What is an ORM & a Data Access Object? What are some ways to optimise Database read, write and update?
+:
+
 35.  How thread safe is SQLite? Table-level lock or DB-level lock?
+:
+
 36.  What is Dependency Injection Pattern? How does it compare to Service Registry Pattern?
+:
+
 37.  What are Dagger and Koin and how do they internally work?
+:
+
 38.  What are the problems around security when dealing with webviews.
+:
+
 39.  What is the different between unit and instrumentation tests? Mockito vs RoboElectric?
+:
+
 40.  What is CI/CD in context of Android? What are the pipelines and their guard-rails you have encountered in your experience before code merge, testing, release & rollout?
+:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NjMwMDQwXX0=
+eyJoaXN0b3J5IjpbLTIxMTQ1NjI2NDJdfQ==
 -->
