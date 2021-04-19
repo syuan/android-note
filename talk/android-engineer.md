@@ -7,22 +7,50 @@
 ### **Questions**
 
 1.  How does layout inflation work from xml tags to view reference in memory? How are attributes read and drawn and how many passes does a view before it’s completely shown on screen?
-
+: 
 
 2.  How would you go about implementing findViewById? Given 2 view references, how would you go about finding their ancestor view?
+:
+
 3.  Explain in complete detail on when you tap on a position/coordinate on phone say (140, 250), to the types of listeners fired, their priority on execution and event handling mechanism between child and parent layouts.
+:
+
 4.  What is a thread, handler, looper and message queue?
+:
+
 5.  What are the different methods of concurrency on Android? Can you explain the difference between ExecutorService vs CachedThreadPool vs FixedThreadPool vs AsyncTasks vs HandlerThreads?
+:
+
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
+:
+
 7.  Think and list down all the different ways to communicate between an application component and a service?
+:
+
 8.  When should you bind to a service, what is a ServiceConnection & how does binding work internally?
+:
+
 9.  What is the difference between using Messenger and AIDL? What are the advantages of using AIDL for interprocess communication?
+: 
+ 
 10.  In-memory vs Bundle vs SharedPrefs vs Database? What state do you persist in where?
+:
+
 11.  List down all the ways that you can think of to reduce the apk size.
+:
+
 12.  How is ANR, frame drop and frozen frames caused, how are they all different?
+:
+
 13.  What are the 3 steps of Proguard/R8, how to enable and disable them?
+:
+
 14.  What is consumer proguard, how is it different from Proguard?
+:
+
 15.  How do we unobfuscate a stack trace of a Proguard/R8 obfuscated apk?
+:
+
 16.  What is the difference between commit and apply in SharedPrefs? Which is more performant SharedPrefs vs Databases?
 17.  Describe how you could implement observable SharedPrefs or observable Databases i.e. Observe a certain key/table/query?
 18.  How is sharing data and sharing control between process on Android different? How would you do both?
@@ -49,5 +77,5 @@
 39.  What is the different between unit and instrumentation tests? Mockito vs RoboElectric?
 40.  What is CI/CD in context of Android? What are the pipelines and their guard-rails you have encountered in your experience before code merge, testing, release & rollout?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU0MzgwXX0=
+eyJoaXN0b3J5IjpbMTQxMTY5NjQwNF19
 -->
