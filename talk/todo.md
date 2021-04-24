@@ -108,12 +108,16 @@ https://gpeal.medium.com/ten-androidlifehacks-you-can-use-today-9f74186fc207
 
 
 https://medium.com/androiddevelopers/working-with-package-visibility-dc252829de2d
+
+
+
+https://developer.android.com/reference/tools/gradle-api/4.1/com/android/build/api/dsl/BuildType
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mjk2MzAzOSwyMDc4MDA4MzUzLC0xMj
-g4MjE3NTYsLTIwMzMyMTE2OTAsNzg4NTEyMzI5LC04Mjk4NTU4
-MzAsNzcxODk3MDkzLC0xMDg4NDEwNTQ2LDI2ODM5OTg1Myw3MT
-U4Nzk2NzEsLTg4OTY2NjM2NCwtOTQ1Nzc4MTg1LC0xNjQ3NTg1
-MzgwLC04NzQ2MTk5NzYsLTcyOTAxODQ1NSwyMDUwNzYyODM0LD
-Y3MjU2MDM3LC0zMzc1NTMzMSwyMTE0NjEwNjE4LC04MzM5ODE5
-NF19
+eyJoaXN0b3J5IjpbLTE1MjkyNDIwNzgsLTk2Mjk2MzAzOSwyMD
+c4MDA4MzUzLC0xMjg4MjE3NTYsLTIwMzMyMTE2OTAsNzg4NTEy
+MzI5LC04Mjk4NTU4MzAsNzcxODk3MDkzLC0xMDg4NDEwNTQ2LD
+I2ODM5OTg1Myw3MTU4Nzk2NzEsLTg4OTY2NjM2NCwtOTQ1Nzc4
+MTg1LC0xNjQ3NTg1MzgwLC04NzQ2MTk5NzYsLTcyOTAxODQ1NS
+wyMDUwNzYyODM0LDY3MjU2MDM3LC0zMzc1NTMzMSwyMTE0NjEw
+NjE4XX0=
 -->
