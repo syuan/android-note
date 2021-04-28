@@ -1,6 +1,10 @@
 
 오늘은  무엇을  배웠습니까? 또는  무엇을 처음 해보았는가?
 
+- checkmarx -> secure coding guide
+- text
+
+
 - sunflower
 - 
 - 코루틴
@@ -113,11 +117,11 @@ https://medium.com/androiddevelopers/working-with-package-visibility-dc252829de2
 
 https://developer.android.com/reference/tools/gradle-api/4.1/com/android/build/api/dsl/BuildType
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkyNDIwNzgsLTk2Mjk2MzAzOSwyMD
-c4MDA4MzUzLC0xMjg4MjE3NTYsLTIwMzMyMTE2OTAsNzg4NTEy
-MzI5LC04Mjk4NTU4MzAsNzcxODk3MDkzLC0xMDg4NDEwNTQ2LD
-I2ODM5OTg1Myw3MTU4Nzk2NzEsLTg4OTY2NjM2NCwtOTQ1Nzc4
-MTg1LC0xNjQ3NTg1MzgwLC04NzQ2MTk5NzYsLTcyOTAxODQ1NS
-wyMDUwNzYyODM0LDY3MjU2MDM3LC0zMzc1NTMzMSwyMTE0NjEw
-NjE4XX0=
+eyJoaXN0b3J5IjpbNTY4MDA4NTksLTE1MjkyNDIwNzgsLTk2Mj
+k2MzAzOSwyMDc4MDA4MzUzLC0xMjg4MjE3NTYsLTIwMzMyMTE2
+OTAsNzg4NTEyMzI5LC04Mjk4NTU4MzAsNzcxODk3MDkzLC0xMD
+g4NDEwNTQ2LDI2ODM5OTg1Myw3MTU4Nzk2NzEsLTg4OTY2NjM2
+NCwtOTQ1Nzc4MTg1LC0xNjQ3NTg1MzgwLC04NzQ2MTk5NzYsLT
+cyOTAxODQ1NSwyMDUwNzYyODM0LDY3MjU2MDM3LC0zMzc1NTMz
+MV19
 -->
