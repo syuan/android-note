@@ -2,7 +2,7 @@
 오늘은  무엇을  배웠습니까? 또는  무엇을 처음 해보았는가?
 
 - checkmarx -> secure coding guide
-- text
+- text 개행 위치 조절
 
 
 - sunflower
@@ -117,11 +117,11 @@ https://medium.com/androiddevelopers/working-with-package-visibility-dc252829de2
 
 https://developer.android.com/reference/tools/gradle-api/4.1/com/android/build/api/dsl/BuildType
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MDA4NTksLTE1MjkyNDIwNzgsLTk2Mj
-k2MzAzOSwyMDc4MDA4MzUzLC0xMjg4MjE3NTYsLTIwMzMyMTE2
-OTAsNzg4NTEyMzI5LC04Mjk4NTU4MzAsNzcxODk3MDkzLC0xMD
-g4NDEwNTQ2LDI2ODM5OTg1Myw3MTU4Nzk2NzEsLTg4OTY2NjM2
-NCwtOTQ1Nzc4MTg1LC0xNjQ3NTg1MzgwLC04NzQ2MTk5NzYsLT
-cyOTAxODQ1NSwyMDUwNzYyODM0LDY3MjU2MDM3LC0zMzc1NTMz
-MV19
+eyJoaXN0b3J5IjpbMjA0NTEyOTkyLC0xNTI5MjQyMDc4LC05Nj
+I5NjMwMzksMjA3ODAwODM1MywtMTI4ODIxNzU2LC0yMDMzMjEx
+NjkwLDc4ODUxMjMyOSwtODI5ODU1ODMwLDc3MTg5NzA5MywtMT
+A4ODQxMDU0NiwyNjgzOTk4NTMsNzE1ODc5NjcxLC04ODk2NjYz
+NjQsLTk0NTc3ODE4NSwtMTY0NzU4NTM4MCwtODc0NjE5OTc2LC
+03MjkwMTg0NTUsMjA1MDc2MjgzNCw2NzI1NjAzNywtMzM3NTUz
+MzFdfQ==
 -->
