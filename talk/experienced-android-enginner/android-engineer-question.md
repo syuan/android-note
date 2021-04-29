@@ -8,7 +8,10 @@
 
 1.  How does layout inflation work from xml tags to view reference in memory? How are attributes read and drawn and how many passes does a view before it’s completely shown on screen?
 : layout resource id 로 xml layout file 를 가져와서 파싱 작업 수행
-xml 파싱 작업은 속도의 이유로 jni (c++) 로 파싱 하여 뷰를 생성 (Layout)
+xml 파싱 작업은 속도의 이유로 jni (c++) 로 파싱 하여 뷰를 생성 
+Activity 의 content view 가 inflate 된 경우, Activity Window deco 뷰에 attach
+onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐 
+// TO
 
 2.  How would you go about implementing findViewById? Given 2 view references, how would you go about finding their ancestor view?
 :
@@ -128,5 +131,6 @@ xml 파싱 작업은 속도의 이유로 jni (c++) 로 파싱 하여 뷰를 생�
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzA4MTE2NCwtMjExNDU2MjY0Ml19
+eyJoaXN0b3J5IjpbMTQ1MjE5Mjk0MywyMDg3MDgxMTY0LC0yMT
+E0NTYyNjQyXX0=
 -->
