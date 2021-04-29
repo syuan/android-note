@@ -11,7 +11,7 @@
 xml 파싱 작업은 속도의 이유로 jni (c++) 로 파싱 하여 뷰를 생성 
 Activity 의 content view 가 inflate 된 경우, Activity Window deco 뷰에 attach
 onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐 
-// TO
+// TODO 이 사이에 과정은 무엇을 더 설명하면 좋을까? rendering 과정? frame buffer?
 
 2.  How would you go about implementing findViewById? Given 2 view references, how would you go about finding their ancestor view?
 :
@@ -131,6 +131,6 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjE5Mjk0MywyMDg3MDgxMTY0LC0yMT
+eyJoaXN0b3J5IjpbMTkyMDIwMTU4MywyMDg3MDgxMTY0LC0yMT
 E0NTYyNjQyXX0=
 -->
