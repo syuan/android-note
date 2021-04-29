@@ -7,7 +7,8 @@
 ### **Questions**
 
 1.  How does layout inflation work from xml tags to view reference in memory? How are attributes read and drawn and how many passes does a view before it’s completely shown on screen?
-: 
+: layout resource id 로 xml layout file 를 가져와서 파싱 작업 수행
+xml 파싱 작업은 속도의 이유로  
 
 2.  How would you go about implementing findViewById? Given 2 view references, how would you go about finding their ancestor view?
 :
@@ -127,5 +128,5 @@
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ1NjI2NDJdfQ==
+eyJoaXN0b3J5IjpbMTQyODkxODQ0OSwtMjExNDU2MjY0Ml19
 -->
