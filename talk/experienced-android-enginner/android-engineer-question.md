@@ -14,7 +14,7 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 // TODO 이 사이에 과정은 무엇을 더 설명하면 좋을까? rendering 과정? frame buffer?
 
 2.  How would you go about implementing findViewById? Given 2 view references, how would you go about finding their ancestor view?
-:
+: findViewById 는 구현은 해당 ViewGroup 에서 자식을 순회하면서 탐색하면서 해당하는 id 를 탐색, 부모뷰를 찾는 방식은 parent 를 위로 따라 올락
 
 3.  Explain in complete detail on when you tap on a position/coordinate on phone say (140, 250), to the types of listeners fired, their priority on execution and event handling mechanism between child and parent layouts.
 :
@@ -131,6 +131,6 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDIwMTU4MywyMDg3MDgxMTY0LC0yMT
+eyJoaXN0b3J5IjpbLTE0NjE4OTI2OCwyMDg3MDgxMTY0LC0yMT
 E0NTYyNjQyXX0=
 -->
