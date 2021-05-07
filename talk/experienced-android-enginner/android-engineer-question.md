@@ -17,7 +17,7 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 : findViewById 는 구현은 해당 ViewGroup 에서 자식을 순회하면서 탐색하면서 해당하는 id 를 탐색, 부모뷰를 찾는 방식은 parent 를 위로 따라 올라가면서 찾기 같은 부모 뷰를 발견하면 되는거 아닌가?
 
 3.  Explain in complete detail on when you tap on a position/coordinate on phone say (140, 250), to the types of listeners fired, their priority on execution and event handling mechanism between child and parent layouts.
-: layout 은 view 와 view group 으로 구성되며, touch event 전달은 최상위 부모 뷰에서 자식 뷰/뷰 그룹으로 전달된다. event 은 dispatch touch event 로 전달되며, 
+: layout 은 view 와 view group 으로 구성되며, touch event 전달은 최상위 부모 뷰에서 자식 뷰/뷰 그룹으로 전달된다. event 은 dispatch touch event 로 전달되며, view group 이 intercept touch event 함수를 통해서 intercept 할 할 기회를 먼저 가진다. view group 이 intercept 하지 않은 경우에 최 하단의 뷰의 touch event 부터 순차로 불리게 된다. 
 
 4.  What is a thread, handler, looper and message queue?
 :
@@ -131,6 +131,6 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2OTc1ODksMTUxNDI3NzAxOSwyMD
+eyJoaXN0b3J5IjpbLTIwNzM1Nzc4NTksMTUxNDI3NzAxOSwyMD
 g3MDgxMTY0LC0yMTE0NTYyNjQyXX0=
 -->
