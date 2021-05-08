@@ -20,7 +20,9 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 : layout 은 view 와 view group 으로 구성되며, touch event 전달은 최상위 부모 뷰에서 자식 뷰/뷰 그룹으로 전달된다. event 은 dispatch touch event 로 전달되며, view group 이 intercept touch event 함수를 통해서 intercept 할 할 기회를 먼저 가진다. view group 이 intercept 하지 않은 경우에 최 하단의 뷰의 touch event 부터 순차로 불리게 된다. touch event 를 해당 뷰가 핸딜하고 true 로 값을 반환하는 경우 event 는 더 이상 위로 전달되지 않고 event 전달이 마감된다.
 
 4.  What is a thread, handler, looper and message queue?
-:
+: android 에서 thread 간의 동기화 / 
+thread 는 하나의 looper 를 가질 수 있음
+
 
 5.  What are the different methods of concurrency on Android? Can you explain the difference between ExecutorService vs CachedThreadPool vs FixedThreadPool vs AsyncTasks vs HandlerThreads?
 :
@@ -131,6 +133,6 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTk2MDcwMywxNTE0Mjc3MDE5LDIwOD
-cwODExNjQsLTIxMTQ1NjI2NDJdfQ==
+eyJoaXN0b3J5IjpbLTE0NDg5ODI4MDEsMTUyOTk2MDcwMywxNT
+E0Mjc3MDE5LDIwODcwODExNjQsLTIxMTQ1NjI2NDJdfQ==
 -->
