@@ -22,7 +22,8 @@ onCreate() 에서 생성된 뷰는 onResume 시점에 사용자에게 보여짐
 4.  What is a thread, handler, looper and message queue?
 : android 에서 thread 간의 동기화 문제를 해결하기 위해서 전통적인 방식인 producer- consumer 방식인 message handling 방식을 사용하고 있음
 thread 는 하나의 looper 를 가질 수 있으며, thread local 에 하나의 looper 를 저장해 두고 사용
-looper 는 message queue 를 가지고 있으며, thr
+looper 는 message queue 를 가지고 있으며, 해당 thread 에서 처리하기 위한 message 를 queue 에 담아 두었다가 하나씩 순차적으로 처리함
+ha
 
 
 5.  What are the different methods of concurrency on Android? Can you explain the difference between ExecutorService vs CachedThreadPool vs FixedThreadPool vs AsyncTasks vs HandlerThreads?
@@ -134,6 +135,6 @@ looper 는 message queue 를 가지고 있으며, thr
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDg3NjMzMywxNTI5OTYwNzAzLDE1MT
-QyNzcwMTksMjA4NzA4MTE2NCwtMjExNDU2MjY0Ml19
+eyJoaXN0b3J5IjpbLTEyODAxNjY1NzcsMTUyOTk2MDcwMywxNT
+E0Mjc3MDE5LDIwODcwODExNjQsLTIxMTQ1NjI2NDJdfQ==
 -->
