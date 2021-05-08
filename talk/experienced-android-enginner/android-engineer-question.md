@@ -40,7 +40,9 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 - HandlerThread 는 안드로이드에서 제공되는 클래스로 기본 worker thread 는 looper 가 비어 있는 상태로 만들어지는데, HandlerThread 는 worker thread 사용의 편의를 위하여 looper 와 handler 를 설정해서 제공하는 클래스 
 
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
-:
+: os 버전마다 gc 의 동작의 차이가 있음
+2.3 정도 까지는 stop the world 방식 gc 를 하는 동안 /
+
 
 7.  Think and list down all the different ways to communicate between an application component and a service?
 :
@@ -145,7 +147,7 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyMDc1MTI5LC0xMjA5ODIzOTQ3LDE1Mj
-k5NjA3MDMsMTUxNDI3NzAxOSwyMDg3MDgxMTY0LC0yMTE0NTYy
-NjQyXX0=
+eyJoaXN0b3J5IjpbLTE5Mjg1MDQ0NzIsLTEyMDk4MjM5NDcsMT
+UyOTk2MDcwMywxNTE0Mjc3MDE5LDIwODcwODExNjQsLTIxMTQ1
+NjI2NDJdfQ==
 -->
