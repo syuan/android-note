@@ -4,6 +4,8 @@
 
 > https://saumyesrivastava.medium.com/how-in-depth-can-you-answer-these-as-an-android-engineer-f61a7c2d736c
 
+// 찾아보지 않고 일단 생각나는대로 적어보기
+
 ### **Questions**
 
 1.  How does layout inflation work from xml tags to view reference in memory? How are attributes read and drawn and how many passes does a view before it’s completely shown on screen?
@@ -30,6 +32,8 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 5.  What are the different methods of concurrency on Android? Can you explain the difference between ExecutorService vs CachedThreadPool vs FixedThreadPool vs AsyncTasks vs HandlerThreads?
 : ExecutorService 는 thread pool 과 queue 로 구성된 로 전통적인 thread 동기화 모델인 producer-consumer 방식인 interface 
 CachedThreadPool 은 최대 thread 개수를 가지고 있으며, 요청이 많은 경우 최대까지 thread 를 증가 시키고 alive time 까지 thread 를 유지/종료함?
+요청이 적은 경우 최소의 thread 를 유지하고 많은
+
 FixedThreadPool 은 
 
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
@@ -138,6 +142,6 @@ FixedThreadPool 은
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2Mjc1MzE0LDE1Mjk5NjA3MDMsMTUxND
-I3NzAxOSwyMDg3MDgxMTY0LC0yMTE0NTYyNjQyXX0=
+eyJoaXN0b3J5IjpbLTE4Mzg3MDcxMzIsMTUyOTk2MDcwMywxNT
+E0Mjc3MDE5LDIwODcwODExNjQsLTIxMTQ1NjI2NDJdfQ==
 -->
