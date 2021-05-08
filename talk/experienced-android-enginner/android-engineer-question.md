@@ -37,7 +37,7 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 - FixedThreadPool 은 고정된 thread 수만큼의 pool 에 유지하는 방식
 - AsyncTask 는 안드로이드에서 thread 사용을 용이하게 하기 위해 제공하는 유틸 클래스
 내부적으로는 위의 ExecutorService 사용함, 초기에는 매우큰 thread pool 을 사용하는 executor 의 동작만 제공하였으나, 버전이 올라가면서 pool 크기를 줄이고 single executor 를 사용할 수 있도록, 2가지 executor 를 제공, 현재는 rxjava, coroutine 같은 더 모던한 방식들이 제공되면서 deprecate 되었음
-- 
+- HandlerThread 는 
 
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
 :
@@ -145,6 +145,6 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTYwMDc0MCwxNTI5OTYwNzAzLDE1MT
-QyNzcwMTksMjA4NzA4MTE2NCwtMjExNDU2MjY0Ml19
+eyJoaXN0b3J5IjpbNjc3NDc1Mzg4LDE1Mjk5NjA3MDMsMTUxND
+I3NzAxOSwyMDg3MDgxMTY0LC0yMTE0NTYyNjQyXX0=
 -->
