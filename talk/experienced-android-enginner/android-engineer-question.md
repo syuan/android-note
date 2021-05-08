@@ -28,7 +28,8 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 
 
 5.  What are the different methods of concurrency on Android? Can you explain the difference between ExecutorService vs CachedThreadPool vs FixedThreadPool vs AsyncTasks vs HandlerThreads?
-: ExecutorService 는 thread pool 과 queue 로 구성된 interface 로 전통적인 thread 동기화 모델인 produ
+: ExecutorService 는 thread pool 과 queue 로 구성된 로 전통적인 thread 동기화 모델인 producer-consumer 방식인 interface 
+CachedThreadPool 은 
 
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
 :
@@ -136,6 +137,6 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0MTg5MzQ5LDE1Mjk5NjA3MDMsMTUxND
+eyJoaXN0b3J5IjpbLTE2MDU5NDg2LDE1Mjk5NjA3MDMsMTUxND
 I3NzAxOSwyMDg3MDgxMTY0LC0yMTE0NTYyNjQyXX0=
 -->
