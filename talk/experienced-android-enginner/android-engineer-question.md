@@ -42,7 +42,8 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
 : os 버전마다 gc 의 동작의 차이가 있음
 2.3 정도 까지는 stop the world 방식 gc 를 하는 동안 /
-
+reference 를 counting 해서 더이상 참조가 없는 object 는 marking 작업을 수행
+gc 가 돌면서 마 
 
 7.  Think and list down all the different ways to communicate between an application component and a service?
 :
@@ -147,7 +148,7 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg1MDQ0NzIsLTEyMDk4MjM5NDcsMT
-UyOTk2MDcwMywxNTE0Mjc3MDE5LDIwODcwODExNjQsLTIxMTQ1
-NjI2NDJdfQ==
+eyJoaXN0b3J5IjpbNTY3NzIyMzA4LC0xOTI4NTA0NDcyLC0xMj
+A5ODIzOTQ3LDE1Mjk5NjA3MDMsMTUxNDI3NzAxOSwyMDg3MDgx
+MTY0LC0yMTE0NTYyNjQyXX0=
 -->
