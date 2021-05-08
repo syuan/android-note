@@ -33,8 +33,7 @@ handler 는 2가지의 역할이 있음, 해당 thread 로 message 를 보내는
 : ExecutorService 는 thread pool 과 queue 로 구성된 로 전통적인 thread 동기화 모델인 producer-consumer 방식인 interface 
 CachedThreadPool 은 최대 thread 개수를 가지고 있으며, 요청이 많은 경우 최대까지 thread 를 증가 시키고 alive time 까지 thread 를 유지/종료함?
 요청이 적은 경우 최소의 thread 를 유지하고, 요청이 많은 경우 최대 thread 만큼을 유지하는 유동적으로 thread 수를 조절하는 기능
-
-FixedThreadPool 은 고정된 thread 수만큼의 po
+FixedThreadPool 은 고정된 thread 수만큼의 pool 에 유지하는 방식
 
 6.  How does Garbage Collection work on Android? Explain the terms reference counting, mark and sweep?
 :
@@ -142,6 +141,6 @@ FixedThreadPool 은 고정된 thread 수만큼의 po
 :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzU5MzMxMSwxNTI5OTYwNzAzLDE1MT
-QyNzcwMTksMjA4NzA4MTE2NCwtMjExNDU2MjY0Ml19
+eyJoaXN0b3J5IjpbLTE2MjA3OTk5MTYsMTUyOTk2MDcwMywxNT
+E0Mjc3MDE5LDIwODcwODExNjQsLTIxMTQ1NjI2NDJdfQ==
 -->
