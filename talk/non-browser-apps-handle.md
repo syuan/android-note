@@ -29,8 +29,7 @@ try {
 
 FLAG_ACTIVITY_REQUIRE_DEFAULT 옵션을 추가하면
 UIR 를 처리할 수 있는 앱이 하나가 아닌 복수개여서 CHOOSER 가 나타나는 경우
-ActivityNotFoundException 발생
- 
+ActivityNotFoundException 발생 
 
 ```kotlin
 try {  
@@ -51,5 +50,5 @@ try {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjEzMjU4NV19
+eyJoaXN0b3J5IjpbLTIwMzU3NzE5NjNdfQ==
 -->
