@@ -8,6 +8,7 @@ URI 를 열때 BROWSER 가 아닌 앱들로 제한하고 싶다면
 새로 추가된 FLAG_ACTIVITY_REQUIRE_NON_BROWSER 를 사용하면 됨
 
 > 특정 URI 는 BROWSER 가 아닌 앱이 처리하는게 유저 경험이 더 좋을 수도 있으니까
+> 뭐가 있을까? mailto://, tel://, file:// ?
 
 해당하는 앱이 없다면 ActivityNotFoundException 이 발생
 (URI 를 처리할 수 있는 앱이 BROWSER 들 뿐인 경우도 해당)
@@ -52,5 +53,5 @@ try {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDU2ODAzMF19
+eyJoaXN0b3J5IjpbLTExMzk5Njc0NTVdfQ==
 -->
