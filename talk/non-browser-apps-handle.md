@@ -8,7 +8,7 @@ URI 를 열때 BROWSER 가 아닌 앱들로 제한하고 싶다면
 새로 추가된 FLAG_ACTIVITY_REQUIRE_NON_BROWSER 를 사용하면 됨
 
 해당하는 앱이 없다면 ActivityNotFoundException 이 발생
-(URI 를 처리할 수 있는 앱이 BROWSER들 뿐인 경우도 해당)
+(URI 를 처리할 수 있는 앱이 BROWSER 들 뿐인 경우도 해당)
 
 ```kotlin
 try {  
@@ -27,6 +27,10 @@ try {
 }
 ```
 
+FLAG_ACTIVITY_REQUIRE_DEFAULT 옵션을 추가하면
+UIR 를 처리할 수 있는 앱이 하나가 아닌 복수개여서 CHOOSER 가 나타나는 경우
+ActivityNotFoundException 발생
+ 
 
 ```kotlin
 try {  
@@ -47,5 +51,5 @@ try {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTkxNDUwOF19
+eyJoaXN0b3J5IjpbLTQwNjEzMjU4NV19
 -->
