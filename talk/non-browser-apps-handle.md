@@ -2,6 +2,9 @@
 
 # Let non-browser apps handle URLs
 
+> https://developer.android.com/training/package-visibility/use-cases
+
+URI 를 열때 BROWS
 
 ```kotlin
 try {  
@@ -40,5 +43,5 @@ try {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDE1MzQ0NV19
+eyJoaXN0b3J5IjpbLTE4NTIwODk5ODBdfQ==
 -->
