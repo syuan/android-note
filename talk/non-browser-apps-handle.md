@@ -52,6 +52,11 @@ try {
   openInCustomTabs(url)  
 }
 ```
+
+
+>https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/android/content/Intent.java;l=11208?q=isWebIntent
+
+>https://cs.android.com/android/platform/superproject/+/master:frameworks/base/services/core/java/com/android/server/pm/PackageManagerService.java?q=RESOLVE_NON_BROWSER_ONLY
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk5Njc0NTVdfQ==
+eyJoaXN0b3J5IjpbMTEwMTg3Nzg4NiwtMTEzOTk2NzQ1NV19
 -->
