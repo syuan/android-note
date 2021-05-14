@@ -38,7 +38,9 @@ post 이전에는 뷰가 attach 되어 있어서 뷰들이 정상이고 사용�
 - 첫번재 Fragment 가 detach 되었는데 첫번째 Fragment 의 post() 구분이 실행됨
 - synthetic 에 캐시된 뷰는 null 이 아니지만 캐시가 안된 뷰는 null 이고 findViewById 로 찾으려 하지만 detach 되어서 뷰가 남아있지 않음, 그래서 null 이 반환됨
 
-결
+결론
+
+- Frag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODExOTE4M119
+eyJoaXN0b3J5IjpbLTY4OTUyOTI1Ml19
 -->
