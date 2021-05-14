@@ -27,10 +27,15 @@ kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 
 - Activity restore 과정에서 fragment 가 시스템에 의해서 되살아 났지만, fragment 를 새로 생성해서 replace
 - onActivityCreated() 시점에 해당 코드 (스낵바를 보여주는) 를 수행
 
+
 문제의 원인
 
+- 문제는 Activity 가 restore 될때 발생
 - Fragment 가 2번 생성되면서 onActivityCreated() 가 두번 불림
-첫번째 Fragment 에 생성되서 스낵바를 생성될때 
+첫번째 Fragment 에 생성되어 스낵바를 생성하고 보여줄때, 일부 동작을 post() 로 수행
+post 이전에는 뷰가 attach 되어 있어서 뷰들이 정상이고 사용한 일부 뷰는  synthetic 캐시에 저장됨
+- 두번째 Fragment 로 replace 되면서 첫번재 Fragment 는 detach 되버림
+- 두번째
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcxODM2NTNdfQ==
+eyJoaXN0b3J5IjpbLTk5MzQ2MDUwNl19
 -->
