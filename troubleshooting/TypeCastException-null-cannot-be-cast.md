@@ -14,8 +14,10 @@ Fatal Exception: kotlin.TypeCastException: null cannot be cast to non-null type 
        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)
 ```
 
-kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 경우
-일반적인
+kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 경우  
+일반적인 경우는 synthetic 으로 사용되는 변수가 null 일 수 없음  
+
+첫번째 의구심은 synthetic 으로 선언된 변수 중에서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzI1MjMwN119
+eyJoaXN0b3J5IjpbMTUzMjQ0MjY1Nl19
 -->
