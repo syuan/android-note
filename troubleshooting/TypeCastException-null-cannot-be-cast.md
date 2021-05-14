@@ -17,7 +17,11 @@ Fatal Exception: kotlin.TypeCastException: null cannot be cast to non-null type 
 kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 경우  
 일반적인 경우는 synthetic 으로 사용되는 변수가 null 일 수 없음  
 
-첫번째 의구심은 synthetic 으로 선언된 변수 중에서 
+- 첫번째 의구심은 synthetic 으로 선언된 변수 중에서 하나는 null 이 아니였음
+- 두번째 의구심은 synthetic 으로 선언된 변수가 null 이 될 수 있는가?
+
+묹
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjQ0MjY1Nl19
+eyJoaXN0b3J5IjpbNzgzNjEyNDUxXX0=
 -->
