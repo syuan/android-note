@@ -19,7 +19,7 @@ Fatal Exception: java.lang.RuntimeException: Canvas: trying to draw too large(12
   
 문제의 원인은 기존과 비슷하게 Glide 를 사용할때  match_parent, wrap_content 로 ImageView 의 layout 이 설정되어 있었고 (target size 가 device 로 크기로 설정됨)
 
-이미지의 비율이 비
+이미지의 비율이 비정상적이지는 않았음 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NjQ3NTE0XX0=
+eyJoaXN0b3J5IjpbMTExMTM1MzM5XX0=
 -->
