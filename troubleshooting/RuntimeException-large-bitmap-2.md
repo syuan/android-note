@@ -22,7 +22,7 @@ Fatal Exception: java.lang.RuntimeException: Canvas: trying to draw too large(12
 이미지의 비율은 (정상적) 1344 x 288
 디바이스 비율은 1080 x 2076
 
-업 스케일이 수행되면서 
+Glide 내부 동작으로 업 스케일이 수행되면서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjI0Mzk4NF19
+eyJoaXN0b3J5IjpbLTEwNjM4MjUwODldfQ==
 -->
