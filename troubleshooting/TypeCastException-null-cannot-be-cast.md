@@ -40,7 +40,9 @@ post 이전에는 뷰가 attach 되어 있어서 뷰들이 정상이고 사용�
 
 결론
 
-- Frag
+- Fragment 잘못된 사용과, post() 구분이 detach 이후 실행되는 문제
+- synthetic 을 사용하지 않고 viewbinding 이라면 leak 이였을것 (크래시는 아님)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTUyOTI1Ml19
+eyJoaXN0b3J5IjpbLTE5MzMxMzIyNzJdfQ==
 -->
