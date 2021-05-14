@@ -28,7 +28,7 @@ scale factor 가 7.6 정도 였음
 1344 x 288 x 7.6 x 4 로 11766988.8 byte = 11mb 정도 였음
 하지만 실제는 120472576bytes 로 decoding 되는 문제가 존재
 
-해당 단말기의 조건에서  크게 디코딩되는 문제가 있었음 
+해당 단말기의 조건에서 크게 디코딩되는 문제가 있었음 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTkxMzg4OV19
+eyJoaXN0b3J5IjpbMTA0NDAwMjk4OV19
 -->
