@@ -30,7 +30,7 @@ kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 
 문제의 원인
 
 - Fragment 가 2번 생성되면서 onActivityCreated() 가 두번 불림
-첫번째
+첫번째 Fragment 에 생성되서 스낵바를 생성될때 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTk1MjU2XX0=
+eyJoaXN0b3J5IjpbLTExNjcxODM2NTNdfQ==
 -->
