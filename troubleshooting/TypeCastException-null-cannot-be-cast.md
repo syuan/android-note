@@ -35,7 +35,10 @@ kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 
 첫번째 Fragment 에 생성되어 스낵바를 생성하고 보여줄때, 일부 동작을 post() 로 수행
 post 이전에는 뷰가 attach 되어 있어서 뷰들이 정상이고 사용한 일부 뷰는  synthetic 캐시에 저장됨
 - 두번째 Fragment 로 replace 되면서 첫번재 Fragment 는 detach 되버림
-- 두번째
+- 첫번재 Fragment 가 detach 되었는데 첫번째 Fragment 의 post() 구분이 실행됨
+- synthetic 에 캐시된 뷰는 null 이 아니지만 캐시가 안된 뷰는 null 이고 findViewById 로 찾으려 하지만 detach 되어서 뷰가 남아있지 않음, 그래서 null 이 반환됨
+
+결
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzQ2MDUwNl19
+eyJoaXN0b3J5IjpbMTI0ODExOTE4M119
 -->
