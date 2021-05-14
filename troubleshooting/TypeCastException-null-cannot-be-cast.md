@@ -20,9 +20,12 @@ kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 
 - 첫번째 의구심은 synthetic 으로 선언된 변수 중에서 하나는 null 이 아니였음
 - 두번째 의구심은 synthetic 으로 선언된 변수가 null 이 될 수 있는가?
 
-문제는 여러가지가 복합적이였음
+문제는 여러가지가 복합적
 
-- 
+- view.post() 를 사용해서 동작을 lazy 하게 수행하는 코드에서 발생
+- synthetic 을 사용해서 일바는 캐시에 저장된 변수를 사용
+- Activity restore 과정에서 fragment 가 시스템에 의해서 되살아 났지만, fragment 를 새로 생성해서 replace
+- onActivityCreated() 시점에 해당 코드 (스낵바를 )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIwNTEwNjBdfQ==
+eyJoaXN0b3J5IjpbMTI1NDQ1MTIyMF19
 -->
