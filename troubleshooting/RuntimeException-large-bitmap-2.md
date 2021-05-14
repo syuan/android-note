@@ -23,7 +23,9 @@ Fatal Exception: java.lang.RuntimeException: Canvas: trying to draw too large(12
 디바이스 비율은 1080 x 2076
 
 Glide 내부 동작으로 CenterOutside(up scale)이 수행되면서 
+scale factor 가 7.6 정도 였음
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTAxNzY2XX0=
+eyJoaXN0b3J5IjpbNjA0MDczMjE3XX0=
 -->
