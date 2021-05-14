@@ -27,7 +27,9 @@ kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 
 - Activity restore 과정에서 fragment 가 시스템에 의해서 되살아 났지만, fragment 를 새로 생성해서 replace
 - onActivityCreated() 시점에 해당 코드 (스낵바를 보여주는) 를 수행
 
+문제의 원인
 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDEyMjc1NV19
+eyJoaXN0b3J5IjpbLTE2ODc1MzYyOTZdfQ==
 -->
