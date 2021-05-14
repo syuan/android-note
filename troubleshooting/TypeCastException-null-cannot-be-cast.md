@@ -29,7 +29,7 @@ kotlin synthetic 으로 선언된 변수가 null 을 반환해서 문제가 된 
 
 문제의 원인
 
-- 
+- Fragment 가 2번 생성되면서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc1MzYyOTZdfQ==
+eyJoaXN0b3J5IjpbMTU1MDA4MzQwMl19
 -->
