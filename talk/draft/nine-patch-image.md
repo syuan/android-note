@@ -10,7 +10,7 @@ https://github.com/bumptech/glide/issues/3555
 <- 동작 하는 건가?
 
 
-
+https://github.com/bumptech/glide/issues/1766
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTc0Mzk5NV19
+eyJoaXN0b3J5IjpbMTg5MzUzMTUzXX0=
 -->
