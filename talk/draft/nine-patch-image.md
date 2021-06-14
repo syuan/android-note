@@ -1,9 +1,16 @@
 
 
-nine patch image
+## Use code to load NinePatch pictures in Android (.9 picture)
+
 https://www.programmersought.com/article/97346007070/
+<- BitmapFactory.decodeFile 사용하는건데 잘 되나 ?
+
+
+https://github.com/bumptech/glide/issues/3555
+<- 동작 하는 건가?
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTg0NjEyMl19
+eyJoaXN0b3J5IjpbMTI0MTc0Mzk5NV19
 -->
