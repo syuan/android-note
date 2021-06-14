@@ -14,6 +14,8 @@ https://github.com/bumptech/glide/issues/1766
 
 
 
+https://github.com/Anatolii/NinePatchChunk
+<- 라이브러리?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NzAzNjkxLDE4OTM1MzE1M119
+eyJoaXN0b3J5IjpbLTYyNDE4MDQ2MiwxODkzNTMxNTNdfQ==
 -->
