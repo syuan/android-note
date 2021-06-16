@@ -84,8 +84,15 @@ publishReleasePublicationToReleaseRepository
 publishReleasePublicationToSnapshotRepository
 ```
 
+maven 에 업로드 할때는
+```
+./gradlew
+clean
+assebleRelase
+publishReleasePublicationToReleaseRepository
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc1MjM3NzQsLTIwNjgyODM0MTZdfQ
+eyJoaXN0b3J5IjpbLTE2NDk1NTk0OTksLTIwNjgyODM0MTZdfQ
 ==
 -->
