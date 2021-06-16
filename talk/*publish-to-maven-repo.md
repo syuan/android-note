@@ -34,6 +34,24 @@ afterEvaluate {
             }
         }
     }
+
+	repositories {  
+		maven {  
+		name = 'Release'  
+		url = "${rootProject.ext.publish.url}releases/"  
+			credentials {  
+			  username = "${rootProject.ext.publish.user}"  
+  password = "${rootProject.ext.publish.password}"  
+  }  
+ }  
+  maven {  
+  name = 'Snapshot'  
+  url = "${rootProject.ext.publish.url}snapshot/"  
+  credentials {  
+  username = "${rootProject.ext.publish.user}"  
+  password = "${rootProject.ext.publish.password}"  
+  }  
+ }}
 }
 ```
 from components.{variant} 를 선언하면 library module 의 경우,  
@@ -50,5 +68,5 @@ artifact("$buildDir/outputs/aar/${project.name}-release.aar")
 artifact(sourceJar)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MDU4MTQsLTIwNjgyODM0MTZdfQ==
+eyJoaXN0b3J5IjpbLTczOTM2MDU1NywtMjA2ODI4MzQxNl19
 -->
