@@ -37,7 +37,7 @@ afterEvaluate {
 }
 ```
 
-
+직접 artifact 를 등록하기 싶은 경우  
 ```groovy
 task sourceJar(type: Jar) {  
   from android.sourceSets.main.java.srcDirs  
@@ -48,5 +48,5 @@ artifact("$buildDir/outputs/aar/${project.name}-release.aar")
 artifact(sourceJar)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTU5NjU1NCwtMjA2ODI4MzQxNl19
+eyJoaXN0b3J5IjpbNDgyMzk1Mzg3LC0yMDY4MjgzNDE2XX0=
 -->
