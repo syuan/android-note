@@ -111,9 +111,8 @@ publishReleasePublicationToReleaseRepository
     <artifactId>lumberjack</artifactId>  
     <version>0.0.4</version>  
     <packaging>aar</packaging>  
-    <name>Sample</name>  
-    <description>Lumberjack is a logging sdk that provides insight on app usage and user  
-        engagement.</description>  
+    <name>My Library</name>  
+    <description>A concise description of my library</description>  
       
     <dependencies>  
         <dependency>  
@@ -122,28 +121,16 @@ publishReleasePublicationToReleaseRepository
             <version>1.1.0</version>  
         </dependency>  
       
-        <dependency>  
-      
+        <dependency>
             <groupId>com.squareup.okhttp3</groupId>  
-      
             <artifactId>okhttp</artifactId>  
-      
             <version>3.9.1</version>  
-        </dependency>  
-      
-        <dependency>  
-      
-            <groupId>org.jetbrains.kotlin</groupId>  
-      
-            <artifactId>kotlin-stdlib</artifactId>  
-      
-            <version>1.3.61</version>  
-        </dependency>  
+        </dependency>
     </dependencies>  
 </project>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTcwNTEzMjIsNDc0Njk1NDg0LC03MD
-MxMjMzNjQsNzUxNzU4NjAzLC0xNjQ5NTU5NDk5LC0yMDY4Mjgz
-NDE2XX0=
+eyJoaXN0b3J5IjpbMTgyOTkzNDczOSw0NzQ2OTU0ODQsLTcwMz
+EyMzM2NCw3NTE3NTg2MDMsLTE2NDk1NTk0OTksLTIwNjgyODM0
+MTZdfQ==
 -->
