@@ -78,6 +78,7 @@ publishAllPublicationsToSnapshotRepository
 publishDebugPublicationToMavenLocal
 publishDebugPublicationToReleaseRepository
 publishDebugPublicationToSnapshotRepository
+
 publishReleasePublicationToMavenLocal
 publishReleasePublicationToReleaseRepository
 publishReleasePublicationToSnapshotRepository
@@ -85,6 +86,6 @@ publishReleasePublicationToSnapshotRepository
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk3ODg0OTYsLTIwNjgyODM0MTZdfQ
+eyJoaXN0b3J5IjpbLTE0MTc1MjM3NzQsLTIwNjgyODM0MTZdfQ
 ==
 -->
