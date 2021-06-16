@@ -103,7 +103,8 @@ assebleRelase
 publishReleasePublicationToReleaseRepository
 ```
 
+#### pom.xml  (Project Object Model)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzEyMzM2NCw3NTE3NTg2MDMsLTE2ND
-k1NTk0OTksLTIwNjgyODM0MTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTQ0MzIyNTUsLTcwMzEyMzM2NCw3NT
+E3NTg2MDMsLTE2NDk1NTk0OTksLTIwNjgyODM0MTZdfQ==
 -->
