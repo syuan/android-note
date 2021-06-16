@@ -36,7 +36,17 @@ afterEvaluate {
     }
 }
 ```
+
+
+```groovy
+task sourceJar(type: Jar) {  
+  from android.sourceSets.main.java.srcDirs  
+   archiveClassifier.set('sources')  
+}
+
+artifact("$buildDir/outputs/aar/${project.name}-release.aar")  
+artifact(sourceJar)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU0NzkzMzEsLTIwNjgyODM0MTZdfQ
-==
+eyJoaXN0b3J5IjpbMTU2NTU5NjU1NCwtMjA2ODI4MzQxNl19
 -->
