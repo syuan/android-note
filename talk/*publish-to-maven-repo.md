@@ -104,8 +104,46 @@ publishReleasePublicationToReleaseRepository
 ```
 
 #### pom.xml  (Project Object Model)
-
+```
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+    <modelVersion>4.0.0</modelVersion>  
+    <groupId>com.sample.logger</groupId>  
+    <artifactId>lumberjack</artifactId>  
+    <version>0.0.4</version>  
+    <packaging>aar</packaging>  
+    <name>Sample</name>  
+    <description>Lumberjack is a logging sdk that provides insight on app usage and user  
+        engagement.</description>  
+      
+    <dependencies>  
+        <dependency>  
+            <groupId>androidx.annotation</groupId>  
+            <artifactId>annotation</artifactId>  
+            <version>1.1.0</version>  
+        </dependency>  
+      
+        <dependency>  
+      
+            <groupId>com.squareup.okhttp3</groupId>  
+      
+            <artifactId>okhttp</artifactId>  
+      
+            <version>3.9.1</version>  
+        </dependency>  
+      
+        <dependency>  
+      
+            <groupId>org.jetbrains.kotlin</groupId>  
+      
+            <artifactId>kotlin-stdlib</artifactId>  
+      
+            <version>1.3.61</version>  
+        </dependency>  
+    </dependencies>  
+</project>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0Njk1NDg0LC03MDMxMjMzNjQsNzUxNz
-U4NjAzLC0xNjQ5NTU5NDk5LC0yMDY4MjgzNDE2XX0=
+eyJoaXN0b3J5IjpbLTEyOTcwNTEzMjIsNDc0Njk1NDg0LC03MD
+MxMjMzNjQsNzUxNzU4NjAzLC0xNjQ5NTU5NDk5LC0yMDY4Mjgz
+NDE2XX0=
 -->
