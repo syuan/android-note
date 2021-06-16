@@ -69,7 +69,22 @@ task sourceJar(type: Jar) {
 artifact("$buildDir/outputs/aar/${project.name}-release.aar")  
 artifact(sourceJar)
 ```
+
+gradle task
+```
+publishAllPublicationsToReleaseRepository
+publishAllPublicationsToSnapshotRepository
+
+publishDebugPublicationToMavenLocal
+publishDebugPublicationToReleaseRepository
+publishDebugPublicationToSnapshotRepository
+publishReleasePublicationToMavenLocal
+publishReleasePublicationToReleaseRepository
+publishReleasePublicationToSnapshotRepository
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTkwMzAyMTEsLTIwNjgyODM0MTZdfQ
+eyJoaXN0b3J5IjpbLTE4Mzk3ODg0OTYsLTIwNjgyODM0MTZdfQ
 ==
 -->
