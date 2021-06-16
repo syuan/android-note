@@ -8,15 +8,17 @@ AGP 3.6.0 이상에서는 build artifact 를 Maven 저장소에 게시할 수 �
    
 build.gradle (:sample-lib)
 ```groovy 
-	apply plugin: 'maven-publish'
+apply plugin: 'maven-publish'
 
-	...
-	
+...
+
+afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
+                
                 groupId = 'com.example.MyLibrary'
                 artifactId = 'final'
                 version = '1.0'
@@ -25,13 +27,16 @@ build.gradle (:sample-lib)
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
                 from components.debug
+                
                 groupId = 'com.example.MyLibrary'
                 artifactId = 'final-snapshot'
                 version = '1.0'
             }
         }
     }
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgyODM0MTZdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU0NzkzMzEsLTIwNjgyODM0MTZdfQ
+==
 -->
