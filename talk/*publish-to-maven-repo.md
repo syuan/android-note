@@ -107,9 +107,9 @@ publishReleasePublicationToReleaseRepository
 ```
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
     <modelVersion>4.0.0</modelVersion>  
-    <groupId>com.sample.logger</groupId>  
-    <artifactId>lumberjack</artifactId>  
-    <version>0.0.4</version>  
+    <groupId>com.example.MyLibrary</groupId>  
+    <artifactId>final</artifactId>  
+    <version>0.0.1</version>  
     <packaging>aar</packaging>  
     <name>My Library</name>  
     <description>A concise description of my library</description>  
@@ -130,7 +130,7 @@ publishReleasePublicationToReleaseRepository
 </project>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTkzNDczOSw0NzQ2OTU0ODQsLTcwMz
+eyJoaXN0b3J5IjpbMTA3Nzc2ODczOSw0NzQ2OTU0ODQsLTcwMz
 EyMzM2NCw3NTE3NTg2MDMsLTE2NDk1NTk0OTksLTIwNjgyODM0
 MTZdfQ==
 -->
