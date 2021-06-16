@@ -36,7 +36,8 @@ afterEvaluate {
     }
 }
 ```
-from components.{variant} 를 선언하면 library module 의 경우 aar 이 artifact 로 등록됨  
+from components.{variant} 를 선언하면 library module 의 경우,  
+aar 이 artifact 로 등록됨  
   
 직접 artifact 를 등록하기 싶은 경우  
 ```groovy
@@ -49,5 +50,5 @@ artifact("$buildDir/outputs/aar/${project.name}-release.aar")
 artifact(sourceJar)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzM1OTQwNCwtMjA2ODI4MzQxNl19
+eyJoaXN0b3J5IjpbNjE4MDU4MTQsLTIwNjgyODM0MTZdfQ==
 -->
