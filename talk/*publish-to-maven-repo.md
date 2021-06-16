@@ -6,7 +6,7 @@ AGP 3.6.0 이상에서는 build artifact 를 Maven 저장소에 게시할 수 �
   
 > https://developer.android.com/studio/build/maven-publish-plugin?hl=ko#groovy
    
-build.gradle (:sample-lib)
+#### build.gradle (:sample-lib)
 ```groovy 
 apply plugin: 'maven-publish'
 
@@ -81,7 +81,7 @@ artifact("$buildDir/outputs/aar/${project.name}-release.aar")
 artifact(sourceJar)
 ```
 
-gradle task
+#### Gradle Task
 ```
 publishAllPublicationsToReleaseRepository
 publishAllPublicationsToSnapshotRepository
@@ -95,7 +95,7 @@ publishReleasePublicationToReleaseRepository
 publishReleasePublicationToSnapshotRepository
 ```
 
-maven 에 업로드 할때는
+#### Publish to Maven Repository
 ```
 ./gradlew
 clean
@@ -104,7 +104,8 @@ publishReleasePublicationToReleaseRepository
 ```
 
 #### pom.xml  (Project Object Model)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ0MzIyNTUsLTcwMzEyMzM2NCw3NT
-E3NTg2MDMsLTE2NDk1NTk0OTksLTIwNjgyODM0MTZdfQ==
+eyJoaXN0b3J5IjpbNDc0Njk1NDg0LC03MDMxMjMzNjQsNzUxNz
+U4NjAzLC0xNjQ5NTU5NDk5LC0yMDY4MjgzNDE2XX0=
 -->
