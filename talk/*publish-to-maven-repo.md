@@ -21,6 +21,7 @@ build.gradle (:sample-lib)
                 artifactId = 'final'
                 version = '1.0'
             }
+            
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
                 from components.debug
@@ -32,5 +33,5 @@ build.gradle (:sample-lib)
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY0MjQ0OTBdfQ==
+eyJoaXN0b3J5IjpbLTIwNjgyODM0MTZdfQ==
 -->
