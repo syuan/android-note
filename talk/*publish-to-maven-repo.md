@@ -6,7 +6,8 @@ AGP 3.6.0 이상에서는 build artifact 를 Maven 저장소에 게시할 수 �
   
 > https://developer.android.com/studio/build/maven-publish-plugin?hl=ko#groovy
    
-```groovy
+build.gradle (:sample-lib)
+```groovy 
 	apply plugin: 'maven-publish'
 
 	...
@@ -31,5 +32,5 @@ AGP 3.6.0 이상에서는 build artifact 를 Maven 저장소에 게시할 수 �
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDc5MDAxMl19
+eyJoaXN0b3J5IjpbLTEwMzY0MjQ0OTBdfQ==
 -->
