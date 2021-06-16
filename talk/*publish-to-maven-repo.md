@@ -25,7 +25,8 @@ afterEvaluate {
 
 				pom {  
 					name = 'My Library'  
-					description = 'Lumberjack is a logging sdk that provides insight on app usage and user engagement.'
+					description = 'A concise description of my library'
+					...
 	            }
             
             // Creates a Maven publication called “debug”.
@@ -35,6 +36,12 @@ afterEvaluate {
                 groupId = 'com.example.MyLibrary'
                 artifactId = 'final-snapshot'
                 version = '1.0'
+
+				pom {  
+					name = 'My Library'  
+					description = 'A concise description of my library'
+					...
+	            }
             }
         }
     }
@@ -97,6 +104,6 @@ publishReleasePublicationToReleaseRepository
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNzU4NjAzLC0xNjQ5NTU5NDk5LC0yMD
-Y4MjgzNDE2XX0=
+eyJoaXN0b3J5IjpbLTcwMzEyMzM2NCw3NTE3NTg2MDMsLTE2ND
+k1NTk0OTksLTIwNjgyODM0MTZdfQ==
 -->
