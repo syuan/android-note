@@ -13,7 +13,6 @@ https://github.com/bumptech/glide/issues/3555
 https://github.com/bumptech/glide/issues/1766
 
 
-
 https://github.com/Anatolii/NinePatchChunk
 <- 라이브러리?
 
@@ -23,6 +22,6 @@ glide 4.x 부터 disk cache strategy 가 변경되었군
 - Difference DiskCacheStrategy in Glide v4
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzY3NTM4NywtNjI0MTgwNDYyLDE4OT
-M1MzE1M119
+eyJoaXN0b3J5IjpbMTk5NTIxNTc1NywxOTIzNjc1Mzg3LC02Mj
+QxODA0NjIsMTg5MzUzMTUzXX0=
 -->
