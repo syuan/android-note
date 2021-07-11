@@ -20,6 +20,7 @@
 - suspend function
 - scop - global scope
 - Dispatcher
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDQzMjQ0XX0=
+eyJoaXN0b3J5IjpbMTQzMTAyNjIwMiwxMjAwNDMyNDRdfQ==
 -->
