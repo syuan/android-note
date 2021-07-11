@@ -21,6 +21,7 @@
 - scop - global scope
 - Dispatcher
 
+- Scope . {builder function} (coroutine context)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTAyNjIwMiwxMjAwNDMyNDRdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzc4NzUwOTYsMTIwMDQzMjQ0XX0=
 -->
