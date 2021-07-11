@@ -19,7 +19,7 @@
 - yield()
 - suspend function
 - scop - global scope
-- 
+- Dispatcher
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1MzUyMzM5XX0=
+eyJoaXN0b3J5IjpbMTIwMDQzMjQ0XX0=
 -->
