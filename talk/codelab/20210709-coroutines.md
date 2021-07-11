@@ -14,8 +14,12 @@
 
 #### summary
 - coroutine builder - launch (job), async (deferred), runBlocking
-- job - cancel
-- deferred  
+- Job - cancel, join
+- Deferred - await
+- yield()
+- suspend function
+- scop - global scope
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDgxMTY0NDVdfQ==
+eyJoaXN0b3J5IjpbMzg1MzUyMzM5XX0=
 -->
