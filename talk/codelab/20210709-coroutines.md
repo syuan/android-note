@@ -13,7 +13,9 @@
 
 
 #### summary
-- coroutine bulider
+- coroutine builder - launch (job), async (deferred), runBlocking
+- job - cancel
+- deferred  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzAxNzI2Ml19
+eyJoaXN0b3J5IjpbLTE3NDgxMTY0NDVdfQ==
 -->
