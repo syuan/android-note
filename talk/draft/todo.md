@@ -116,6 +116,11 @@ https://medium.com/androiddevelopers/working-with-package-visibility-dc252829de2
 
 
 https://developer.android.com/reference/tools/gradle-api/4.1/com/android/build/api/dsl/BuildType
+
+
+
+#### open source - java censor
+https://github.com/schlan/java-censor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTEyOTkyXX0=
+eyJoaXN0b3J5IjpbMTkzOTA2MzY1MV19
 -->
