@@ -151,7 +151,9 @@ decodeBitmapOptions.inTempStorage = bytesForOptions;
 ```
 
 > https://stackoverflow.com/a/15840932
-> 
+> The caller must ensure that that bitmap and padding are not modified after this method returns. We could copy them, but Bitmap.createBitmap(Bitmap) does not copy the nine-patch chunk on some Android versions.
+
+댓글의 코드 주석중에 bitmap 을 복사하는 경우 chunck 가 복사되지 않을
 
 
 디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 정상적으로 생성됨  
@@ -175,7 +177,7 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTI3Mjk2NiwxNTIxNTg2NjY5LDEwMT
-Y1NzIwMjksMjQwODk1OTk3LDIwMzI2ODQxNjEsNDI0OTIyMjdd
-fQ==
+eyJoaXN0b3J5IjpbLTEzODc1MDc0ODMsMTUyMTU4NjY2OSwxMD
+E2NTcyMDI5LDI0MDg5NTk5NywyMDMyNjg0MTYxLDQyNDkyMjI3
+XX0=
 -->
