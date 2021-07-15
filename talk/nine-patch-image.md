@@ -37,7 +37,18 @@ SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
 2. downsampling, transform 등의 후처리를 하면서 chunk가 손실 되는건가?
 4. decoding 할때 BitmapOption 이 일반적이지 않나?
   
-  
+#### 1. Glide 를 통해서 File 다운로드만 수행한 경우
+
+```java
+FutureTarget<File> target = Glide.with(this)  
+      .downloadOnly()  
+      .load(url)  
+      .submit();
+````
+
+```
+
+```
 
 https://www.programmersought.com/article/97346007070/
 <- BitmapFactory.decodeFile 사용하는건데 잘 되나 ?
@@ -63,5 +74,5 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzEwODk1OV19
+eyJoaXN0b3J5IjpbNDI0OTIyMjddfQ==
 -->
