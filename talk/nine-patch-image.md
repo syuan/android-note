@@ -45,7 +45,8 @@ FutureTarget<File> target = Glide.with(this)
       .load(url)  
       .submit();
 ````
-
+  
+File -> NinePatchDrawable. 
 ```java
 private void loadImage(FutureTarget<File> target) {  
    FileInputStream inputStream = new FileInputStream(target.get());  
@@ -59,7 +60,6 @@ public static NinePatchDrawable createNinePatchDrawable(Resources res, Bitmap bi
    NinePatchDrawable drawable = null;  
    byte[] chunk = bitmap.getNinePatchChunk();  
    if (NinePatch.isNinePatchChunk(chunk)) {  
-      Log.e("test", "isNinePatchChunk()");  
       Rect padding = readPadding(chunk);  
       drawable = new NinePatchDrawable(res, bitmap, chunk, padding, null);  
    }  
@@ -86,6 +86,10 @@ public static int getInt(byte[] chunk, int from) {
    return i;  
 }
 ```
+Glide 가 File 다운로드만 수행하고, File -> NinePatchDrawable 을 직접 수행한 경우 정상 동작
+
+
+
 
 https://www.programmersought.com/article/97346007070/
 <- BitmapFactory.decodeFile 사용하는건데 잘 되나 ?
@@ -111,5 +115,6 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjY4NDE2MSw0MjQ5MjIyN119
+eyJoaXN0b3J5IjpbLTcwMTIwMDgxMCwyMDMyNjg0MTYxLDQyND
+kyMjI3XX0=
 -->
