@@ -109,20 +109,11 @@ Glide.with(this)
 - downsample disable  
   
 정상적인 경우와 실패한 경우 bitmap 의 px byte 는 동일했음
-어느 과정에서 chunk 가 손실되거나 
+Glide 어느 과정에서 chunk 가 손실되거나 만들지 않는것 같음
 
 
-https://www.programmersought.com/article/97346007070/
-<- BitmapFactory.decodeFile 사용하는건데 잘 되나 ?
+#### 3. 
 
-
-
-
-
-https://github.com/bumptech/glide/issues/1766
-
-https://github.com/Anatolii/NinePatchChunk
-<- 라이브러리?
 
 
 
@@ -135,7 +126,9 @@ https://github.com/Anatolii/NinePatchChunk
 > Difference DiskCacheStrategy in Glide v4
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
+>  Library which allows you to create a chunk for NinePatchDrawable at runtime
+> https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMTIwMjM2LDIwMzI2ODQxNjEsNDI0OT
-IyMjddfQ==
+eyJoaXN0b3J5IjpbLTE2OTQ1NTM2NDUsMjAzMjY4NDE2MSw0Mj
+Q5MjIyN119
 -->
