@@ -171,14 +171,14 @@ Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵�
 
 
 
-
+#### etc
 > Difference DiskCacheStrategy in Glide v4
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjQwMDQ0NiwxNTIxNTg2NjY5LDEwMT
-Y1NzIwMjksMjQwODk1OTk3LDIwMzI2ODQxNjEsNDI0OTIyMjdd
-fQ==
+eyJoaXN0b3J5IjpbOTU2NjgxNDU4LDE3MDI0MDA0NDYsMTUyMT
+U4NjY2OSwxMDE2NTcyMDI5LDI0MDg5NTk5NywyMDMyNjg0MTYx
+LDQyNDkyMjI3XX0=
 -->
