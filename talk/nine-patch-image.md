@@ -130,18 +130,21 @@ decodeBitmapOptions.inSampleSize = 1;
 decodeBitmapOptions.inPreferredConfig = Bitmap.Config.ARGB_8888;  
 decodeBitmapOptions.inJustDecodeBounds = false;  
 decodeBitmapOptions.inDensity = 0;  
-decodeBitmapOptions.inTargetDensity = 0;  
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {  
-   decodeBitmapOptions.inPreferredColorSpace = null;  
-   decodeBitmapOptions.outColorSpace = null;  
-   decodeBitmapOptions.outConfig = null;  
-}  
+decodeBitmapOptions.inTargetDensity = 0;   
 decodeBitmapOptions.outWidth = 213;  
 decodeBitmapOptions.outHeight = 60;  
 decodeBitmapOptions.outMimeType = "image/png";  
 decodeBitmapOptions.inBitmap = null;
 decodeBitmapOptions.inMutable = false;  
   
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {  
+   decodeBitmapOptions.inPreferredColorSpace = null;  
+   decodeBitmapOptions.outColorSpace = null;  
+   decodeBitmapOptions.outConfig = null;  
+} 
+
+...
+ 
 LruArrayPool byteArrayPool = new LruArrayPool(4 * 1024 * 1024);  
 byte[] bytesForOptions = byteArrayPool.get(ArrayPool.STANDARD_BUFFER_SIZE_BYTES, byte[].class);  
 decodeBitmapOptions.inTempStorage = bytesForOptions;
@@ -149,7 +152,8 @@ decodeBitmapOptions.inTempStorage = bytesForOptions;
 
 
 
-디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 생성됨  
+
+디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 정상적으로 생성됨  
   
 Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵션으로 넣어줌
 저장된 동일한 size 의 bitmap 이 없는 경우, 동일 크기의 bitmap 을 생성해서 반환함
@@ -158,7 +162,7 @@ Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵�
 #### BitmapFactory.Options.inBitmap   
 
 > Android 3.0(API 수준 11)에는 BitmapFactory.Options.inBitmap 필드가 도입되었습니다. 이 옵션을 설정하면 객체를 취하는 디코딩 메서드가 콘텐츠를 로드할 때 기존 비트맵을 재사용하려고 시도합니다. 즉, 비트맵의 메모리를 재사용하여 성능이 향상되고 메모리 할당과 할당 해제가 모두 삭제됩니다. 그러나 inBitmap 사용 방법에는 특정한 제한사항이 있습니다. 특히, Android 4.4(API 수준 19) 이전 버전에서는 동일한 크기의 비트맵만 지원됩니다.
-
+> https://developer.android.com/topic/performance/graphics/manage-memory
 
 
 
@@ -170,6 +174,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjkzMjA0MiwxMDE2NTcyMDI5LDI0MD
-g5NTk5NywyMDMyNjg0MTYxLDQyNDkyMjI3XX0=
+eyJoaXN0b3J5IjpbOTczNjU3NTUzLDEwMTY1NzIwMjksMjQwOD
+k1OTk3LDIwMzI2ODQxNjEsNDI0OTIyMjddfQ==
 -->
