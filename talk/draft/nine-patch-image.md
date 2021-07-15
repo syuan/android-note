@@ -5,14 +5,14 @@
 
 > https://github.com/bumptech/glide/issues/3555
 
-Glide 4.x 에서 nine patch 이미지를 로드하면 nine patch 가 정상적으로 동작하지 않음
-"http://image7.coupangcdn.com/image/mobile_app/v3/badges/preorder/android/xxhdpi/preorder_badge.9.png"
+Glide 4.x 에서 nine patch 이미지를 로드하면 nine patch 가 정상적으로 동작하지 않음. 
+"http://.../image/preorder_badge.9.png". 
 ```java
 Glide.with(this)  
       .load(url)  
       .into(view);
 ```
-
+  
       
 아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine patch chunk 가 null 임
 ```java
@@ -55,7 +55,7 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MDM1MTA3LDU4Njk4NTQ2NSwtNjMyNj
-M5ODQxLDE5MjM2NzUzODcsLTYyNDE4MDQ2MiwxODkzNTMxNTNd
-fQ==
+eyJoaXN0b3J5IjpbMTY1NDAyMTQzNiw1ODY5ODU0NjUsLTYzMj
+YzOTg0MSwxOTIzNjc1Mzg3LC02MjQxODA0NjIsMTg5MzUzMTUz
+XX0=
 -->
