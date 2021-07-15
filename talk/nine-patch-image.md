@@ -47,7 +47,43 @@ FutureTarget<File> target = Glide.with(this)
 ````
 
 ```
-
+private void loadImage(FutureTarget<File> target) {  
+   FileInputStream inputStream = new FileInputStream(target.get());  
+   Bitmap bitmap = BitmapFactory.decodeStream(inputStream);  
+  
+   NinePatchDrawable drawable = createNinePatchDrawable(getResources(), bitmap);  
+}  
+  
+public static NinePatchDrawable createNinePatchDrawable(Resources res, Bitmap bitmap) {  
+   NinePatchDrawable drawable = null;  
+   byte[] chunk = bitmap.getNinePatchChunk();  
+   if (NinePatch.isNinePatchChunk(chunk)) {  
+      Log.e("test", "isNinePatchChunk()");  
+      Rect padding = readPadding(chunk);  
+      drawable = new NinePatchDrawable(res, bitmap, chunk, padding, null);  
+   }  
+   return drawable;  
+}  
+  
+public static Rect readPadding(byte[] chunk) {  
+   Rect rect = new Rect();  
+   if (NinePatch.isNinePatchChunk(chunk)) {  
+      rect.left = getInt(chunk, 12);  
+      rect.right = getInt(chunk, 16);  
+      rect.top = getInt(chunk, 20);  
+      rect.bottom = getInt(chunk, 24);  
+   }  
+   return rect;  
+}  
+  
+public static int getInt(byte[] chunk, int from) {  
+   int b1 = chunk[from + 0];  
+   int b2 = chunk[from + 1];  
+   int b3 = chunk[from + 2];  
+   int b4 = chunk[from + 3];  
+   int i = b1 << 0 | b2 << 8 | b3 << 16 | b4 << 24;  
+   return i;  
+}
 ```
 
 https://www.programmersought.com/article/97346007070/
@@ -74,5 +110,5 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0OTIyMjddfQ==
+eyJoaXN0b3J5IjpbLTYyOTk0NjIzNyw0MjQ5MjIyN119
 -->
