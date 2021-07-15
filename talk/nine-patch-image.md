@@ -140,7 +140,7 @@ byte[] bytesForOptions = byteArrayPool.get(ArrayPool.STANDARD_BUFFER_SIZE_BYTES,
 decodeBitmapOptions.inTempStorage = bytesForOptions;
 ```
 
-디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chun
+디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 생성됨
 
 #### BitmapFactory.Options.inBitmap   
 
@@ -157,6 +157,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMzg3NjEwLDIwMzI2ODQxNjEsNDI0OT
+eyJoaXN0b3J5IjpbMjQwODk1OTk3LDIwMzI2ODQxNjEsNDI0OT
 IyMjddfQ==
 -->
