@@ -145,8 +145,10 @@ decodeBitmapOptions.inTempStorage = bytesForOptions;
 
 
 
-디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 생성됨
+디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 생성됨  
+  
 Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵션으로 넣어줌
+저장된 
 
 
 #### BitmapFactory.Options.inBitmap   
@@ -164,6 +166,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTg2ODYxNywxMDE2NTcyMDI5LDI0MD
-g5NTk5NywyMDMyNjg0MTYxLDQyNDkyMjI3XX0=
+eyJoaXN0b3J5IjpbNjYxNTA0NDc2LDEwMTY1NzIwMjksMjQwOD
+k1OTk3LDIwMzI2ODQxNjEsNDI0OTIyMjddfQ==
 -->
