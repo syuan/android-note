@@ -36,7 +36,7 @@ SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
 1. download 하면서 file의 byte 의 조작이 있나?
 2. downsampling, transform 등의 후처리를 하면서 chunk가 손실 되는건가?
 4. decoding 할때 BitmapOption 이 일반적이지 않나?
-  
+   
 #### 1. Glide 를 통해서 File 다운로드만 수행한 경우
 
 ```java
@@ -132,13 +132,15 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 decodeBitmapOptions.outWidth = 213;  
 decodeBitmapOptions.outHeight = 60;  
 decodeBitmapOptions.outMimeType = "image/png";  
-decodeBitmapOptions.inBitmap = null;  // <-
+decodeBitmapOptions.inBitmap = null;
 decodeBitmapOptions.inMutable = false;  
   
 LruArrayPool byteArrayPool = new LruArrayPool(4 * 1024 * 1024);  
 byte[] bytesForOptions = byteArrayPool.get(ArrayPool.STANDARD_BUFFER_SIZE_BYTES, byte[].class);  
 decodeBitmapOptions.inTempStorage = bytesForOptions;
 ```
+
+
 
 디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 생성됨
 Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵션으로 넣어줌
@@ -159,6 +161,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI2NDgyNDMsMjQwODk1OTk3LDIwMz
+eyJoaXN0b3J5IjpbLTEwMDk1ODQ2MzQsMjQwODk1OTk3LDIwMz
 I2ODQxNjEsNDI0OTIyMjddfQ==
 -->
