@@ -104,7 +104,12 @@ Glide.with(this)
       .diskCacheStrategy(DiskCacheStrategy.NONE)  
       .into(view)
 ```
-memory, disk cache
+- memory, disk cache disable  
+- transform disable  
+- downsample disable  
+  
+정상적인 경우와 실패한 경우 bitmap 의 px byte 는 동일했음
+어느 과정에서 chunk 가 손실되거나 
 
 
 https://www.programmersought.com/article/97346007070/
@@ -131,6 +136,6 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTUwODE2MiwyMDMyNjg0MTYxLDQyND
-kyMjI3XX0=
+eyJoaXN0b3J5IjpbNzAxMTIwMjM2LDIwMzI2ODQxNjEsNDI0OT
+IyMjddfQ==
 -->
