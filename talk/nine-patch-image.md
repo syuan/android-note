@@ -140,10 +140,11 @@ byte[] bytesForOptions = byteArrayPool.get(ArrayPool.STANDARD_BUFFER_SIZE_BYTES,
 decodeBitmapOptions.inTempStorage = bytesForOptions;
 ```
 
+디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chun
 
-#### 
+#### BitmapFactory.Options.inBitmap   
 
-Android 3.0(API 수준 11)에는 BitmapFactory.Options.inBitmap 필드가 도입되었습니다. 이 옵션을 설정하면 객체를 취하는 디코딩 메서드가 콘텐츠를 로드할 때 기존 비트맵을 재사용하려고 시도합니다. 즉, 비트맵의 메모리를 재사용하여 성능이 향상되고 메모리 할당과 할당 해제가 모두 삭제됩니다. 그러나 inBitmap 사용 방법에는 특정한 제한사항이 있습니다. 특히, Android 4.4(API 수준 19) 이전 버전에서는 동일한 크기의 비트맵만 지원됩니다.
+> Android 3.0(API 수준 11)에는 BitmapFactory.Options.inBitmap 필드가 도입되었습니다. 이 옵션을 설정하면 객체를 취하는 디코딩 메서드가 콘텐츠를 로드할 때 기존 비트맵을 재사용하려고 시도합니다. 즉, 비트맵의 메모리를 재사용하여 성능이 향상되고 메모리 할당과 할당 해제가 모두 삭제됩니다. 그러나 inBitmap 사용 방법에는 특정한 제한사항이 있습니다. 특히, Android 4.4(API 수준 19) 이전 버전에서는 동일한 크기의 비트맵만 지원됩니다.
 
 
 
@@ -156,6 +157,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzQ2MDE5NSwyMDMyNjg0MTYxLDQyND
-kyMjI3XX0=
+eyJoaXN0b3J5IjpbMjkyMzg3NjEwLDIwMzI2ODQxNjEsNDI0OT
+IyMjddfQ==
 -->
