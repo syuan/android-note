@@ -1,6 +1,6 @@
 
 
-## Use code to load NinePatch pictures in Android (.9 picture)
+## Use code to load NinePatch pictures in Android 
 
 https://www.programmersought.com/article/97346007070/
 <- BitmapFactory.decodeFile 사용하는건데 잘 되나 ?
@@ -21,6 +21,6 @@ glide 4.x 부터 disk cache strategy 가 변경되었군
 - Difference DiskCacheStrategy in Glide v4
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjYzOTg0MSwxOTIzNjc1Mzg3LC02Mj
-QxODA0NjIsMTg5MzUzMTUzXX0=
+eyJoaXN0b3J5IjpbLTE5MjM3NDIxODUsLTYzMjYzOTg0MSwxOT
+IzNjc1Mzg3LC02MjQxODA0NjIsMTg5MzUzMTUzXX0=
 -->
