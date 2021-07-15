@@ -6,16 +6,16 @@
 > https://github.com/bumptech/glide/issues/3555
 
 Glide 4.x 에서 nine-patch 이미지를 로드하면 nine-patch 가 정상적으로 동작하지 않음. 
-"http://.../image/preorder_badge.9.png". 
+"http://.../image/preorder_badge.9.png".   
 ```java
 Glide.with(this)  
       .load(url)  
       .into(view);
 ```
 
-//TODO glide 를 통한 nine-patch 로드를 실패한 모습
+//TODO glide 를 통한 nine-patch 로드를 실패한 모습  
       
-아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine-patch chunk 가 null 임
+아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine-patch chunk 가 null 임  
 ```java
 SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
     @Override
@@ -33,9 +33,9 @@ SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
 
 
 #### Assumptions
-1. download 하면서 file의 byte 의 조작이 있나?
-2. downsampling, transform 등의 후처리를 하면서 chunk가 손실 되는건가?
-3. decoding 할때 BitmapOption 이 일반적이지 않나?
+1. download 하면서 file의 byte 의 조작이 있나?  
+2. downsampling, transform 등의 후처리를 하면서 chunk가 손실 되는건가?  
+3. decoding 할때 BitmapOption 이 일반적이지 않나?  
 
 
 #### 1. Glide 를 통해서 File 다운로드만 수행한 경우
@@ -88,7 +88,7 @@ public static int getInt(byte[] chunk, int from) {
 }
 ```
 
-Glide 가 File 다운로드만 수행하고, File -> NinePatchDrawable 을 직접 수행한 경우 정상 동작
+Glide 가 File 다운로드만 수행하고, File -> NinePatchDrawable 을 직접 수행한 경우 정상 동작  
 
 
 #### 2. downsampling, transform 을 disable 한 경우
@@ -174,6 +174,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNjU3NTUzLDEwMTY1NzIwMjksMjQwOD
-k1OTk3LDIwMzI2ODQxNjEsNDI0OTIyMjddfQ==
+eyJoaXN0b3J5IjpbLTExNTkwMjIzODMsMTAxNjU3MjAyOSwyND
+A4OTU5OTcsMjAzMjY4NDE2MSw0MjQ5MjIyN119
 -->
