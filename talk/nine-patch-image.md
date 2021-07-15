@@ -46,12 +46,13 @@ FutureTarget<File> target = Glide.with(this)
       .submit();
 ````
 
-```
+```java
 private void loadImage(FutureTarget<File> target) {  
    FileInputStream inputStream = new FileInputStream(target.get());  
    Bitmap bitmap = BitmapFactory.decodeStream(inputStream);  
   
    NinePatchDrawable drawable = createNinePatchDrawable(getResources(), bitmap);  
+   ...
 }  
   
 public static NinePatchDrawable createNinePatchDrawable(Resources res, Bitmap bitmap) {  
@@ -110,5 +111,5 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTk0NjIzNyw0MjQ5MjIyN119
+eyJoaXN0b3J5IjpbMjAzMjY4NDE2MSw0MjQ5MjIyN119
 -->
