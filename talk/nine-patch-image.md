@@ -114,11 +114,35 @@ Glide 어느 과정에서 chunk 가 손실되거나 만들지 않는것 같음
 
 #### 3. 
 
+```java
+BitmapFactory.Options decodeBitmapOptions = new BitmapFactory.Options();  
+decodeBitmapOptions.inTempStorage = null;  
+decodeBitmapOptions.inDither = false;  
+decodeBitmapOptions.inScaled = true;  
+decodeBitmapOptions.inSampleSize = 1;  
+decodeBitmapOptions.inPreferredConfig = Bitmap.Config.ARGB_8888;  
+decodeBitmapOptions.inJustDecodeBounds = false;  
+decodeBitmapOptions.inDensity = 0;  
+decodeBitmapOptions.inTargetDensity = 0;  
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {  
+   decodeBitmapOptions.inPreferredColorSpace = null;  
+   decodeBitmapOptions.outColorSpace = null;  
+   decodeBitmapOptions.outConfig = null;  
+}  
+decodeBitmapOptions.outWidth = 213;  
+decodeBitmapOptions.outHeight = 60;  
+decodeBitmapOptions.outMimeType = "image/png";  
+decodeBitmapOptions.inBitmap = null;  
+decodeBitmapOptions.inMutable = false;  
+  
+LruArrayPool byteArrayPool = new LruArrayPool(4 * 1024 * 1024);  
+byte[] bytesForOptions = byteArrayPool.get(ArrayPool.STANDARD_BUFFER_SIZE_BYTES, byte[].class);  
+decodeBitmapOptions.inTempStorage = bytesForOptions;
+```
 
 
 
 
-#### Use code to load NinePatch pictures in Android
 
 
 
@@ -129,6 +153,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ1NTM2NDUsMjAzMjY4NDE2MSw0Mj
-Q5MjIyN119
+eyJoaXN0b3J5IjpbMjI3NDM2OTY3LDIwMzI2ODQxNjEsNDI0OT
+IyMjddfQ==
 -->
