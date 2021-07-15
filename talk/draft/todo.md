@@ -121,6 +121,10 @@ https://developer.android.com/reference/tools/gradle-api/4.1/com/android/build/a
 
 #### open source - java censor
 https://github.com/schlan/java-censor
+
+
+#### Detach subdirectory into separate Git repository
+https://stackoverflow.com/questions/359424/detach-move-subdirectory-into-separate-git-repository
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTA2MzY1MV19
+eyJoaXN0b3J5IjpbLTE3MTY2NjU4NSwxOTM5MDYzNjUxXX0=
 -->
