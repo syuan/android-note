@@ -109,18 +109,18 @@ Glide.with(this)
 - transform disable  
 - downsample disable  
   
-정상적인 경우와 실패한 경우 bitmap 의 px byte 는 동일했음
-Glide 어느 과정에서 chunk 가 손실되거나 만들지 않는것 같음
+정상적인 경우와 실패한 경우 bitmap 의 px byte 는 동일 했음  
+Glide 어느 과정에서 chunk 가 손실되거나 만들지 않는것 같음  
 
 
 #### 3.  decoding Option 을 변경한 경우
 
-Bitmap 을 생성하는 방식은 일반적임, file byte 크기도 동일
+Bitmap 을 생성하는 방식은 일반적임, file byte 크기도 동일  
 ```java
 Bitmpa bitmap = BitmapFactory.decodeStream(dataRewinder.rewindAndGet(), null, options);
 ```
 
-BitmapFactory.Options 값들을 살펴봄
+Glide 에서 설정하는 BitmapFactory.Options 값  
 ```java
 BitmapFactory.Options decodeBitmapOptions = new BitmapFactory.Options();  
 decodeBitmapOptions.inTempStorage = null;  
@@ -155,8 +155,8 @@ decodeBitmapOptions.inTempStorage = bytesForOptions;
 
 디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 정상적으로 생성됨  
   
-Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵션으로 넣어줌
-저장된 동일한 size 의 bitmap 이 없는 경우, 동일 크기의 bitmap 을 생성해서 반환함
+Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵션으로 넣어줌  
+저장된 동일한 size 의 bitmap 이 없는 경우, 동일 크기의 bitmap 을 생성해서 반환    
 
 
 #### BitmapFactory.Options.inBitmap   
@@ -174,6 +174,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkwMjIzODMsMTAxNjU3MjAyOSwyND
-A4OTU5OTcsMjAzMjY4NDE2MSw0MjQ5MjIyN119
+eyJoaXN0b3J5IjpbMTUyMTU4NjY2OSwxMDE2NTcyMDI5LDI0MD
+g5NTk5NywyMDMyNjg0MTYxLDQyNDkyMjI3XX0=
 -->
