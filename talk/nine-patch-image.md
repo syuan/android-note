@@ -115,8 +115,12 @@ Glide 어느 과정에서 chunk 가 손실되거나 만들지 않는것 같음
 
 #### 3.  decoding Option 을 변경한 경우
 
+Bitmap 을 생성하는 방식은 일반적임, file byte 크기도 동일
+```java
+Bitmpa bitmap = BitmapFactory.decodeStream(dataRewinder.rewindAndGet(), null, options);
+```
 
-
+BitmapFactory.Options 값들을 살펴봄
 ```java
 BitmapFactory.Options decodeBitmapOptions = new BitmapFactory.Options();  
 decodeBitmapOptions.inTempStorage = null;  
@@ -166,6 +170,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQzMzQ3NjYsMTAxNjU3MjAyOSwyND
-A4OTU5OTcsMjAzMjY4NDE2MSw0MjQ5MjIyN119
+eyJoaXN0b3J5IjpbMTY5MjkzMjA0MiwxMDE2NTcyMDI5LDI0MD
+g5NTk5NywyMDMyNjg0MTYxLDQyNDkyMjI3XX0=
 -->
