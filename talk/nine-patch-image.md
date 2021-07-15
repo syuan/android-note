@@ -92,10 +92,19 @@ Glide 가 File 다운로드만 수행하고, File -> NinePatchDrawable 을 직�
 
 #### 2. downsampling, transform 을 disable 한 경우
 
+```java
+Glide.with(this)  
+      .asBitmap()  
+      .load(url)  
+      .override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL)  
+      .dontAnimate()  
+      .dontTransform()  
+      .skipMemoryCache(true)  
+      .downsample(DownsampleStrategy.NONE)  
+      .diskCacheStrategy(DiskCacheStrategy.NONE)  
+      .into(view)
 ```
-
-```
-
+memory, disk cache
 
 
 https://www.programmersought.com/article/97346007070/
@@ -122,6 +131,6 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMDU4MzA0LDIwMzI2ODQxNjEsNDI0OT
-IyMjddfQ==
+eyJoaXN0b3J5IjpbMTgxOTUwODE2MiwyMDMyNjg0MTYxLDQyND
+kyMjI3XX0=
 -->
