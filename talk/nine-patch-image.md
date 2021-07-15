@@ -132,7 +132,7 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 decodeBitmapOptions.outWidth = 213;  
 decodeBitmapOptions.outHeight = 60;  
 decodeBitmapOptions.outMimeType = "image/png";  
-decodeBitmapOptions.inBitmap = null;  
+decodeBitmapOptions.inBitmap = null;  // <-
 decodeBitmapOptions.inMutable = false;  
   
 LruArrayPool byteArrayPool = new LruArrayPool(4 * 1024 * 1024);  
@@ -153,6 +153,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NDM2OTY3LDIwMzI2ODQxNjEsNDI0OT
-IyMjddfQ==
+eyJoaXN0b3J5IjpbLTkzOTY0Mzg2MCwyMDMyNjg0MTYxLDQyND
+kyMjI3XX0=
 -->
