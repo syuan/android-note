@@ -86,8 +86,15 @@ public static int getInt(byte[] chunk, int from) {
    return i;  
 }
 ```
+
 Glide 가 File 다운로드만 수행하고, File -> NinePatchDrawable 을 직접 수행한 경우 정상 동작
 
+
+#### 2. downsampling, transform 을 disable 한 경우
+
+```
+
+```
 
 
 
@@ -115,6 +122,6 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTIwMDgxMCwyMDMyNjg0MTYxLDQyND
-kyMjI3XX0=
+eyJoaXN0b3J5IjpbOTcyMDU4MzA0LDIwMzI2ODQxNjEsNDI0OT
+IyMjddfQ==
 -->
