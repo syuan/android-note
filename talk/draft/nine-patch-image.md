@@ -6,7 +6,7 @@
 > https://github.com/bumptech/glide/issues/3555
 
 
-아래와 같이 
+아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine patch chunk 가 null 임
 ```java
 SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
     @Override
@@ -47,6 +47,6 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDQ0MTgyNywtNjMyNjM5ODQxLDE5Mj
-M2NzUzODcsLTYyNDE4MDQ2MiwxODkzNTMxNTNdfQ==
+eyJoaXN0b3J5IjpbNTg2OTg1NDY1LC02MzI2Mzk4NDEsMTkyMz
+Y3NTM4NywtNjI0MTgwNDYyLDE4OTM1MzE1M119
 -->
