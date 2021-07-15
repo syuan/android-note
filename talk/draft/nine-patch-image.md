@@ -12,6 +12,12 @@ Glide.with(this)
       .load(url)  
       .into(view);
 ```
+
+
+#### Assumptions
+1. 
+2. 
+3. 
   
       
 아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine patch chunk 가 null 임
@@ -55,7 +61,7 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDAyMTQzNiw1ODY5ODU0NjUsLTYzMj
-YzOTg0MSwxOTIzNjc1Mzg3LC02MjQxODA0NjIsMTg5MzUzMTUz
-XX0=
+eyJoaXN0b3J5IjpbLTE4MTIwNjM5ODAsMTY1NDAyMTQzNiw1OD
+Y5ODU0NjUsLTYzMjYzOTg0MSwxOTIzNjc1Mzg3LC02MjQxODA0
+NjIsMTg5MzUzMTUzXX0=
 -->
