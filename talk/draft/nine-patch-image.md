@@ -13,9 +13,9 @@ Glide.with(this)
       .into(view);
 ```
 
-//TODO glide 를 통한 nine-patch 
+//TODO glide 를 통한 nine-patch 로드를 실패면 모습
       
-아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine patch chunk 가 null 임
+아래와 같이 glide 를 통해서 bitmap 객체를 가져오면 nine-patch chunk 가 null 임
 ```java
 SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
     @Override
@@ -56,7 +56,7 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg3NDA4OTksMTY1NDAyMTQzNiw1OD
-Y5ODU0NjUsLTYzMjYzOTg0MSwxOTIzNjc1Mzg3LC02MjQxODA0
-NjIsMTg5MzUzMTUzXX0=
+eyJoaXN0b3J5IjpbMTYwNTcwODQyNywxNjU0MDIxNDM2LDU4Nj
+k4NTQ2NSwtNjMyNjM5ODQxLDE5MjM2NzUzODcsLTYyNDE4MDQ2
+MiwxODkzNTMxNTNdfQ==
 -->
