@@ -155,7 +155,7 @@ decodeBitmapOptions.inTempStorage = bytesForOptions;
 
 댓글의 코드 주석중에 bitmap 을 복사하는 경우 chunck 가 복사되지 않을 수 있다는것에서 힌트를 얻음  
 
-Options.inBitmap 의 경우 기존 Bitmap 객체를 재사용 하는거니까 문제가 될 수도 있겠다고 생각됨
+Options.inBitmap 의 경우 기존 Bitmap 객체를 재사용 하는거니까 문제가 될수도?  
 디버깅을 통해서 Options.inBitmap 값을 null 로 바꿔주면 nine-patch chunk 가 정상적으로 생성됨  
   
 Glide 내부에서 LruBitmapPool.class 에서 Bitmap 을 꺼내서 inBitmap 옵션으로 넣어줌  
@@ -177,7 +177,7 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzY4NDcwOSwxNTIxNTg2NjY5LDEwMT
+eyJoaXN0b3J5IjpbMTI1NDE1MTU0MiwxNTIxNTg2NjY5LDEwMT
 Y1NzIwMjksMjQwODk1OTk3LDIwMzI2ODQxNjEsNDI0OTIyMjdd
 fQ==
 -->
