@@ -113,7 +113,9 @@ Glide.with(this)
 Glide 어느 과정에서 chunk 가 손실되거나 만들지 않는것 같음
 
 
-#### 3. 
+#### 3.  decoding Option 을 변경한 경우
+
+
 
 ```java
 BitmapFactory.Options decodeBitmapOptions = new BitmapFactory.Options();  
@@ -162,6 +164,6 @@ https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-gli
 >  Library which allows you to create a chunk for NinePatchDrawable at runtime
 > https://github.com/Anatolii/NinePatchChunk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjU3MjAyOSwyNDA4OTU5OTcsMjAzMj
-Y4NDE2MSw0MjQ5MjIyN119
+eyJoaXN0b3J5IjpbMTE2OTg2ODYxNywxMDE2NTcyMDI5LDI0MD
+g5NTk5NywyMDMyNjg0MTYxLDQyNDkyMjI3XX0=
 -->
