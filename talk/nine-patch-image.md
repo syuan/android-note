@@ -33,9 +33,10 @@ SimpleTarget<Bitmap> target = new SimpleTarget<Bitmap>(){
 
 
 #### Assumptions
-1. downsampling, transform 등의 후처리를 하면서 chunk가 손실 되는건가?
-2. decoding 이전에 이미지 파일의 
-3. decoding 할때 BitmapOption 이 일반적이지 않나?
+1. download 하면서 file의 byte 의 조작이 있나?
+2. downsampling, transform 등의 후처리를 하면서 chunk가 손실 되는건가?
+4. decoding 할때 BitmapOption 이 일반적이지 않나?
+  
   
 
 https://www.programmersought.com/article/97346007070/
@@ -62,5 +63,5 @@ https://github.com/Anatolii/NinePatchChunk
 https://stackoverflow.com/questions/46349657/difference-diskcachestrategy-in-glide-v4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM1OTM5MTVdfQ==
+eyJoaXN0b3J5IjpbMTk3NzEwODk1OV19
 -->
