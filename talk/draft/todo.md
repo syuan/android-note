@@ -125,6 +125,17 @@ https://github.com/schlan/java-censor
 
 #### Detach subdirectory into separate Git repository
 https://stackoverflow.com/questions/359424/detach-move-subdirectory-into-separate-git-repository
+
+
+#### layout params 의 size 설정과 size() 옵션의 차이
+무엇이 다르고, 무엇이 더 효율적인가
+```java 
+ImageLoader.with(context)
+    .load(it.url)
+    .size(it.width.dpToPx(context),it.height.dpToPx(context))
+    .into(view)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY2NjU4NSwxOTM5MDYzNjUxXX0=
+eyJoaXN0b3J5IjpbLTczOTUxMjAzLC0xNzE2NjY1ODUsMTkzOT
+A2MzY1MV19
 -->
