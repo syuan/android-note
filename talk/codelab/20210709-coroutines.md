@@ -40,12 +40,15 @@
 - withTimeout, withTimeoutOrNull
 - main dispatcher 에서 launch 를 사용해도 block 되지 않네, runBlocking 은 블럭 됨
 - async
+- GlobalScope 을 사용하면 exception 발생시 의도하지 않게 application 종료가 되니
+parent, child coroutine 구조의  
 
 
 Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
 -- ddd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUxOTEyMTEsLTE1MDQzMjYxOTIsLT
-I5NzcxNzE4MSwtMTAxODcxMDQxNSwtMTg2NTI4MTY2OCwtNDk3
-MjM1MjM1LC0xODM3ODc1MDk2LDEyMDA0MzI0NF19
+eyJoaXN0b3J5IjpbMTI1NzQyNDE5NSwtMTg5NTE5MTIxMSwtMT
+UwNDMyNjE5MiwtMjk3NzE3MTgxLC0xMDE4NzEwNDE1LC0xODY1
+MjgxNjY4LC00OTcyMzUyMzUsLTE4Mzc4NzUwOTYsMTIwMDQzMj
+Q0XX0=
 -->
