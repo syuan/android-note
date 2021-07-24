@@ -47,13 +47,13 @@ parent, child coroutine 구조의  structured concurrency 구조로 작성해서
 - CPS (continuation passing style)
 - label 로 구간을 나누고, Continuation(state) 를 suspend 함수 마다 전달되고, 계속 반복되는 형태, 
 - Continuation 의 label (step) 이 계속 업데이트 되면서 다음 함수를 순차 수행
-- 
+- suspend 함수의 작업이 끝나면 label 업데이트하고 resume 되면서 다시 switch case 로 이동
 
 Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
 -- ddd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwODUzODc2LC0xODk1MTkxMjExLC0xNT
-A0MzI2MTkyLC0yOTc3MTcxODEsLTEwMTg3MTA0MTUsLTE4NjUy
-ODE2NjgsLTQ5NzIzNTIzNSwtMTgzNzg3NTA5NiwxMjAwNDMyND
-RdfQ==
+eyJoaXN0b3J5IjpbLTEyNzc1Njk0ODAsLTE4OTUxOTEyMTEsLT
+E1MDQzMjYxOTIsLTI5NzcxNzE4MSwtMTAxODcxMDQxNSwtMTg2
+NTI4MTY2OCwtNDk3MjM1MjM1LC0xODM3ODc1MDk2LDEyMDA0Mz
+I0NF19
 -->
