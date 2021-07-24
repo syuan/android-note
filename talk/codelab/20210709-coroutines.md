@@ -27,9 +27,9 @@
 - 코루틴은 callback 형태의 코드를 순차적인 코드로 바꿔줌
 - coroutine 을 만들기 위한 builder ->  launch, aysnc, runBlocking
 - suspend function -> suspend, delay(), join()
-- structured concurrency -> 부모 coroutine 블럭과 자식 coroutine 블럭 간의 관계를 만들어서 자식이 끝나야 부모
+- structured concurrency -> 부모 coroutine 블럭과 자식 coroutine 블럭 간의 관계를 만들어서 자식이 끝나야 부모가 종료
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzQ0NDQwNywtNDk3MjM1MjM1LC0xOD
-M3ODc1MDk2LDEyMDA0MzI0NF19
+eyJoaXN0b3J5IjpbOTY3NTQxMjY0LC00OTcyMzUyMzUsLTE4Mz
+c4NzUwOTYsMTIwMDQzMjQ0XX0=
 -->
