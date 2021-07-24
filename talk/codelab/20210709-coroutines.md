@@ -22,6 +22,11 @@
 - Dispatcher
 
 - Scope . {builder function} (coroutine context)
+
+
+- 코루틴은 callback 형태의 코드를 순차적인 코드로 바꿔줌
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc4NzUwOTYsMTIwMDQzMjQ0XX0=
+eyJoaXN0b3J5IjpbLTM3MzE5NjE1LC0xODM3ODc1MDk2LDEyMD
+A0MzI0NF19
 -->
