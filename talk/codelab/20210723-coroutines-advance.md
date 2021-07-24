@@ -22,7 +22,8 @@
 -- https://medium.com/androiddevelopers/coroutines-patterns-for-work-that-shouldnt-be-cancelled-e26c40f142ad
 
 - 어느 dispatcher 인지 확인하는 방법은?
--- Thread.currentThread().name
+-- Thread.currentThread().name : thread 확인
+-- [-Dkotlinx.coroutines.debug in IntelliJ IDEA?](https://stackoverflow.com/questions/53250953/how-to-enable-dkotlinx-coroutines-debug-in-intellij-idea) : coroutine 
 
 - suspend 함수는 무엇?
 --   coroutine suspend 함수는 thread 를 block 하지 않음
@@ -54,8 +55,8 @@ val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable -
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgzMTE3ODcsLTIxMDI3MzU2MjIsMj
-EyMzEwNzI4NiwxMDgyMjQxOTIwLDE4MDYwNjc3NjMsLTE2NTYw
-NzEwNjAsODc3MjE1MzI4LDE4NjUwNzU4OSwtMTA2NDM3OTkxMF
-19
+eyJoaXN0b3J5IjpbMTA0NDk2MzA4OSwtMjEwMjczNTYyMiwyMT
+IzMTA3Mjg2LDEwODIyNDE5MjAsMTgwNjA2Nzc2MywtMTY1NjA3
+MTA2MCw4NzcyMTUzMjgsMTg2NTA3NTg5LC0xMDY0Mzc5OTEwXX
+0=
 -->
