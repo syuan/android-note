@@ -23,7 +23,7 @@
 
 - 어느 dispatcher 인지 확인하는 방법은?
 -- Thread.currentThread().name : thread 확인
--- [-Dkotlinx.coroutines.debug in IntelliJ IDEA?](https://stackoverflow.com/questions/53250953/how-to-enable-dkotlinx-coroutines-debug-in-intellij-idea) : coroutine 
+-- [-Dkotlinx.coroutines.debug in IntelliJ IDEA?](https://stackoverflow.com/questions/53250953/how-to-enable-dkotlinx-coroutines-debug-in-intellij-idea) : coroutine 확인
 
 - suspend 함수는 무엇?
 --   coroutine suspend 함수는 thread 를 block 하지 않음
@@ -55,8 +55,8 @@ val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable -
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDk2MzA4OSwtMjEwMjczNTYyMiwyMT
-IzMTA3Mjg2LDEwODIyNDE5MjAsMTgwNjA2Nzc2MywtMTY1NjA3
-MTA2MCw4NzcyMTUzMjgsMTg2NTA3NTg5LC0xMDY0Mzc5OTEwXX
-0=
+eyJoaXN0b3J5IjpbLTE3NjMwOTQ4MDIsMTA0NDk2MzA4OSwtMj
+EwMjczNTYyMiwyMTIzMTA3Mjg2LDEwODIyNDE5MjAsMTgwNjA2
+Nzc2MywtMTY1NjA3MTA2MCw4NzcyMTUzMjgsMTg2NTA3NTg5LC
+0xMDY0Mzc5OTEwXX0=
 -->
