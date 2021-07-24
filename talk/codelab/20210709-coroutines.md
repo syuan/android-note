@@ -38,9 +38,13 @@
 - cancel 이 정상 동작을 위해서는 suspend 함수를 사용하거나, isActive 체크
 - cancel 을 위해 delay(1) 대신 yield(), ensureActive()
 - withTimeout, withTimeoutOrNull
-- 
+- main despatcher 
+
+
+Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
+-- ddd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQzMjYxOTIsLTI5NzcxNzE4MSwtMT
-AxODcxMDQxNSwtMTg2NTI4MTY2OCwtNDk3MjM1MjM1LC0xODM3
-ODc1MDk2LDEyMDA0MzI0NF19
+eyJoaXN0b3J5IjpbLTgxNzY2NTMyNiwtMTUwNDMyNjE5MiwtMj
+k3NzE3MTgxLC0xMDE4NzEwNDE1LC0xODY1MjgxNjY4LC00OTcy
+MzUyMzUsLTE4Mzc4NzUwOTYsMTIwMDQzMjQ0XX0=
 -->
