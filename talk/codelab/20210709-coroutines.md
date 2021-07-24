@@ -41,13 +41,13 @@
 - main dispatcher 에서 launch 를 사용해도 block 되지 않네, runBlocking 은 블럭 됨
 - async
 - GlobalScope 을 사용하면 exception 발생시 의도하지 않게 application 종료가 되니
-parent, child coroutine 구조의  
+parent, child coroutine 구조의  structured concurrency 구조로 작성해서 exception 발생서 종료가 전파되도록 하는게 좋음
 
 
 Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
 -- ddd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzQyNDE5NSwtMTg5NTE5MTIxMSwtMT
+eyJoaXN0b3J5IjpbMTg1OTk0OTg5OCwtMTg5NTE5MTIxMSwtMT
 UwNDMyNjE5MiwtMjk3NzE3MTgxLC0xMDE4NzEwNDE1LC0xODY1
 MjgxNjY4LC00OTcyMzUyMzUsLTE4Mzc4NzUwOTYsMTIwMDQzMj
 Q0XX0=
