@@ -29,7 +29,6 @@
 --   하나의 thread 에서 여러 개의 coroutine 을 실행, 특정 작업이 suspend 되고 resume 될 때까지 이 사이에 다른 작업을 수행
 --   그래서 suspend 는 많은 concurrent 작업을 지원하면서 blocking 에 대한 메모리를 절약
 
-
 - test rule 2개 무엇?
 
 - CompletableDeferred ?
@@ -55,8 +54,8 @@ val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable -
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjkwOTAzMSwtMjEwMjczNTYyMiwyMT
-IzMTA3Mjg2LDEwODIyNDE5MjAsMTgwNjA2Nzc2MywtMTY1NjA3
-MTA2MCw4NzcyMTUzMjgsMTg2NTA3NTg5LC0xMDY0Mzc5OTEwXX
-0=
+eyJoaXN0b3J5IjpbLTEyMzgzMTE3ODcsLTIxMDI3MzU2MjIsMj
+EyMzEwNzI4NiwxMDgyMjQxOTIwLDE4MDYwNjc3NjMsLTE2NTYw
+NzEwNjAsODc3MjE1MzI4LDE4NjUwNzU4OSwtMTA2NDM3OTkxMF
+19
 -->
