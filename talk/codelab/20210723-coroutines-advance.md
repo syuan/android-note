@@ -15,8 +15,8 @@
 #### question
 
 - ViewModelScope 에서 launch 하면 어느 dispatcher?  
--- ViewModelScope.launch 로 생성된 coroutine 은 main dispatcher
--- GlobalScope.lauch 로 생성된 coroutine 은 default dispatcher
+-- ViewModelScope 은 기본이 main dispatcher
+-- GlobalScope 은 default dispatcher
 -- ViewModelScope, LifecycleScope 은 생명주기에 따라 취소됨
 -- GlobalScope 은 문제가 application 의 생명주기를 가지며, exception 발생시 전체 영향을 줌
 -- https://medium.com/androiddevelopers/coroutines-patterns-for-work-that-shouldnt-be-cancelled-e26c40f142ad
@@ -49,7 +49,7 @@ val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable -
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjI0MTkyMCwxODA2MDY3NzYzLC0xNj
-U2MDcxMDYwLDg3NzIxNTMyOCwxODY1MDc1ODksLTEwNjQzNzk5
-MTBdfQ==
+eyJoaXN0b3J5IjpbMjEyMzEwNzI4NiwxMDgyMjQxOTIwLDE4MD
+YwNjc3NjMsLTE2NTYwNzEwNjAsODc3MjE1MzI4LDE4NjUwNzU4
+OSwtMTA2NDM3OTkxMF19
 -->
