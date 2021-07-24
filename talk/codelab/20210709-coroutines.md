@@ -27,9 +27,9 @@
 - 코루틴은 callback 형태의 코드를 순차적인 코드로 바꿔줌
 - coroutine 을 만들기 위한 builder ->  launch, aysnc, runBlocking
 - suspend function -> suspend, delay(), join()
-- 
+- structured concurrency 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMwNTc5NjcsLTE4Mzc4NzUwOTYsMT
-IwMDQzMjQ0XX0=
+eyJoaXN0b3J5IjpbLTQ5NzIzNTIzNSwtMTgzNzg3NTA5NiwxMj
+AwNDMyNDRdfQ==
 -->
