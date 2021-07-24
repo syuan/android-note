@@ -22,6 +22,7 @@
 -- https://medium.com/androiddevelopers/coroutines-patterns-for-work-that-shouldnt-be-cancelled-e26c40f142ad
 
 - 어느 dispatcher 인지 확인하는 방법은?
+-- Thread.currentThread().name
 
 - suspend 함수는 무엇?
 
@@ -32,6 +33,8 @@
 - SupervisorJob?
 --   [SupervisorJob](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-supervisor-job.html)  : Exception을 상위 parent에게 통지하지 않는다. 결국 child 들에서 발생한 Exception이 다른 child에 영향을 주지 않는다.
 --   [CoroutineExceptionHandler](https://kotlinlang.org/docs/reference/coroutines/exception-handling.html)  : Exception을 받아 처리한다.
+
+ApplicationScope 을 만드는 경우,
 ```kotlin
 class MyApplication : Application() {  
 
@@ -46,7 +49,7 @@ val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable -
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTEyMDMwOCwxODA2MDY3NzYzLC0xNj
+eyJoaXN0b3J5IjpbMTA4MjI0MTkyMCwxODA2MDY3NzYzLC0xNj
 U2MDcxMDYwLDg3NzIxNTMyOCwxODY1MDc1ODksLTEwNjQzNzk5
 MTBdfQ==
 -->
