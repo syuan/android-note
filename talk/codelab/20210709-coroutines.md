@@ -28,8 +28,9 @@
 - coroutine 을 만들기 위한 builder ->  launch, aysnc, runBlocking
 - suspend function -> suspend, delay(), join()
 - structured concurrency -> 부모 coroutine 블럭과 자식 coroutine 블럭 간의 관계를 만들어서 자식이 끝나야 부모가 종료
+- coroutine 이 thread 의 사용보다 성능이 좋음
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NTQxMjY0LC00OTcyMzUyMzUsLTE4Mz
-c4NzUwOTYsMTIwMDQzMjQ0XX0=
+eyJoaXN0b3J5IjpbLTE5NTIxMDQ3MDMsLTQ5NzIzNTIzNSwtMT
+gzNzg3NTA5NiwxMjAwNDMyNDRdfQ==
 -->
