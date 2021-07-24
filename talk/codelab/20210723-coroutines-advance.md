@@ -26,7 +26,8 @@
 - test rule 2개 무엇?
 
 - complatableDeferred ?
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTYwNzEwNjAsODc3MjE1MzI4LDE4Nj
-UwNzU4OSwtMTA2NDM3OTkxMF19
+eyJoaXN0b3J5IjpbLTUzNzU1NDk2OSwtMTY1NjA3MTA2MCw4Nz
+cyMTUzMjgsMTg2NTA3NTg5LC0xMDY0Mzc5OTEwXX0=
 -->
