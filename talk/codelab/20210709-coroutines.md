@@ -30,8 +30,8 @@
 - suspend function -> suspend, delay(), join()
 - structured concurrency -> 부모 coroutine 블럭과 자식 coroutine 블럭 간의 관계를 만들어서 자식이 끝나야 부모가 종료
 - coroutine 이 thread 의 사용보다 성능이 좋음
-- suspend / resume 
+- suspend / resume -> suspend 함수의 경우 일수 중단 할수 있어서 suspend 함수간에 중단, 재개를 반복
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjUyODE2NjgsLTQ5NzIzNTIzNSwtMT
-gzNzg3NTA5NiwxMjAwNDMyNDRdfQ==
+eyJoaXN0b3J5IjpbLTEwMTg3MTA0MTUsLTE4NjUyODE2NjgsLT
+Q5NzIzNTIzNSwtMTgzNzg3NTA5NiwxMjAwNDMyNDRdfQ==
 -->
