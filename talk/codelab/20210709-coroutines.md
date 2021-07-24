@@ -24,13 +24,14 @@
 - Scope . {builder function} (coroutine context)
 
 
+1~2
 - 코루틴은 callback 형태의 코드를 순차적인 코드로 바꿔줌
 - coroutine 을 만들기 위한 builder ->  launch, aysnc, runBlocking
 - suspend function -> suspend, delay(), join()
 - structured concurrency -> 부모 coroutine 블럭과 자식 coroutine 블럭 간의 관계를 만들어서 자식이 끝나야 부모가 종료
 - coroutine 이 thread 의 사용보다 성능이 좋음
-- 
+- suspend / resume 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIxMDQ3MDMsLTQ5NzIzNTIzNSwtMT
+eyJoaXN0b3J5IjpbLTE4NjUyODE2NjgsLTQ5NzIzNTIzNSwtMT
 gzNzg3NTA5NiwxMjAwNDMyNDRdfQ==
 -->
