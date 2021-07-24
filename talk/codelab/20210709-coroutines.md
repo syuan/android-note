@@ -25,8 +25,9 @@
 
 
 - 코루틴은 callback 형태의 코드를 순차적인 코드로 바꿔줌
+- coroutine 을 만들기 위한 builder 는 launch, aysnc, runBlocking 이 있음
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzE5NjE1LC0xODM3ODc1MDk2LDEyMD
-A0MzI0NF19
+eyJoaXN0b3J5IjpbLTE3OTcyMDY1MDAsLTE4Mzc4NzUwOTYsMT
+IwMDQzMjQ0XX0=
 -->
