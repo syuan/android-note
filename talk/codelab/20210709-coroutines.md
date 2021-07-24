@@ -37,9 +37,10 @@
 - job cancel 가능
 - cancel 이 정상 동작을 위해서는 suspend 함수를 사용하거나, isActive 체크
 - cancel 을 위해 delay(1) 대신 yield(), ensureActive()
-- withTimeout
+- withTimeout, withTimeoutOrNull
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MDA1ODA2LC0yOTc3MTcxODEsLTEwMT
-g3MTA0MTUsLTE4NjUyODE2NjgsLTQ5NzIzNTIzNSwtMTgzNzg3
-NTA5NiwxMjAwNDMyNDRdfQ==
+eyJoaXN0b3J5IjpbLTE1MDQzMjYxOTIsLTI5NzcxNzE4MSwtMT
+AxODcxMDQxNSwtMTg2NTI4MTY2OCwtNDk3MjM1MjM1LC0xODM3
+ODc1MDk2LDEyMDA0MzI0NF19
 -->
