@@ -28,7 +28,7 @@
 
 - test rule 2개 무엇?
 
-- complatableDeferred ?
+- CompletableDeferred ?
 
 - SupervisorJob?
 --   [SupervisorJob](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-supervisor-job.html)  : Exception을 상위 parent에게 통지하지 않는다. 결국 child 들에서 발생한 Exception이 다른 child에 영향을 주지 않는다.
@@ -49,7 +49,7 @@ val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable -
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzEwNzI4NiwxMDgyMjQxOTIwLDE4MD
-YwNjc3NjMsLTE2NTYwNzEwNjAsODc3MjE1MzI4LDE4NjUwNzU4
-OSwtMTA2NDM3OTkxMF19
+eyJoaXN0b3J5IjpbLTIxMDI3MzU2MjIsMjEyMzEwNzI4NiwxMD
+gyMjQxOTIwLDE4MDYwNjc3NjMsLTE2NTYwNzEwNjAsODc3MjE1
+MzI4LDE4NjUwNzU4OSwtMTA2NDM3OTkxMF19
 -->
