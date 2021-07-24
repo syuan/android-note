@@ -18,7 +18,7 @@
 -- ViewModelScope.launch 로 생성된 coroutine 은 main dispatcher
 -- GlobalScope.lauch 로 생성된 coroutine 은 default dispatcher
 -- ViewModelScope, LifecycleScope 은 생명주기에 따라 취소됨
--- GlobalScope 은 문제가 application 의 생명주기를 가지므로 사용 자제
+-- GlobalScope 은 문제가 application 의 생명주기를 가지며, e
 -- https://medium.com/androiddevelopers/coroutines-patterns-for-work-that-shouldnt-be-cancelled-e26c40f142ad
 
 - 어느 dispatcher 인지 확인하는 방법은?
@@ -35,7 +35,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjM3NDAwLDE4MDYwNjc3NjMsLTE2NT
+eyJoaXN0b3J5IjpbMTY1MDYzNDEwLDE4MDYwNjc3NjMsLTE2NT
 YwNzEwNjAsODc3MjE1MzI4LDE4NjUwNzU4OSwtMTA2NDM3OTkx
 MF19
 -->
