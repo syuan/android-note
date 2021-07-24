@@ -15,6 +15,9 @@
 #### question
 
 - ViewModelScope 에서 launch 하면 어느 dispatcher?  
+-- ViewModelScope.launch 로 생성된 coroutine 은 main dispatcher
+-- GlobalScope.lauch 로 생성된 coroutine 은 default dispatcher
+-- GlobalScope 의 생명 주기는 아마도 
 
 - 어느 dispatcher 인지 확인하는 방법은?
 
@@ -24,6 +27,6 @@
 
 - complatableDeferred ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3MjE1MzI4LDE4NjUwNzU4OSwtMTA2ND
-M3OTkxMF19
+eyJoaXN0b3J5IjpbLTE2NTYwNzEwNjAsODc3MjE1MzI4LDE4Nj
+UwNzU4OSwtMTA2NDM3OTkxMF19
 -->
