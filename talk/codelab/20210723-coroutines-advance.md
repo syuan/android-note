@@ -32,17 +32,21 @@
 - SupervisorJob?
 --   [SupervisorJob](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-supervisor-job.html)  : Exception을 상위 parent에게 통지하지 않는다. 결국 child 들에서 발생한 Exception이 다른 child에 영향을 주지 않는다.
 --   [CoroutineExceptionHandler](https://kotlinlang.org/docs/reference/coroutines/exception-handling.html)  : Exception을 받아 처리한다.
-```
-fun loadGlobal() = GlobalScope.launch(exception + SupervisorJob()) {
+```kotlin
+class MyApplication : Application() {  
+
+// No need to cancel this scope as it'll be torn down with the process  
+val applicationScope = CoroutineScope(exceptionHandler + SupervisorJob() + otherConfig)
+
 }
 
-private val exception = CoroutineExceptionHandler { coroutineContext, throwable ->
-  // 여기서 예외 처리
+val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable ->
+  // handle exception
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTUwOTcxNSwxODA2MDY3NzYzLC0xNj
+eyJoaXN0b3J5IjpbMTk1OTEyMDMwOCwxODA2MDY3NzYzLC0xNj
 U2MDcxMDYwLDg3NzIxNTMyOCwxODY1MDc1ODksLTEwNjQzNzk5
 MTBdfQ==
 -->
