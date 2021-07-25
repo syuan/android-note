@@ -57,10 +57,11 @@ parent, child coroutine 구조의  structured concurrency 구조로 작성해서
 
 #### Question
 Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
-
+-- block 됨, delay() 인 suspend 함수여서 해당 함수가 정지 였을뿐
+실제로 무거운 작업을 수행하면 main thread 가 블럭 됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzI5MDI0MywtNTY3ODE0NTYxLC04NT
-Y2NzY2MzYsLTE4OTUxOTEyMTEsLTE1MDQzMjYxOTIsLTI5Nzcx
-NzE4MSwtMTAxODcxMDQxNSwtMTg2NTI4MTY2OCwtNDk3MjM1Mj
-M1LC0xODM3ODc1MDk2LDEyMDA0MzI0NF19
+eyJoaXN0b3J5IjpbODQ5MTA2ODg3LC01Njc4MTQ1NjEsLTg1Nj
+Y3NjYzNiwtMTg5NTE5MTIxMSwtMTUwNDMyNjE5MiwtMjk3NzE3
+MTgxLC0xMDE4NzEwNDE1LC0xODY1MjgxNjY4LC00OTcyMzUyMz
+UsLTE4Mzc4NzUwOTYsMTIwMDQzMjQ0XX0=
 -->
