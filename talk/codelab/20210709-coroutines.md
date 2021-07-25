@@ -49,7 +49,9 @@ parent, child coroutine 구조의  structured concurrency 구조로 작성해서
 - label 로 구간을 나누고, Continuation(state) 를 suspend 함수 마다 전달되고, 계속 반복되는 형태, 
 - Continuation 의 label (step) 이 계속 업데이트 되면서 다음 함수를 순차 수행
 - suspend 함수의 작업이 끝나면 label 업데이트하고 resume 되면서 다시 switch case 로 이동
-- CoroutineContext -> coroutine 은 d
+- CoroutineContext -> coroutine 은 CoroutineContext 에서 실행이 됨
+- CoroutineContext 은 여러 요소를 가지고 있음, job, dispatcher
+- newSingleTreadDispatcher(name)
 
 
 
@@ -57,7 +59,7 @@ parent, child coroutine 구조의  structured concurrency 구조로 작성해서
 Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
 -- ddd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjk1OTYwNSwtODU2Njc2NjM2LC0xOD
+eyJoaXN0b3J5IjpbLTU2NzgxNDU2MSwtODU2Njc2NjM2LC0xOD
 k1MTkxMjExLC0xNTA0MzI2MTkyLC0yOTc3MTcxODEsLTEwMTg3
 MTA0MTUsLTE4NjUyODE2NjgsLTQ5NzIzNTIzNSwtMTgzNzg3NT
 A5NiwxMjAwNDMyNDRdfQ==
