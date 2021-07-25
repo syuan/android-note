@@ -61,7 +61,7 @@ Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread
 실제로 무거운 작업을 수행하면 main thread 가 블럭 됨,
 main dispatcher 에서 무거운 작업하면 안됨
 ```
-  delay(5_000)  // 예제가 delay 여서 block 되지 않은것 처럼 보여
+  delay(5_000)  // 예제가 delay 여서 block 되지 않은것 처럼 보였을뿐
 ```
 ```
   for (i: Int in 1..Int.MAX_VALUE) {  
@@ -71,7 +71,7 @@ main dispatcher 에서 무거운 작업하면 안됨
   }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAxNDgwNTQsLTU2NzgxNDU2MSwtOD
+eyJoaXN0b3J5IjpbLTEyMjIwMDQ0MDYsLTU2NzgxNDU2MSwtOD
 U2Njc2NjM2LC0xODk1MTkxMjExLC0xNTA0MzI2MTkyLC0yOTc3
 MTcxODEsLTEwMTg3MTA0MTUsLTE4NjUyODE2NjgsLTQ5NzIzNT
 IzNSwtMTgzNzg3NTA5NiwxMjAwNDMyNDRdfQ==
