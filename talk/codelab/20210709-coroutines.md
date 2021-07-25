@@ -57,7 +57,7 @@ parent, child coroutine 구조의  structured concurrency 구조로 작성해서
 
 #### Question
 Q. main dispatcher 에서 coroutine 에서 delay() 을 하는데 왜 main thread 가 블럭되지 않을까?
--- block 됨, delay() 인 suspend 함수여서 해당 함수가 정지 였을뿐
+-- block 됨, delay() 인 suspend 함수여서 해당 함수가 정지 상태로 만들고 다른 작업을 수행한것
 실제로 무거운 작업을 수행하면 main thread 가 블럭 됨,
 main dispatcher 에서 무거운 작업하면 안됨
 ```kotlin
@@ -73,8 +73,8 @@ main dispatcher 에서 무거운 작업하면 안됨
   }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUyODYxNjEsLTU2NzgxNDU2MSwtOD
-U2Njc2NjM2LC0xODk1MTkxMjExLC0xNTA0MzI2MTkyLC0yOTc3
-MTcxODEsLTEwMTg3MTA0MTUsLTE4NjUyODE2NjgsLTQ5NzIzNT
-IzNSwtMTgzNzg3NTA5NiwxMjAwNDMyNDRdfQ==
+eyJoaXN0b3J5IjpbLTM5MTM3ODc1MiwtNTY3ODE0NTYxLC04NT
+Y2NzY2MzYsLTE4OTUxOTEyMTEsLTE1MDQzMjYxOTIsLTI5Nzcx
+NzE4MSwtMTAxODcxMDQxNSwtMTg2NTI4MTY2OCwtNDk3MjM1Mj
+M1LC0xODM3ODc1MDk2LDEyMDA0MzI0NF19
 -->
