@@ -5,8 +5,6 @@
 
 [Introduction to coroutines](https://developer.android.com/codelabs/basic-android-kotlin-training-introduction-coroutines)
 
-[https://www.youtube.com/watch?v=14AGUuh8Bp8&list=PLbJr8hAHHCP5N6Lsot8SAnC28SoxwAU5A&index=2](https://www.youtube.com/watch?v=14AGUuh8Bp8&list=PLbJr8hAHHCP5N6Lsot8SAnC28SoxwAU5A&index=2)
-
 #### playground
 - [https://developer.android.com/training/kotlinplayground](https://developer.android.com/training/kotlinplayground)
 - [https://play.kotlinlang.org/](https://play.kotlinlang.org/)
@@ -22,6 +20,9 @@
 - Dispatcher
 
 - Scope . {builder function} (coroutine context)
+
+#### coroutine lecture
+[https://www.youtube.com/watch?v=14AGUuh8Bp8&list=PLbJr8hAHHCP5N6Lsot8SAnC28SoxwAU5A&index=2](https://www.youtube.com/watch?v=14AGUuh8Bp8&list=PLbJr8hAHHCP5N6Lsot8SAnC28SoxwAU5A&index=2)
 
 
 1~2
@@ -55,8 +56,8 @@ parent, child coroutine 구조의  structured concurrency 구조로 작성해서
 Q. main dispatcher 에서 coroutine 에서 sleep() 을 하는데 왜 main thread 가 블럭되지 않을까?
 -- ddd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjY3NjYzNiwtMTg5NTE5MTIxMSwtMT
-UwNDMyNjE5MiwtMjk3NzE3MTgxLC0xMDE4NzEwNDE1LC0xODY1
-MjgxNjY4LC00OTcyMzUyMzUsLTE4Mzc4NzUwOTYsMTIwMDQzMj
-Q0XX0=
+eyJoaXN0b3J5IjpbMTUxMDM1NTA4NCwtODU2Njc2NjM2LC0xOD
+k1MTkxMjExLC0xNTA0MzI2MTkyLC0yOTc3MTcxODEsLTEwMTg3
+MTA0MTUsLTE4NjUyODE2NjgsLTQ5NzIzNTIzNSwtMTgzNzg3NT
+A5NiwxMjAwNDMyNDRdfQ==
 -->
