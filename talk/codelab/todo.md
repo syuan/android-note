@@ -2,6 +2,10 @@
 Mad
 - work manager, mvvm, navigation ...
 
+#### viewmodel
+
+https://developer.android.com/codelabs/kotlin-android-training-quality-and-states (+ coroutine, navigation, )
+
 #### paging
 https://developer.android.com/codelabs/android-paging?hl=en&continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#0
 
@@ -19,6 +23,7 @@ https://developer.android.com/codelabs/advanced-kotlin-coroutines?hl=ko#9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2OTMxNDkxLDg0ODEwNDUxMiwtMTE3Nj
-kxNjYzNSwtMTA4NzU0NDMzOCwtMTgwMDI3NjI3OF19
+eyJoaXN0b3J5IjpbMTE4OTk3OTExNiw1MTY5MzE0OTEsODQ4MT
+A0NTEyLC0xMTc2OTE2NjM1LC0xMDg3NTQ0MzM4LC0xODAwMjc2
+Mjc4XX0=
 -->
