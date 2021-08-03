@@ -3,7 +3,8 @@ Mad
 - work manager, mvvm, navigation ...
 
 #### viewmodel
-
+https://developer.android.com/codelabs/basic-android-kotlin-training-livedata
+(2번째 기능이)
 https://developer.android.com/codelabs/kotlin-android-training-quality-and-states (+ coroutine, navigation, )
 
 #### paging
@@ -23,7 +24,7 @@ https://developer.android.com/codelabs/advanced-kotlin-coroutines?hl=ko#9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTk3OTExNiw1MTY5MzE0OTEsODQ4MT
+eyJoaXN0b3J5IjpbMjAyNTQ4Mjg2OCw1MTY5MzE0OTEsODQ4MT
 A0NTEyLC0xMTc2OTE2NjM1LC0xMDg3NTQ0MzM4LC0xODAwMjc2
 Mjc4XX0=
 -->
