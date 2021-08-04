@@ -140,8 +140,11 @@ pom.xml 의 의존성이 기존과 달라졌는데, 기존 dependency 는 compil
 pom.xml 이 자동으로 만들어지면 implementation 로 선언된 부분이 runtime 으로 선언되면서 기존이랑 차이가 생김
 -> 그래서 implementation 선언된 부분을 api 로 바꿔주었음, 의미도 그것이 더 맞는것 같음
 
+>https://maven.google.com/web/index.html#androidx.viewpager:viewpager:1.0.0
+>https://docs.gradle.org/current/userguide/publishing_maven.html#publishing_maven:tasks
+>https://developer.android.com/studio/build/maven-publish-plugin?hl=ko
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODEzODcxNjUsMTk0NjQ1MzI1NSwxMD
-c3NzY4NzM5XX0=
+eyJoaXN0b3J5IjpbMTY3OTc3NTg4NiwxOTQ2NDUzMjU1LDEwNz
+c3Njg3MzldfQ==
 -->
