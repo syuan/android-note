@@ -130,7 +130,8 @@ publishReleasePublicationToReleaseRepository
 </project>
 ```
 
-agp 4.2.2 로 업그레이드 이후 pom 파일 직접 만드는것과 
+agp 4.2.2 로 업그레이드 이후 pom 파일 직접 만드는것과 aar 로 업로드가 안되서 
+android, maven doc 에 나와있는 방식 대로 처리 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDEzMzk5OSwxMDc3NzY4NzM5XX0=
+eyJoaXN0b3J5IjpbODI1MzIyMDY2LDEwNzc3Njg3MzldfQ==
 -->
