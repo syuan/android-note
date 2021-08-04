@@ -137,7 +137,7 @@ from components.release
 ```
 
 pom.xml 의 의존성이 기존과 달라졌는데, 기존 dependency 는 compile 이 기본인데
-im
+pom.xml 이 자동으로 만들어지면 implementation 로 선언된 부분이 runtime 으로 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMxMDk1ODcsMTA3Nzc2ODczOV19
+eyJoaXN0b3J5IjpbLTIzMjExMDU2OSwxMDc3NzY4NzM5XX0=
 -->
