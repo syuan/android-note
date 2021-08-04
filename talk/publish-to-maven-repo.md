@@ -132,7 +132,12 @@ publishReleasePublicationToReleaseRepository
 
 agp 4.2.2 로 업그레이드 이후 pom 파일 직접 만드는것과 aar 로 업로드가 안되서 
 android, maven doc 에 나와있는 방식 대로 처리 
+```
+from components.release
+```
 
+pom.xml 의 의존성이 기존과 달라졌는데, 기존 dependency 는 compile 이 기본인데
+im
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MTQxMzc2LDEwNzc3Njg3MzldfQ==
+eyJoaXN0b3J5IjpbLTE5NzMxMDk1ODcsMTA3Nzc2ODczOV19
 -->
