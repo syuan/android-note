@@ -129,6 +129,8 @@ publishReleasePublicationToReleaseRepository
     </dependencies>  
 </project>
 ```
+
+agp 4.2.2 로 업그레이드 이후 pom 파일 직접 만드는것과 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Nzc2ODczOV19
+eyJoaXN0b3J5IjpbLTYwNDEzMzk5OSwxMDc3NzY4NzM5XX0=
 -->
