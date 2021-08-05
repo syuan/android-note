@@ -8,8 +8,9 @@ ViewModel 생성 방법 - ViewModelProvider
 > https://readystory.tistory.com/176
 
 
-
+Next, LiveData
+> https://developer.android.com/codelabs/kotlin-android-training-live-data#0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDcxNzM2NzUsNDE3NTc2ODI1LC0xNT
-E2OTY2NTI3XX0=
+eyJoaXN0b3J5IjpbMTYwMzA5MzA0MSw0MTc1NzY4MjUsLTE1MT
+Y5NjY1MjddfQ==
 -->
