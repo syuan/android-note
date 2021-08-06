@@ -1,6 +1,6 @@
 
 Mad
-- work manager, mvvm, navigation ...
+- work manager, mvvm, navigation, hilt ...
 
 #### viewmodel
 https://developer.android.com/codelabs/basic-android-kotlin-training-livedata
@@ -24,7 +24,7 @@ https://developer.android.com/codelabs/advanced-kotlin-coroutines?hl=ko#9
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUwNjMyNjcsNTE2OTMxNDkxLDg0OD
-EwNDUxMiwtMTE3NjkxNjYzNSwtMTA4NzU0NDMzOCwtMTgwMDI3
-NjI3OF19
+eyJoaXN0b3J5IjpbMTM0NzA1MjY3MiwtMTkyNTA2MzI2Nyw1MT
+Y5MzE0OTEsODQ4MTA0NTEyLC0xMTc2OTE2NjM1LC0xMDg3NTQ0
+MzM4LC0xODAwMjc2Mjc4XX0=
 -->
