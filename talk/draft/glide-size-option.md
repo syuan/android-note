@@ -26,9 +26,11 @@ Glide.with(this)
     .into(target);
 ```
 
-width = 80, height = 20 인 경우,
-into 의 target view 만큼 request size 를 산정하므로 실제 target view 에 설정된 bitmap 의 크기는 동일 
+width = 80, height = 20 인 경우,  
+into 의 target view 만큼 request size 를 산정하므로 실제 target view 에 할당된 bitmap 의 크기는 동일 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjkyODY3NiwtOTA4MjE1MDYwLC01OD
+eyJoaXN0b3J5IjpbMTkwOTg3MTg4OCwtOTA4MjE1MDYwLC01OD
 E4OTA4XX0=
 -->
