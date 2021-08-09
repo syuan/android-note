@@ -29,9 +29,9 @@ Glide.with(this)
 width = 80, height = 20 인 경우,  
 into 의 target view 만큼 request size 를 산정하므로 실제 target view 에 할당된 bitmap 의 크기는 동일 
   
-첫번째 케이스의 경우, 기본 
+첫번째 케이스의 경우, target view 의 size 를 wrap_content 로 두는 경우가 일반적이라 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzg5MDg4LC05MDgyMTUwNjAsLTU4MT
-g5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE4MjA4ODg4MjUsLTkwODIxNTA2MCwtNT
+gxODkwOF19
 -->
