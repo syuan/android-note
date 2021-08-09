@@ -30,9 +30,11 @@ width = 80, height = 20 인 경우,
 into 의 target view 만큼 request size 를 산정하므로 실제 target view 에 할당된 bitmap 의 크기는 동일 
   
 첫번째 케이스의 경우 target view 의 size 를 wrap_content 로 두는 경우라
-loading 전까지 영역이 0 크기를 유지하고 load 완료 후 크 
+loading 전까지 영역이 0 크기를 유지하고 load 완료 후 view 의 크기가 산정
+
+두번째 케이스의 경우 처음부터 view 의  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQwMjI4NjIsMTA1MTEzMDc5MiwtOT
-A4MjE1MDYwLC01ODE4OTA4XX0=
+eyJoaXN0b3J5IjpbNTQxMzIzOTg2LDEwNTExMzA3OTIsLTkwOD
+IxNTA2MCwtNTgxODkwOF19
 -->
