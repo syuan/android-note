@@ -32,9 +32,9 @@ into 의 target view 만큼 request size 를 산정하므로 실제 target view 
 첫번째 케이스의 경우 target view 의 size 를 wrap_content 로 두는 경우라
 loading 전까지 영역이 0 크기를 유지하고 load 완료 후 view 의 크기가 산정
 
-두번째 케이스의 경우 처음부터 view 의 영역을 설정하고 후에 view 
+두번째 케이스의 경우 처음부터 view 의 영역을 설정하고 후에 load 후에 drawable 을 설정 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzIyOTgxMiwxMDUxMTMwNzkyLC05MD
-gyMTUwNjAsLTU4MTg5MDhdfQ==
+eyJoaXN0b3J5IjpbMTE3NTYwNzA3MCwtNDIzMjI5ODEyLDEwNT
+ExMzA3OTIsLTkwODIxNTA2MCwtNTgxODkwOF19
 -->
