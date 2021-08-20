@@ -8,7 +8,8 @@
 
 
 - lifecycle owner
-- 
+- backing property
+- finish 사
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjA4ODI3OF19
+eyJoaXN0b3J5IjpbLTcxMjczNjkzNiwyMDIyMDg4Mjc4XX0=
 -->
