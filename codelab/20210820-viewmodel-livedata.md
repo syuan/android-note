@@ -9,7 +9,7 @@
 
 - lifecycle owner
 - backing property
-- finish 사
+- finish 상태에 대한 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjczNjkzNiwyMDIyMDg4Mjc4XX0=
+eyJoaXN0b3J5IjpbLTE4NzMzODg3ODksMjAyMjA4ODI3OF19
 -->
