@@ -15,12 +15,13 @@ adb shell dumpsys activity [package name]
 <depends>org.jetbrains.android</depends>
 ```
 의존성을 잘 추가하면 기존보다 기본 동작을 쉽게 구현할 듯
+- draft 형태로 일단 동작만 가능하게 만들것
 
 - 메뉴 추가 위치 다시 체크
 - 연결된 device 복수개 처리
 - package 이름은 현재 프로젝트의 application id 로 처리할까?
 - 명령어 수행을 비동기로 처리해야되나? / dialog 하나 띄우고 비동기로 간단하게 처리할까 (progress bar)
-- 다이얼로그 사이즈를 유연하게 만드는건 고민, 기본 다이얼로그 깔끔하게 못만
+- 다이얼로그 사이즈를 유연하게 만드는건 고민, 기본 다이얼로그 깔끔하게 못만드나
 
 
 https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a6080ea5dfe843c6b6968/android/src/org/jetbrains/android/run/AndroidRunningState.java
@@ -29,5 +30,5 @@ https://github.com/pbreault/adb-idea/blob/master/src/main/resources/META-INF/plu
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NjAxMzY1LC0zODk2ODM5MzRdfQ==
+eyJoaXN0b3J5IjpbMTU3NDg3NzAxOCwtMzg5NjgzOTM0XX0=
 -->
