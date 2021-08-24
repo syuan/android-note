@@ -16,7 +16,8 @@ adb shell dumpsys activity [package name]
 ```
 의존성을 잘 추가하면 기존보다 기본 동작을 쉽게 구현할 듯
 
-- 메뉴 추가 위치 다시 체
+- 메뉴 추가 위치 다시 체크
+- 
 
 
 https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a6080ea5dfe843c6b6968/android/src/org/jetbrains/android/run/AndroidRunningState.java
@@ -25,5 +26,5 @@ https://github.com/pbreault/adb-idea/blob/master/src/main/resources/META-INF/plu
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzI5NjEwNiwtMzg5NjgzOTM0XX0=
+eyJoaXN0b3J5IjpbLTEzNDg2NzA1OTMsLTM4OTY4MzkzNF19
 -->
