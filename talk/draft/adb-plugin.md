@@ -1,5 +1,9 @@
 
-### ADB plugin
+
+
+## ADB plugin
+
+
 
 ``` shell
 adb shell dumpsys activity [package name]
@@ -11,5 +15,5 @@ https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a608
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0MDAxNTk0XX0=
+eyJoaXN0b3J5IjpbNTg1ODQ5MzM1XX0=
 -->
