@@ -19,7 +19,7 @@ adb shell dumpsys activity [package name]
 - 메뉴 추가 위치 다시 체크
 - 연결된 device 복수개 처리
 - package 이름은 현재 프로젝트의 application id 로 처리할까?
-- 명령어 수행을 비동기로 처리해야되나? / 화면 하나 띄우고 비동기로 간단하게 처리할까
+- 명령어 수행을 비동기로 처리해야되나? / dialog 하나 띄우고 비동기로 간단하게 처리할까
 
 
 https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a6080ea5dfe843c6b6968/android/src/org/jetbrains/android/run/AndroidRunningState.java
@@ -28,5 +28,5 @@ https://github.com/pbreault/adb-idea/blob/master/src/main/resources/META-INF/plu
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1Njk0NTQ4LC0zODk2ODM5MzRdfQ==
+eyJoaXN0b3J5IjpbMzMxMDQ3ODUyLC0zODk2ODM5MzRdfQ==
 -->
