@@ -14,8 +14,9 @@ adb shell dumpsys activity [package name]
 <depends>com.intellij.modules.platform</depends>
 <depends>org.jetbrains.android</depends>
 ```
-의존성을 잘 추가하면 기본 동작을 쉽게 구현할 듯
+의존성을 잘 추가하면 기존보다 기본 동작을 쉽게 구현할 듯
 
+- 메뉴 추가 위치랑
 
 
 https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a6080ea5dfe843c6b6968/android/src/org/jetbrains/android/run/AndroidRunningState.java
@@ -24,5 +25,5 @@ https://github.com/pbreault/adb-idea/blob/master/src/main/resources/META-INF/plu
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjQwOTQ3LC0zODk2ODM5MzRdfQ==
+eyJoaXN0b3J5IjpbMzQ1MTk1NDI5LC0zODk2ODM5MzRdfQ==
 -->
