@@ -10,6 +10,12 @@ adb shell dumpsys activity [package name]
 ```
 현재 프로젝트의 activity / fragment stack 을 확인하는 android studio plugin 만들기
 
+```
+<depends>com.intellij.modules.platform</depends>
+<depends>org.jetbrains.android</depends>
+```
+의존성을 잘 추가하면 기본 동작을 쉽게 구현할 듯
+
 
 
 https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a6080ea5dfe843c6b6968/android/src/org/jetbrains/android/run/AndroidRunningState.java
@@ -18,5 +24,5 @@ https://github.com/pbreault/adb-idea/blob/master/src/main/resources/META-INF/plu
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMjQ2OTM1LC0zODk2ODM5MzRdfQ==
+eyJoaXN0b3J5IjpbLTk5NjQwOTQ3LC0zODk2ODM5MzRdfQ==
 -->
