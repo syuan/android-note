@@ -26,9 +26,13 @@ adb shell dumpsys activity [package name]
 
 https://github.com/NiTnEuQs/platform_tools_adt_idea/blob/c8a54a8ffd114264861a6080ea5dfe843c6b6968/android/src/org/jetbrains/android/run/AndroidRunningState.java
 
+
+https://plugins.jetbrains.com/plugin/7380-adb-idea
+
 https://github.com/pbreault/adb-idea/blob/master/src/main/resources/META-INF/plugin.xml
 
 https://github.com/pbreault/adb-idea/blob/master/src/main/kotlin/com/developerphil/adbidea/adb/AdbFacade.kt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDg3NzAxOCwtMzg5NjgzOTM0XX0=
+eyJoaXN0b3J5IjpbLTE5NTkwMTgyMDksMTU3NDg3NzAxOCwtMz
+g5NjgzOTM0XX0=
 -->
