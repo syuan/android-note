@@ -12,7 +12,8 @@ https://thecodeside.medium.com/why-flutter-is-not-your-choice-for-building-the-b
 file provider
 https://developer.android.com/reference/androidx/core/content/FileProvider
 
+Storage Access Framework API??
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDUxMDQwNiwxNTAyNDMzNDE2LDEwOD
+eyJoaXN0b3J5IjpbMTEzMTg4MTEzOSwxNTAyNDMzNDE2LDEwOD
 g2OTM0NF19
 -->
