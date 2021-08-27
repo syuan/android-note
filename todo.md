@@ -13,7 +13,10 @@ file provider
 https://developer.android.com/reference/androidx/core/content/FileProvider
 
 Storage Access Framework API??
+
+junit hang
+https://medium.com/stepstone-tech/how-to-debug-freezing-junit-tests-e43c747a533a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTg4MTEzOSwxNTAyNDMzNDE2LDEwOD
-g2OTM0NF19
+eyJoaXN0b3J5IjpbODg2NTM5NTcsMTEzMTg4MTEzOSwxNTAyND
+MzNDE2LDEwODg2OTM0NF19
 -->
