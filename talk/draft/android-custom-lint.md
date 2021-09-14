@@ -11,7 +11,8 @@ Uast 기본 동작을 더 자세하게 확인할 필요 있음
 
 -  interface 선언 방식이 이상해서 케이스별로 샘플을 만들어두기
 - Issue 등록 안하면 visit 안되네, 당연한 건가
+- print 는 sout 으로 가능 
 -  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2MzcwMzk2XX0=
+eyJoaXN0b3J5IjpbLTE1MTk4MDM2NTBdfQ==
 -->
