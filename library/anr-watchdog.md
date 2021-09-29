@@ -30,10 +30,12 @@ public void run() {
             return;  
         }  
   
-        // If the main thread has not handled _ticker, it is blocked. ANR.  
-	 if (_tick != 0 && !_reported) {  
+        // If the main thread has not handled _ticker, it is ANR.  
+	    if (_tick != 0 && !_reported) {  
             ...  
-        }  
+        }
+        
+        ...  
     }  
 }
 ```
@@ -54,6 +56,6 @@ StackTraceElement[] mainStackTrace = mainThread.getStackTrace();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTAwNzU2NywtODUyMzE0NzU0LDM2NT
-c3MzQyMSwtMjEyODU2NTM4OSwyMTM5Mzg3NzcxXX0=
+eyJoaXN0b3J5IjpbODI0Njk5MTI5LC04NTIzMTQ3NTQsMzY1Nz
+czNDIxLC0yMTI4NTY1Mzg5LDIxMzkzODc3NzFdfQ==
 -->
