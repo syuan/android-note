@@ -54,12 +54,24 @@ StackTraceElement[] mainStackTrace = mainThread.getStackTrace();
 
 android.util.Printer 를 Main Thread Looper 에 등록해서 message 처리 간격을 측정하는 방식
 
+android.util.Printer 
+```java
+public interface Printer {  
+	void println(String x);  
+}
+```
+
+
+Looper 에 Printer class 등록 방식
 ```java
 Looper.getMainLooper().setMessageLogging(LOOPER_MONITOR);
 ```
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTExMjYxNCw4MjQ2OTkxMjksLTg1Mj
-MxNDc1NCwzNjU3NzM0MjEsLTIxMjg1NjUzODksMjEzOTM4Nzc3
-MV19
+eyJoaXN0b3J5IjpbMTU4NzI3NDM4NiwxNDA1MTEyNjE0LDgyND
+Y5OTEyOSwtODUyMzE0NzU0LDM2NTc3MzQyMSwtMjEyODU2NTM4
+OSwyMTM5Mzg3NzcxXX0=
 -->
