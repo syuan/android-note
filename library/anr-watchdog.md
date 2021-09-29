@@ -52,10 +52,14 @@ StackTraceElement[] mainStackTrace = mainThread.getStackTrace();
 #### BlockCanary 와 구현 차이가 있나?
 > https://github.com/seiginonakama/BlockCanaryEx 
 
-b
+android.util.Printer 를 Main Thread Looper 에 등록해서 message 처리 간격을 측정하는 방식
+
+```java
+Looper.getMainLooper().setMessageLogging(LOOPER_MONITOR);
+```d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODczNDA0NSw4MjQ2OTkxMjksLTg1Mj
+eyJoaXN0b3J5IjpbMTUxNjE4MjE4Miw4MjQ2OTkxMjksLTg1Mj
 MxNDc1NCwzNjU3NzM0MjEsLTIxMjg1NjUzODksMjEzOTM4Nzc3
 MV19
 -->
