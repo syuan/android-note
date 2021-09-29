@@ -56,10 +56,10 @@ android.util.Printer 를 Main Thread Looper 에 등록해서 message 처리 간�
 
 ```java
 Looper.getMainLooper().setMessageLogging(LOOPER_MONITOR);
-```d
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjE4MjE4Miw4MjQ2OTkxMjksLTg1Mj
+eyJoaXN0b3J5IjpbMTQwNTExMjYxNCw4MjQ2OTkxMjksLTg1Mj
 MxNDc1NCwzNjU3NzM0MjEsLTIxMjg1NjUzODksMjEzOTM4Nzc3
 MV19
 -->
