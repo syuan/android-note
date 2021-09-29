@@ -52,10 +52,10 @@ StackTraceElement[] mainStackTrace = mainThread.getStackTrace();
 #### BlockCanary 와 구현 차이가 있나?
 > https://github.com/seiginonakama/BlockCanaryEx 
 
-
-
+b
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0Njk5MTI5LC04NTIzMTQ3NTQsMzY1Nz
-czNDIxLC0yMTI4NTY1Mzg5LDIxMzkzODc3NzFdfQ==
+eyJoaXN0b3J5IjpbLTc5ODczNDA0NSw4MjQ2OTkxMjksLTg1Mj
+MxNDc1NCwzNjU3NzM0MjEsLTIxMjg1NjUzODksMjEzOTM4Nzc3
+MV19
 -->
