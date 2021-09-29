@@ -13,9 +13,9 @@ Application Scope 의 worker thread 를 하나 만들고.
 interval time 간격 마다 UI thread handler 로 message 를 보냄. 
 interval time 안에 보낸 message 가 수행되지 않으면 ANR 로 판단. 
   
-- default interval time 은 5000ms
+default interval time 은 5000ms
 
-- 해당 시점의 main thread stack trace 를 꺼내는 방법
+해당 시점의 main thread StackTrace 를 꺼내는 방법
 
 ```kotlin
 Thread mainThread = Looper.getMainLooper().getThread();
@@ -30,6 +30,6 @@ StackTraceElement[] mainStackTrace = mainThread.getStackTrace();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjQyMzg0NiwtODUyMzE0NzU0LDM2NT
-c3MzQyMSwtMjEyODU2NTM4OSwyMTM5Mzg3NzcxXX0=
+eyJoaXN0b3J5IjpbMjk2MjYwOTYsLTg1MjMxNDc1NCwzNjU3Nz
+M0MjEsLTIxMjg1NjUzODksMjEzOTM4Nzc3MV19
 -->
