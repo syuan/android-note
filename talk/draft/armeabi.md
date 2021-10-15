@@ -35,6 +35,15 @@ arm64-v8a기기를 예로 들면,  armeabi와 armeabi-v7a 코드도 실행할 �
 #### mips, mips64
 
 NDK r17에서 툴체인들이 제거
+
+
+
+#### Deprecated
+
+> https://developer.android.com/studio/build/configure-apk-splits?hl=ko
+
+AGP 3.1.0 이상에서는 기본적으로 `mips`, `mips64`, `armeabi` ABI에 더 이상 APK를 생성하지 않습니다. 그 이유는 NDK r17 이상에서는 더 이상 이러한 ABI를 지원되는 타겟으로 포함하지 않기 때문
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjU1MTU4LC02MzI2MzY3MzVdfQ==
+eyJoaXN0b3J5IjpbMTc5ODA1NzczMSwtNjMyNjM2NzM1XX0=
 -->
