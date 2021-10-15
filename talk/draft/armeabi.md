@@ -32,7 +32,9 @@ arm64-v8a기기를 예로 들면,  armeabi와 armeabi-v7a 코드도 실행할 �
 
 많은 X86 기반 기기는 armeabi-v7a 및 armeabi NDK 바이너리도 실행할 수 있다. 이런 기기의 경우 Primary ABI가 X86, Secondary ABI는 armeabi-v7a
 
+#### mips, mips64
 
+NDK r17에서 툴체인들이 제거
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY3MzM4ODUsLTYzMjYzNjczNV19
+eyJoaXN0b3J5IjpbLTk1NjU1MTU4LC02MzI2MzY3MzVdfQ==
 -->
