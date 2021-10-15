@@ -51,12 +51,14 @@ AGP 3.1.0 이상에서는 기본적으로 `mips`, `mips64`, `armeabi` ABI에 더
 
 #### Device
 
+x86_64: chromebook, google pixelbook ()
+x86: asus (307)
 armeabi: LG optimus one, Galaxy mini, Galaxy Y
-mips: play store 에서 기기 카탈로그를 보면 지원되는 기기 0
+mips: play store 에서 기기 카탈로그를 보면 지원되는 기기 (0)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcyMzMwODUsLTIxNjgzOTE0NCwxNj
-kxNTEyOTEyLC02MzI2MzY3MzVdfQ==
+eyJoaXN0b3J5IjpbMTA2Njg5MTM5MiwtMjE2ODM5MTQ0LDE2OT
+E1MTI5MTIsLTYzMjYzNjczNV19
 -->
