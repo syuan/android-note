@@ -46,6 +46,8 @@ AGP 3.1.0 이상에서는 기본적으로 `mips`, `mips64`, `armeabi` ABI에 더
 
 #### MIPS Technologies, Inc.
 
+2012 년 인수되어 없어지고 특허는 arm 이 가져간듯?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTUxMjkxMiwtNjMyNjM2NzM1XX0=
+eyJoaXN0b3J5IjpbLTIxNjgzOTE0NCwxNjkxNTEyOTEyLC02Mz
+I2MzY3MzVdfQ==
 -->
