@@ -18,12 +18,14 @@ v7a 는 neon 관련 명령어셋이 추가되어 연산량 증가 (멀티미디�
 
 arm64-v8a 은 64-bit 지원
 
-#### Intel cpu (주로 )
+arm64-v8a기기를 예로 들면,  armeabi와 armeabi-v7a 코드도 실행할 수 있다. 다만 앱이 arm64-v8a를 대상으로 하는 경우 32비트의 기기보다 64비트 기기에서 더욱 잘 수행
+
+#### Intel cpu
 
 "x86", "x86_64"
 32bit, 64bit 차이
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTk1ODY0NSwtNjMyNjM2NzM1XX0=
+eyJoaXN0b3J5IjpbLTM0NDgyNjE4NCwtNjMyNjM2NzM1XX0=
 -->
