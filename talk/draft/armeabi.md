@@ -9,6 +9,8 @@
 abi 라 함은 application binary interface 로 프로세서와 OS간을 주로 연결해주는 interface
 arm cpu 와 x86 cpu 들은 opcode구성이 다르기에 abi로 중재하여 os를 구현
 
+런타임에 시스템과 앱의 머신코드가 어떻게 상호작용 할지를 기술한 인터페이스so파일을 로딩하는 경우, 머신코드-아키텍쳐에서 사용하는 ABI와 일치해야 구동이 가능
+
 #### Arm cpu
 
 "arm64-v8a", "armeabi-v7a", "armeabi"
@@ -25,7 +27,9 @@ arm64-v8a기기를 예로 들면,  armeabi와 armeabi-v7a 코드도 실행할 �
 "x86", "x86_64"
 32bit, 64bit 차이
 
+많은 X86 기반 기기는 armeabi-v7a 및 armeabi NDK 바이너리도 실행할 수 있다. 이런 기기의 경우 Primary ABI가 X86, Secondary ABI는 armeabi-v7a
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDgyNjE4NCwtNjMyNjM2NzM1XX0=
+eyJoaXN0b3J5IjpbMzQ2MjA5NTcsLTYzMjYzNjczNV19
 -->
