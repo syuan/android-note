@@ -44,6 +44,8 @@ NDK r17에서 툴체인들이 제거
 
 AGP 3.1.0 이상에서는 기본적으로 `mips`, `mips64`, `armeabi` ABI에 더 이상 APK를 생성하지 않습니다. 그 이유는 NDK r17 이상에서는 더 이상 이러한 ABI를 지원되는 타겟으로 포함하지 않기 때문
 
+#### MIPS Technologies, Inc.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODA1NzczMSwtNjMyNjM2NzM1XX0=
+eyJoaXN0b3J5IjpbMTY5MTUxMjkxMiwtNjMyNjM2NzM1XX0=
 -->
