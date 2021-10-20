@@ -15,11 +15,13 @@ adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev
 android 에서 text 공유를 위해서 intent 를 만들면, 
 
 ```java
-Intent sharingIntent = new Intent(Intent.ACTION_SEND); sharingIntent.setType("text/html"); sharingIntent.putExtra(Intent.EXTRA_TEXT, "https://www.google.com");
+Intent intent = new Intent(Intent.ACTION_SEND);
+intent.setType("text/html");
+intent.putExtra(Intent.EXTRA_TEXT, "https://www.google.com");
 ```
 
 Intent.EXTRA_TEXT 값은 
-```
+```java
 public static final String EXTRA_TEXT = "android.intent.extra.TEXT";
 ```
 
@@ -35,7 +37,7 @@ adb shell am start -a android.intent.action.VIEW -t vnd.android-dir/mms-sms --es
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzEzMjUxOSwtMTM2MjgzMTQxNywtMj
-A0Mzk4NzM5Nyw0NjI2NTQ2MjEsLTEzMTIwMjMyNDgsMTU0MTk2
-ODMyXX0=
+eyJoaXN0b3J5IjpbLTEzMDk1NzI3MzksLTEzNjI4MzE0MTcsLT
+IwNDM5ODczOTcsNDYyNjU0NjIxLC0xMzEyMDIzMjQ4LDE1NDE5
+NjgzMl19
 -->
