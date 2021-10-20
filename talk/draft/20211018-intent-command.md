@@ -13,6 +13,7 @@ adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev
 #### Share text
 
 android 에서 text 공유를 위해서 intent 를 만들면, 
+
 ```java
 Intent sharingIntent = new Intent(Intent.ACTION_SEND); sharingIntent.setType("text/html"); sharingIntent.putExtra(Intent.EXTRA_TEXT, "https://www.google.com");
 ```
@@ -28,17 +29,13 @@ adb shell am start -a android.intent.action.VIEW -t text/plain --es android.inte
 ```
 
 
- sms 로 전달하면
+:frowning:  sms 로 전달해보면
 ```
 adb shell am start -a android.intent.action.VIEW -t vnd.android-dir/mms-sms --es sms_body https://www.google.com
 ```
 
-
-https://www.google.com
-https%3A%2F%2Fwww.google.com
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMjM1MDE4LC0xMzYyODMxNDE3LC0yMD
-QzOTg3Mzk3LDQ2MjY1NDYyMSwtMTMxMjAyMzI0OCwxNTQxOTY4
-MzJdfQ==
+eyJoaXN0b3J5IjpbMjA2NzEzMjUxOSwtMTM2MjgzMTQxNywtMj
+A0Mzk4NzM5Nyw0NjI2NTQ2MjEsLTEzMTIwMjMyNDgsMTU0MTk2
+ODMyXX0=
 -->
