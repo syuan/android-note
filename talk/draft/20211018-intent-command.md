@@ -10,8 +10,14 @@
 adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev.scheme
 ```
 
+#### Share text
+
+```java
+Intent sharingIntent = new Intent(Intent.ACTION_SEND); sharingIntent.setType("text/html"); sharingIntent.putExtra(Intent.EXTRA_TEXT, "What you want to share");
+```
+
 ```bash
-adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev.scheme
+adb shell am start -a android.intent.action.VIEW -t "text/plain" -d market://details?id=krow.dev.scheme
 ```
 
 
@@ -19,7 +25,7 @@ adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev
 am start -a android.intent.action.VIEW -d com.glass.videoglass:// --ez startFromWS true
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI2OTE0ODMsLTEzNjI4MzE0MTcsLT
-IwNDM5ODczOTcsNDYyNjU0NjIxLC0xMzEyMDIzMjQ4LDE1NDE5
-NjgzMl19
+eyJoaXN0b3J5IjpbMzcwNDAzOTgzLC0xMzYyODMxNDE3LC0yMD
+QzOTg3Mzk3LDQ2MjY1NDYyMSwtMTMxMjAyMzI0OCwxNTQxOTY4
+MzJdfQ==
 -->
