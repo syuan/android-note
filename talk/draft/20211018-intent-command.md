@@ -6,7 +6,11 @@
 > https://developer.android.com/studio/command-line/adb#IntentSpec
 
 
+```bash
+adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev.scheme
 ```
+
+```bash
 adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev.scheme
 ```
 
@@ -14,15 +18,8 @@ adb shell am start -a android.intent.action.VIEW -d market://details?id=krow.dev
 ```
 am start -a android.intent.action.VIEW -d com.glass.videoglass:// --ez startFromWS true
 ```
-
-am start -a android.intent.action.MAIN -n com.example/com.example.MainActivity
-
-서비스 실행
-am startservice  -n [패키지명]/[패키지명 포함 서비스명]
-
-브로드캐스트 보내기
-am broadcast  -a [braodcast 명]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI4MzE0MTcsLTIwNDM5ODczOTcsND
-YyNjU0NjIxLC0xMzEyMDIzMjQ4LDE1NDE5NjgzMl19
+eyJoaXN0b3J5IjpbLTE3MTI2OTE0ODMsLTEzNjI4MzE0MTcsLT
+IwNDM5ODczOTcsNDYyNjU0NjIxLC0xMzEyMDIzMjQ4LDE1NDE5
+NjgzMl19
 -->
