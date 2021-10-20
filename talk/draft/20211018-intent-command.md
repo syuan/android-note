@@ -27,11 +27,14 @@ public static final String EXTRA_TEXT = "android.intent.extra.TEXT";
 adb shell am start -a android.intent.action.VIEW -t text/plain --es android.intent.extra.TEXT https://www.google.com
 ```
 
+adb shell am start -a android.intent.action.VIEW --es android.intent.extra.TEXT https://www.google.com
+
+
 https://www.google.com
 https%3A%2F%2Fwww.google.com
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjM0NTEyLC0xMzYyODMxNDE3LC0yMD
-QzOTg3Mzk3LDQ2MjY1NDYyMSwtMTMxMjAyMzI0OCwxNTQxOTY4
-MzJdfQ==
+eyJoaXN0b3J5IjpbMTA0NDc0NDk5MSwtMTM2MjgzMTQxNywtMj
+A0Mzk4NzM5Nyw0NjI2NTQ2MjEsLTEzMTIwMjMyNDgsMTU0MTk2
+ODMyXX0=
 -->
