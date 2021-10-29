@@ -37,11 +37,13 @@ class  HeavyWorkerTest {
 		val result = heavyWorker.heavyOperation() assertEquals(expected, result) 
 	} 
 }
-``
+```
 
-####`
+#### TestCoroutineDispatcher
+> https://developer.android.com/kotlin/coroutines/coroutines-best-practices?hl=ko
+> https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-test/README.md
  
 HtmlCompat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTIzODgyOCwtNDc2Mjg5MzUyXX0=
+eyJoaXN0b3J5IjpbLTEwNzk1NDQxODAsLTQ3NjI4OTM1Ml19
 -->
