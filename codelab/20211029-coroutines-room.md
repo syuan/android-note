@@ -10,6 +10,9 @@ ViewModel 이 인자가 있어서 더 큰 생명주의 ViewModel 을 위해서 f
 
 #### AndroidViewModel
 불가피하게 ViewModel 에서 context 사용하는 경우 사용
+```java
+getApplication()
+```
 
 #### Room dispatcher
 Room 에서는 IO dispatcher 를 따로 사용할 필요 없음 내부적으로 thread pool 에서 동작함
@@ -45,5 +48,6 @@ class  HeavyWorkerTest {
  
 HtmlCompat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk1NDQxODAsLTQ3NjI4OTM1Ml19
+eyJoaXN0b3J5IjpbLTE1NDU4MzQ5MTcsLTEwNzk1NDQxODAsLT
+Q3NjI4OTM1Ml19
 -->
