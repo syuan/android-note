@@ -20,9 +20,14 @@ Room 에서는 IO dispatcher 를 따로 사용할 필요 없음 내부적으로 
 
 #### suspend 함수 unit test
 suspend 함수를 unit test 작성하는 경우 어떻게 해야하지??
-  runBlocking<Unit> {}
+runBlocking<Unit> 사용?? x
+
+> https://craigrussell.io/2019/11/unit-testing-coroutine-suspend-functions-using-testcoroutinedispatcher/
+```
+@ExperimentalCoroutinesApi class  HeavyWorkerTest { @get:Rule var coroutinesTestRule = CoroutineTestRule() @Test fun  useTestCoroutineDispatcherRunBlockingTest() = coroutinesTestRule.testDispatcher.runBlockingTest { val heavyWorker = HeavyWorker(coroutinesTestRule.testDispatcherProvider) val expected = 666666671666  val result = heavyWorker.heavyOperation() assertEquals(expected, result) } }
+```
  
 HtmlCompat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIyMzUxNDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDE5NzQ3ODFdfQ==
 -->
