@@ -9,6 +9,7 @@
 
 remember ? 
 - scope 은 얼마나 되지?
+- by 를 붙인 경우? 안붙인 경우?
 
 Arrangement?
 Alignment?
@@ -16,6 +17,6 @@ Alignment?
 
 ### week 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTIwODc1MiwxOTA1MjgzODg2LDk0Nj
-YwOTMwNV19
+eyJoaXN0b3J5IjpbLTg3NTczMzA5MCwxOTExMjA4NzUyLDE5MD
+UyODM4ODYsOTQ2NjA5MzA1XX0=
 -->
