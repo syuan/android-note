@@ -11,12 +11,14 @@ remember ?
 - scope 은 얼마나 되지?
 - by 를 붙인 경우? 안붙인 경우?
 
+rememberSaveable ?
+
 Arrangement?
 Alignment?
 
 
 ### week 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTczMzA5MCwxOTExMjA4NzUyLDE5MD
-UyODM4ODYsOTQ2NjA5MzA1XX0=
+eyJoaXN0b3J5IjpbOTUzMDUwODA3LC04NzU3MzMwOTAsMTkxMT
+IwODc1MiwxOTA1MjgzODg2LDk0NjYwOTMwNV19
 -->
