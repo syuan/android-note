@@ -18,7 +18,10 @@ Alignment?
 
 
 ### week 2
+
+> https://developer.android.com/codelabs/jetpack-compose-layouts?authuser=4&continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fcompose%3Fhl%3Den%26authuser%3D4%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fjetpack-compose-layouts#0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDUwODA3LC04NzU3MzMwOTAsMTkxMT
-IwODc1MiwxOTA1MjgzODg2LDk0NjYwOTMwNV19
+eyJoaXN0b3J5IjpbMTUxMjc1MjQ4Miw5NTMwNTA4MDcsLTg3NT
+czMzA5MCwxOTExMjA4NzUyLDE5MDUyODM4ODYsOTQ2NjA5MzA1
+XX0=
 -->
