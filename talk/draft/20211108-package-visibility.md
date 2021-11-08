@@ -35,9 +35,16 @@ Intent.class 객체로 매핑해서 startActivity 하는 경우 (package name �
 -   30 부터는 문제가 발생함, 그래서 quieres 에 해당 package 를 추가해서 launch activity 를 가져와서 startActivity 하는 방식으로 처리
 
 
-#### 
+#### MediaStore.Images.Media.EXTERNAL_CONTENT_URI
 
-https://stackoverflow.com/questions/64645305/how-to-create-intent-to-choose-image-from-gallery-in-android-11
+```java
+Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+```
+content provider 를 나타내는 content:// 라서 mime type 을 
+vnd.android.cursor.dir/* 와 같이 해야하나?
+
+> http://egloos.zum.com/shadowxx/v/10462983
+> https://stackoverflow.com/questions/64645305/how-to-create-intent-to-choose-image-from-gallery-in-android-11
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTg0MzUzOV19
+eyJoaXN0b3J5IjpbNTA4MjMyOTBdfQ==
 -->
