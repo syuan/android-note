@@ -23,7 +23,21 @@ Types of apps that are visible automatically
 
 
 
-####
+#### Test
+-   제대로 구성한 암시적/명시적 intent 는 startActivity 에 문제가 없다.
+-   startActivityForResult() 와 같은 형태에서 callee 는 caller 에 접근할수 있다. (queries 에 선언하지 않아도)
+-   action 을 사용하는 경우, 요청하는 spec 에 맞게 queies 를 작성해야한다. (mimeType 포함할것)
+
+#### Issue
+intent scheme (불안전한 intent scheme, host 제대로 되어 있지 않은) 을
+Intent.class 객체로 매핑해서 startActivity 하는 경우 (package name 만 유효한 경우),
+-   30 이전에는 문제가 없었으나,
+-   30 부터는 문제가 발생함, 그래서 quieres 에 해당 package 를 추가해서 launch activity 를 가져와서 startActivity 하는 방식으로 처리
+
+
+#### 
+
+https://stackoverflow.com/questions/64645305/how-to-create-intent-to-choose-image-from-gallery-in-android-11
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Nzk4MTg3OV19
+eyJoaXN0b3J5IjpbMjEzOTg0MzUzOV19
 -->
