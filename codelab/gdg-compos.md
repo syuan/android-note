@@ -18,11 +18,13 @@ Arrangement?, Alignment?
 - `Column`의 경우 `verticalArrangement` 및 `horizontalAlignment` 인수를 설정
 > https://vitor-ramos.medium.com/understand-arrangement-and-alignment-in-jetpack-compose-7633f2ed5b39
 
-### week 2
+### week 2 - 1
 
 > https://developer.android.com/codelabs/jetpack-compose-layouts?authuser=4&continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fcompose%3Fhl%3Den%26authuser%3D4%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fjetpack-compose-layouts#0
+
+### week 2 - 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDM2NzU5OCwxNTEyNzUyNDgyLDk1Mz
-A1MDgwNywtODc1NzMzMDkwLDE5MTEyMDg3NTIsMTkwNTI4Mzg4
-Niw5NDY2MDkzMDVdfQ==
+eyJoaXN0b3J5IjpbMjE0NDgyNTM4NiwtODgwMzY3NTk4LDE1MT
+I3NTI0ODIsOTUzMDUwODA3LC04NzU3MzMwOTAsMTkxMTIwODc1
+MiwxOTA1MjgzODg2LDk0NjYwOTMwNV19
 -->
