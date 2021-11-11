@@ -5,7 +5,9 @@
 
 > https://developer.android.com/codelabs/kotlin-android-training-quality-and-states#0
 
-ㅣ
+LiveData 에 nonnull 로 선언하고 null 을 설정하는게 허용이 되나??
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Nzk0MzE1MiwxNTg2OTc2ODY1XX0=
+eyJoaXN0b3J5IjpbOTM3NzQ5NDEwLDE1ODY5NzY4NjVdfQ==
 -->
