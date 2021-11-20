@@ -5,6 +5,20 @@
 
 > https://stackoverflow.com/questions/23610393/odd-behavior-class-type-of-the-object-retuned-by-the-gettext-method-of-textvi
 
+os 5.0.1
+```
+/**
+ * @hide
+ */
+@Override
+public CharSequence getIterableTextForAccessibility() {
+    if (!(mText instanceof Spannable)) {
+        setText(mText, BufferType.SPANNABLE);
+    }
+    return mText;
+}
+```
+
 ```java
 ...
 android.widget.TextView.setText (TextView.java:4657)
@@ -96,5 +110,5 @@ android.widget.TextView.setMovementMethod (TextView.java:2221)
 android.widget.TextView.setTextIsSelectable (TextView.java:6133)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzMzMTcyNl19
+eyJoaXN0b3J5IjpbMTY1MjExOTgwN119
 -->
