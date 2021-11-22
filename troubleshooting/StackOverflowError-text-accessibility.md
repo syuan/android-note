@@ -5,6 +5,12 @@
 
 > https://stackoverflow.com/questions/23610393/odd-behavior-class-type-of-the-object-retuned-by-the-gettext-method-of-textvi
 
+>https://android.googlesource.com/platform/frameworks/base/+blame/refs/heads/lollipop-release/core/java/android/widget/TextView.java
+
+>https://android.googlesource.com/platform/frameworks/base/+/8f8a11b7fa26e603519131001ab46596aa30ba1a/core/java/android/widget/TextView.java
+
+> https://android.googlesource.com/platform/frameworks/base/+blame/jb-mr0-release/core/java/android/widget/TextView.java
+
 os 5.0.1
 ```java
 /**
@@ -110,5 +116,5 @@ android.widget.TextView.setMovementMethod (TextView.java:2221)
 android.widget.TextView.setTextIsSelectable (TextView.java:6133)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDg0MzE2NV19
+eyJoaXN0b3J5IjpbLTE0ODc2NDM0NSwyMDIwODQzMTY1XX0=
 -->
