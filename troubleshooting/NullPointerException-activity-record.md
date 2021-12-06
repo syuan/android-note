@@ -14,7 +14,9 @@ Caused by java.lang.NullPointerException: Attempt to invoke virtual method 'void
 ```
 
 
+https://stackoverflow.com/questions/18858320/nullpointerexception-etc-from-parcel-readexception
 
+try-catch 걸어야하나?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA1MzYzOTddfQ==
+eyJoaXN0b3J5IjpbOTQwNDM1MzQxLC0xNDUwNTM2Mzk3XX0=
 -->
