@@ -29,7 +29,8 @@ class MyApplication : Application {
 ```
 또는 MissingSplitsManagerFactory 을 사용해서 마켓에서 다시 설치 하도록 유도할 수 도 있음
 
+부정하게 설치한 사용자라서 대응할 필요는 없다고 생각됨, 사용하지 못하면 다시 제대로 설치할것이기 때문에
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjQzNTQyNSwtMTI5MDA3NTE5NywxOD
+eyJoaXN0b3J5IjpbMjExMTkxOTE5NSwtMTI5MDA3NTE5NywxOD
 UxODY4Nzc1LDczMDk5ODExNl19
 -->
