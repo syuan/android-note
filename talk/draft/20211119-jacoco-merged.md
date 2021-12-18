@@ -1,5 +1,7 @@
 
 
+## JacocoRootReport
+
 > https://github.com/aerogear/aerogear-android-sdk/blob/a18fe89d9b82e8fbaa518f5e3dffc2f0243b6d4f/build.gradle
 
 
@@ -41,8 +43,7 @@ task jacocoRootReport(type: JacocoReport) {
          'android/**/*.*'  
   ]  
   
-    def modules = subprojects.findAll {!(it.name.contains("lightspeed") || it.name.contains("global"))}  
-  
+    def modules = subprojects
   def sourceDirs = []  
    modules.each { project -> sourceDirs << "$project.projectDir/src/main/java" }  
   sourceDirectories.from = files(sourceDirs)  
@@ -58,14 +59,14 @@ task jacocoRootReport(type: JacocoReport) {
   modules.each { project -> execData << fileTree(dir: project.buildDir, includes: ['outputs/code-coverage/connected/*coverage.ec']) }  
   executionData.from = files(execData)  
   
-   reports {  
-  xml.enabled = true  
-  html.enabled = true  
-  csv.enabled = false  
+  reports {  
+	  xml.enabled = true  
+	  html.enabled = true  
+	  csv.enabled = false  
   }  
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMxNTM3NCwxMjEyMDc3MjQ0LDE3NT
-MxMTk3MTJdfQ==
+eyJoaXN0b3J5IjpbMTg5NjY2NDk1LDEyMTIwNzcyNDQsMTc1Mz
+ExOTcxMl19
 -->
