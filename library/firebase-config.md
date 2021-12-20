@@ -5,7 +5,7 @@
 
 > https://github.com/firebase/firebase-android-sdk/tree/master/firebase-config
 
-ExecutorService / Runner 에서 
+ExecutorService / Runnable 에서 timeout 을 이런식으로 구현하는군
 ```java
 CountDownLatch latch =  new  CountDownLatch(1);
 latch.await(timeout, unit);
@@ -22,5 +22,5 @@ if (task.isSuccessful()) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM2MjU5NDUsNDQ1NzAxOTVdfQ==
+eyJoaXN0b3J5IjpbODg3OTUyNTQ2LDQ0NTcwMTk1XX0=
 -->
