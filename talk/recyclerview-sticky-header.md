@@ -29,7 +29,10 @@ public abstract static class ItemDecoration {
 }
 ```
 
+**StickHeaderItemDecoration.class**
+```java
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM1OTU2Ml19
+eyJoaXN0b3J5IjpbLTY1ODg2MDU2OF19
 -->
