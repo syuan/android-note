@@ -30,9 +30,74 @@ public abstract static class ItemDecoration {
 ```
 
 **StickHeaderItemDecoration.class**
-```java
 
+```java
+public class StickHeaderItemDecoration extends RecyclerView.ItemDecoration {  
+  
+   private StickyHeaderInterface mListener;  
+   private int mStickyHeaderHeight;  
+  
+   public StickHeaderItemDecoration(@NonNull StickyHeaderInterface listener) {  
+      // adapter 의 정보를 접근하기 위한 interface  
+  mListener = listener;  
+   }  
+  
+   @Override  
+  public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {  
+      super.onDrawOver(c, parent, state);  
+  
+      // 현재 RecyclerView 에 보여지는 첫번째 View 반환  
+  View topChild = parent.getChildAt(0);  
+      if (topChild == null) {  
+         return;  
+      }  
+  
+      // 첫번째 보여지는 뷰의 실제 position 을 가져옴  
+  int topChildPosition = parent.getChildAdapterPosition(topChild);  
+      if (topChildPosition == RecyclerView.NO_POSITION) {  
+         return;  
+      }  
+  
+      // 가장 최근의 StickyHeader 를 지원하는 item 의 position 을 가져옴  
+  int headerPos = mListener.getHeaderPositionForItem(topChildPosition);  
+  
+      // StickyHeader 를 그리기 위해서 header item 에 해당하는 뷰를 생성  
+  View currentHeader = getHeaderViewForItem(headerPos, parent);  
+      // 생성한 뷰의 measure, layout -> 부모에 attach 된 뷰가 아니기 때문에 직접 호출  
+  fixLayoutSize(parent, currentHeader);  
+  
+      // 후보 뷰가 존재한다면 가져옴  
+  int contactPoint = currentHeader.getBottom();  
+      View childInContact = getChildInContact(parent, contactPoint, headerPos);  
+  
+      // 다음 후보의 StickyHeader 와 겹치지는 경우  
+  if (childInContact != null && mListener.isHeader(parent.getChildAdapterPosition(childInContact))) {  
+         moveHeader(c, currentHeader, childInContact);  
+         return;  
+      }  
+  
+      // 다음 후보의 StickyHeader 와 겹치지 않는 경우  
+  drawHeader(c, currentHeader);  
+   }  
+  
+   ...  
+}
+```
+
+현재 첫번째 아이템을 기준으로 가장 최근의 StickyHeader 를 지원하는 (isHeader) item 의 position 을 가져옴
+```java
+public int getHeaderPositionForItem(int itemPosition) {  
+   int headerPosition = 0;  
+   do {  
+      if (this.isHeader(itemPosition)) {  
+         headerPosition = itemPosition;  
+         break;  
+      }  
+      itemPosition -= 1;  
+   } while (itemPosition >= 0);  
+   return headerPosition;  
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODg2MDU2OF19
+eyJoaXN0b3J5IjpbLTE0MjY0MzI2MCwtNjU4ODYwNTY4XX0=
 -->
