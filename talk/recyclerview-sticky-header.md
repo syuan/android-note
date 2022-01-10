@@ -130,7 +130,44 @@ private void fixLayoutSize(ViewGroup parent, View view) {
 }
 ```
 
+후보 뷰가 중첩되는 경우 후보 뷰를 반환
+```java
+private View getChildInContact(RecyclerView parent, int contactPoint, int currentHeaderPos) {  
+   View childInContact = null;  
+   for (int i = 0; i < parent.getChildCount(); i++) {  
+      int heightTolerance = 0;  
+      View child = parent.getChildAt(i);  
+  
+      if (currentHeaderPos != i) {  
+         boolean isChildHeader = mListener.isHeader(parent.getChildAdapterPosition(child));  
+         if (isChildHeader) {  
+            heightTolerance = mStickyHeaderHeight - child.getHeight();  
+         }  
+      }  
+  
+      int childBottomPosition;  
+      if (child.getTop() > 0) {  
+         childBottomPosition = child.getBottom() + heightTolerance;  
+      } else {  
+         childBottomPosition = child.getBottom();  
+      }  
+  
+      if (childBottomPosition > contactPoint) {  
+         if (child.getTop() <= contactPoint) {  
+            // This child overlaps the contactPoint  
+  childInContact = child;  
+            break;  
+         }  
+      }  
+   }  
+   return childInContact;  
+}
+```
 
+StickyHeader 를 RecyclerView canvas 에 그려줌
+```java
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTQxNzIzNCwtNjU4ODYwNTY4XX0=
+eyJoaXN0b3J5IjpbMjAwNDUwODcxNywtNjU4ODYwNTY4XX0=
 -->
