@@ -203,6 +203,7 @@ recyclerView.setOnTouchListener(new View.OnTouchListener() {
 });
 ```
 
+StickyHeader 영역을 클릭한 경우, 클릭 이벤트를 StickyHeader 의 자식뷰에게 전달
 ```java
 @Override  
 public boolean onSingleTapConfirmed(MotionEvent e) {  
@@ -239,5 +240,5 @@ public boolean onSingleTapConfirmed(MotionEvent e) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgwOTAwNDYsLTY1ODg2MDU2OF19
+eyJoaXN0b3J5IjpbMTM1Nzk2MDQzNiwtNjU4ODYwNTY4XX0=
 -->
