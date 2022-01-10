@@ -98,6 +98,39 @@ public int getHeaderPositionForItem(int itemPosition) {
    return headerPosition;  
 }
 ```
+
+RecyclerView interface 를 통해서 해당 item (ViewHolder)의 layout id 를 가져와서 동일한 뷰를 생성
+```java
+private View getHeaderViewForItem(int headerPosition, RecyclerView parent) {  
+   // ViewHolder 또는 item 이 자신의 뷰에 해당하는 layout id 를 제공해줘야함  
+  int layoutResId = mListener.getHeaderLayout(headerPosition);  
+   View header = LayoutInflater.from(parent.getContext()).inflate(layoutResId, parent, false);  
+  
+   // 필요에 따라 생성한 뷰에 item 을 binding  
+  mListener.bindHeaderData(header, headerPosition);  
+   return header;  
+}
+```
+
+생성한 뷰에 대한 measure, layout 수행
+```java
+private void fixLayoutSize(ViewGroup parent, View view) {  
+  
+   // Specs for parent (RecyclerView)  
+  int widthSpec = View.MeasureSpec.makeMeasureSpec(parent.getWidth(), View.MeasureSpec.EXACTLY);  
+   int heightSpec = View.MeasureSpec.makeMeasureSpec(parent.getHeight(), View.MeasureSpec.UNSPECIFIED);  
+  
+   // Specs for children (headers)  
+  int childWidthSpec = ViewGroup.getChildMeasureSpec(widthSpec, parent.getPaddingLeft() + parent.getPaddingRight(), view.getLayoutParams().width);  
+   int childHeightSpec = ViewGroup.getChildMeasureSpec(heightSpec, parent.getPaddingTop() + parent.getPaddingBottom(), view.getLayoutParams().height);  
+  
+   view.measure(childWidthSpec, childHeightSpec);  
+  
+   view.layout(0, 0, view.getMeasuredWidth(), mStickyHeaderHeight = view.getMeasuredHeight());  
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY0MzI2MCwtNjU4ODYwNTY4XX0=
+eyJoaXN0b3J5IjpbMTU2MTQxNzIzNCwtNjU4ODYwNTY4XX0=
 -->
