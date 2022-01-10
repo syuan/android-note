@@ -166,8 +166,28 @@ private View getChildInContact(RecyclerView parent, int contactPoint, int curren
 
 StickyHeader 를 RecyclerView canvas 에 그려줌
 ```java
+private void drawHeader(Canvas c, View header) {  
+   c.save();  
+   c.translate(0,  0);  
+   header.draw(c);  
+   c.restore();  
+}  
+  
+private void moveHeader(Canvas c, View currentHeader, View nextHeader) {  
+   c.save();  
+   // 후보 뷰가 위로 올라올수록 현재 뷰가 위로 올려서 그림  
+  c.translate(0, nextHeader.getTop() - currentHeader.getHeight());  
+   currentHeader.draw(c);  
+   c.restore();  
+}
+```
+
+### Click Event on StickyHeader
+RecyclerView 에 GestureDetectorCompat 를 연결하여 클릭 이벤트를 사용
+
+```java
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDUwODcxNywtNjU4ODYwNTY4XX0=
+eyJoaXN0b3J5IjpbMTgzODU0NTQ3NiwtNjU4ODYwNTY4XX0=
 -->
