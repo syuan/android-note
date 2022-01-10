@@ -186,8 +186,58 @@ private void moveHeader(Canvas c, View currentHeader, View nextHeader) {
 RecyclerView 에 GestureDetectorCompat 를 연결하여 클릭 이벤트를 사용
 
 ```java
+final GestureDetectorCompat detector = new GestureDetectorCompat(recyclerView.getContext(), new GestureDetector.SimpleOnGestureListener(){  
+  
+   @Override  
+  public boolean onSingleTapConfirmed(MotionEvent e) {  
+      // TODO  
+	  return super.onSingleTapConfirmed(e);  
+   }  
+});  
+  
+recyclerView.setOnTouchListener(new View.OnTouchListener() {  
+   @Override  
+  public boolean onTouch(View v, MotionEvent event) {  
+      return detector.onTouchEvent(event);  
+  }  
+});
+```
 
+```java
+@Override  
+public boolean onSingleTapConfirmed(MotionEvent e) {  
+   if (currentHeader != null) {  
+  
+      int height = currentHeader.getHeight() - dy;  
+      if (e.getY() < height) {  
+  
+         int x = (int) e.getX();  
+         int y = (int) e.getY();  
+         y = y - dy;  
+  
+         if (currentHeader instanceof ViewGroup) {  
+            ViewGroup parent = (ViewGroup) currentHeader;  
+            for (int i = 0; i < parent.getChildCount(); i++) {  
+               View child = parent.getChildAt(i);  
+  
+               Rect rect = new Rect();  
+               rect.left = child.getLeft();  
+               rect.top = child.getTop();  
+               rect.right = child.getRight();  
+               rect.bottom = child.getBottom();  
+  
+               if (rect.contains(x, y)) {  
+                  child.performClick();  
+               }  
+            }  
+         } else {  
+            currentHeader.performClick();  
+         }  
+      }  
+   }  
+   return super.onSingleTapConfirmed(e);  
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODU0NTQ3NiwtNjU4ODYwNTY4XX0=
+eyJoaXN0b3J5IjpbLTE5OTgwOTAwNDYsLTY1ODg2MDU2OF19
 -->
