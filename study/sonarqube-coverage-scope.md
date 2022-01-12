@@ -16,7 +16,9 @@ JacocoReport.classDirectories 값 (filetree 로 특정 package 지정)
 
 
 **sonarqube 에 적용하고 싶은 경우 2번 방법**
+````bash
 sonar.inclusions=**/model/**/*.*, **/interactor/**/*.*, **/presenter/**/*.*
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1OTI2NTM3XX0=
+eyJoaXN0b3J5IjpbLTEyMjY4NDE5MjksNzE1OTI2NTM3XX0=
 -->
