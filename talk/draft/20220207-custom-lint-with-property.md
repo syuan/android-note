@@ -7,22 +7,18 @@
 
 ```kotlin
 
-val props = Properties()  
+var overrideScopes =  false
 
+val props = Properties()  
 context.project.propertyFiles.find { it.name == PROPERTY_FILE }?.apply  
 {  
    val content = StringReader(context.client.readFile(this).toString())  
    props.load(content)  
-   props.getProperty(CUSTOM_SCOPE_KEY)?.let { scopeProperty ->  
-  val customScopes = scopeProperty.split(",")  
-         .asSequence()  
-         .map(String::trim)  
-         .filter(String::isNotBlank)  
-         .toList()  
-      scopes.addAll(customScopes)  
-   }  
+   props.getProperty(OVERRIDE_SCOPES)?.toBoolean()?.let {
+	   overrideScopes = it
+   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU4NjE0NzJdfQ==
+eyJoaXN0b3J5IjpbMTI4OTk4MjY3N119
 -->
