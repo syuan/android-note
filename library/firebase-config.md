@@ -21,6 +21,9 @@ if (task.isSuccessful()) {
 }
 ```
 
+> https://github.com/firebase/firebase-android-sdk/tree/ac3276ce7d5f5181b1c419731495eb88a98537af/firebase-config/src/main/java/com/google/firebase/remoteconfig/internal
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3OTUyNTQ2LDQ0NTcwMTk1XX0=
+eyJoaXN0b3J5IjpbMTQzNjU0OTc2Nyw4ODc5NTI1NDYsNDQ1Nz
+AxOTVdfQ==
 -->
