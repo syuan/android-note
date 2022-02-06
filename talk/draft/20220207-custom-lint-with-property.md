@@ -6,9 +6,11 @@
 > https://github.com/uber/AutoDispose/blob/main/static-analysis/autodispose-lint/src/main/kotlin/autodispose2/lint/AutoDisposeDetector.kt
 
 ```kotlin
+internal  companion  object {
+	internal  const  val  PROPERTY_FILE  =  "gradle.properties"
+}
 
 var overrideScopes =  false
-
 val props = Properties()  
 context.project.propertyFiles.find { it.name == PROPERTY_FILE }?.apply  
 {  
@@ -19,6 +21,8 @@ context.project.propertyFiles.find { it.name == PROPERTY_FILE }?.apply
    }
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTk4MjY3N119
+eyJoaXN0b3J5IjpbLTEyMTczOTM5NjNdfQ==
 -->
