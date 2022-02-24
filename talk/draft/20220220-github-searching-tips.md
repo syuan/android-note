@@ -28,8 +28,8 @@ language:kotlin
 
 ## 7. Star Only
 
-`user:joshlong spring cloud`  
-`org:spring-cloud spring cloud`
+user:JakeWharton 
+org:spring-cloud spring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTE5NzIzMCwtNzY5MzcxNzFdfQ==
+eyJoaXN0b3J5IjpbMTU1MzI5MTAyNSwtNzY5MzcxNzFdfQ==
 -->
