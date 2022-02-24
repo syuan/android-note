@@ -8,13 +8,28 @@ in:description android
 in:readme okhttp
 
 ### 2. More Stars, More Forks
-stars:>=3000 progress
-forks:10..20 progress
+stars:>=5000 progress
+forks:10..30 progress
 
 
 ### 3. Small Repositories, Please
-size:<=5000 spring cloud ()
+size:<=1000 progress (kb)
 
+### 4. Actively Maintained Repositories, Please
+pushed:>2021-01-01 android
+
+### 5. Apache Licenses
+license:apache-2.0 android
+
+## 6. Java Only
+
+language:java
+language:kotlin
+
+## 7. Star Only
+
+`user:joshlong spring cloud`  
+`org:spring-cloud spring cloud`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNjIyMTMxLC03NjkzNzE3MV19
+eyJoaXN0b3J5IjpbMTIxOTE5NzIzMCwtNzY5MzcxNzFdfQ==
 -->
