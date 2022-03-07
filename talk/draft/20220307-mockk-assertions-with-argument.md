@@ -6,7 +6,19 @@
 > https://notwoods.github.io/mockk-guidebook/docs/matching/with/
 
 
+```kotlin
+val expected = File("hello", data = "world".toByteArray())
+
+network.upload(File("hello", data = "world".toByteArray()))
+
+verify {
+  network.upload(withArg {
+    assertTrue(expected.name == it.name)
+    assertTrue(expected.data contentEquals it.data)
+  })
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MzM5OTY3XX0=
+eyJoaXN0b3J5IjpbNjk2NTk3MjMxXX0=
 -->
