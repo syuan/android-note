@@ -5,10 +5,21 @@
 
 > https://notwoods.github.io/mockk-guidebook/docs/matching/with/
 
-
+```kotlin
 verify {
   network.upload(any())
 }
+```
+
+
+```kotlin
+val file = File("hello", data = "world".toByteArray())
+
+verify {
+  network.upload(file)
+}
+```
+
 
 withArg
 
@@ -26,5 +37,5 @@ verify {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE3MTI2NzcsMTM1NjkwNTY5NV19
+eyJoaXN0b3J5IjpbLTU2Njg5MjM2NSwxMzU2OTA1Njk1XX0=
 -->
