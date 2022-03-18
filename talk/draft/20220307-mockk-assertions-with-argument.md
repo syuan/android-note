@@ -11,7 +11,6 @@ verify {
 }
 ```
 
-
 ```kotlin
 val file = File("hello", data = "world".toByteArray())
 
@@ -21,7 +20,7 @@ verify {
 ```
 
 
-withArg
+#### withArg
 
 ```kotlin
 val expected = File("hello", data = "world".toByteArray())
@@ -37,5 +36,5 @@ verify {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Njg5MjM2NSwxMzU2OTA1Njk1XX0=
+eyJoaXN0b3J5IjpbMTYyMDMzOTY2MywxMzU2OTA1Njk1XX0=
 -->
