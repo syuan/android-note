@@ -78,9 +78,9 @@ CrashlyticsReport.ApplicationExitInfo.builder()
 .build();
 ```
 
-// reason 과 trace 에 어떤 값이 들어갈지 궁금
-// getHistoricalProcessExitReasons() 에 얼마나 누적될지? 언제 없어질지 궁금
+// reason 과 trace 에 어떤 값이 들어갈까?
+// getHistoricalProcessExitReasons() 에 얼마나 누적될지? 언제 없어질까? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzYzODA2NiwyMTA0ODI1NjA3XX0=
+eyJoaXN0b3J5IjpbLTExNzY1OTQ1NCwyMTA0ODI1NjA3XX0=
 -->
