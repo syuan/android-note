@@ -5,7 +5,9 @@
 
 > https://github.com/firebase/firebase-android-sdk/blob/5f7ac459817e30f36c0ff9711f00c4011a0ee683/firebase-crashlytics/src/main/java/com/google/firebase/crashlytics/internal/common/CrashlyticsController.java#L809
 
-> 
+
+API 30  ActivityManager.getHistoricalProcessExitReasons
+> https://developer.android.com/reference/kotlin/android/app/ActivityManager#getHistoricalProcessExitReasons(kotlin.String,%20kotlin.Int,%20kotlin.Int)
 
 ```java
 private void writeApplicationExitInfoEventIfRelevant(String sessionId) {  
@@ -34,5 +36,5 @@ private void writeApplicationExitInfoEventIfRelevant(String sessionId) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg4NDAwMl19
+eyJoaXN0b3J5IjpbMjEwNDgyNTYwN119
 -->
