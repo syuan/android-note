@@ -35,6 +35,28 @@ private void writeApplicationExitInfoEventIfRelevant(String sessionId) {
 	}  
 }
 ```
+
+
+```java
+@RequiresApi(api = Build.VERSION_CODES.R)  
+private ApplicationExitInfo findRelevantApplicationExitInfo(  
+	String sessionId, 
+	List<ApplicationExitInfo> applicationExitInfoList) {  
+
+	long sessionStartTime = reportPersistence.getStartTimestampMillis(sessionId);  
+	for (ApplicationExitInfo applicationExitInfo : applicationExitInfoList) {  
+		if (applicationExitInfo.getTimestamp() < sessionStartTime) {  
+	        return null;  
+		}  
+        
+		if (applicationExitInfo.getReason() != ApplicationExitInfo.REASON_ANR) {  
+			continue;  
+		}  
+      return applicationExitInfo;  
+  }  
+   return null;  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDgyNTYwN119
+eyJoaXN0b3J5IjpbLTkyMjg0NjczNCwyMTA0ODI1NjA3XX0=
 -->
