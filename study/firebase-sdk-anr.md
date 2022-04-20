@@ -9,6 +9,8 @@
 API 30  ActivityManager.getHistoricalProcessExitReasons
 > https://developer.android.com/reference/kotlin/android/app/ActivityManager#getHistoricalProcessExitReasons(kotlin.String,%20kotlin.Int,%20kotlin.Int)
 
+getHistoricalProcessExitReasons 으로 종료 이유 들을 가져옴
+
 ```java
 private void writeApplicationExitInfoEventIfRelevant(String sessionId) {  
 	if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {  
@@ -36,6 +38,7 @@ private void writeApplicationExitInfoEventIfRelevant(String sessionId) {
 }
 ```
 
+종료된 이유 중에 session start 이후의 것 중에 ANR로 종료된 것을 반환
 
 ```java
 @RequiresApi(api = Build.VERSION_CODES.R)  
@@ -52,11 +55,14 @@ private ApplicationExitInfo findRelevantApplicationExitInfo(
 		if (applicationExitInfo.getReason() != ApplicationExitInfo.REASON_ANR) {  
 			continue;  
 		}  
-      return applicationExitInfo;  
-  }  
-   return null;  
+		return applicationExitInfo;  
+	
+	}  
+	return null;  
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjg0NjczNCwyMTA0ODI1NjA3XX0=
+eyJoaXN0b3J5IjpbMTIwMDkzNzE3NCwyMTA0ODI1NjA3XX0=
 -->
