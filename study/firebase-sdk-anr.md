@@ -66,8 +66,21 @@ private ApplicationExitInfo findRelevantApplicationExitInfo(
 
 
 ```java
-
+CrashlyticsReport.ApplicationExitInfo.builder()
+.setImportance(applicationExitInfo.getImportance())
+.setProcessName(applicationExitInfo.getProcessName())
+.setReasonCode(applicationExitInfo.getReason())
+.setTimestamp(applicationExitInfo.getTimestamp())
+.setPid(applicationExitInfo.getPid())
+.setPss(applicationExitInfo.getPss())
+.setRss(applicationExitInfo.getRss())
+.setTraceFile(traceFile)
+.build();
 ```
+
+// reason 과 trace 에 어떤 값이 들어갈지 궁금
+// getHistoricalProcessExitReasons() 에 얼마나 누적될지? 언제 없어질지 궁금
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY4MjY2MDUsMjEwNDgyNTYwN119
+eyJoaXN0b3J5IjpbLTY4NzYzODA2NiwyMTA0ODI1NjA3XX0=
 -->
