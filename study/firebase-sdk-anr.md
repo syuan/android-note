@@ -62,7 +62,12 @@ private ApplicationExitInfo findRelevantApplicationExitInfo(
 }
 ```
 
+> https://github.com/firebase/firebase-android-sdk/blob/5f7ac459817e30f36c0ff9711f00c4011a0ee683/firebase-crashlytics/src/main/java/com/google/firebase/crashlytics/internal/common/SessionReportingCoordinator.java#L324
 
+
+```java
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDkzNzE3NCwyMTA0ODI1NjA3XX0=
+eyJoaXN0b3J5IjpbLTE2NDY4MjY2MDUsMjEwNDgyNTYwN119
 -->
