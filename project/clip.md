@@ -8,7 +8,9 @@
 - Room
 - DiffUtil
 - Coroutine
-- Navigation 
+- Navigation
+
+- Pager3 (Room 에 저장하는 항목이 많아지면 사용해야하지 않을까?) 
 
 > https://romannurik.github.io/AndroidAssetStudio/icons-generic.html#source.type=text&source.text.text=Clip&source.text.font=Smooch&source.space.trim=1&source.space.pad=0&size=56&padding=8&color=rgb(208%2C%20188%2C%20255)&name=ic_clip
 
@@ -16,5 +18,5 @@ font: smooch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTg2NDU5OF19
+eyJoaXN0b3J5IjpbNTc2NTI3NjRdfQ==
 -->
