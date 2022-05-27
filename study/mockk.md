@@ -34,8 +34,24 @@ verify {
 assertTrue("testfile" == slot.captured)
 ```
 
+withArg() 를 사용해서 argument 체크 
+```kotlin
+val expected = File("hello", data = "world".toByteArray())
 
+network.upload(File("hello", data = "world".toByteArray()))
+
+verify {
+  network.upload(withArg {
+    assertTrue(expected.name == it.name)
+    assertTrue(expected.data contentEquals it.data)
+  })
+}
+```
+
+withNullableArg() 도 있음
+
+#### 3.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk4OTU4MjMsMTQ2MzQzMTI0LDE5OD
-k1Mzg4OTRdfQ==
+eyJoaXN0b3J5IjpbLTIyMzg2NTE5NSwxNDYzNDMxMjQsMTk4OT
+UzODg5NF19
 -->
