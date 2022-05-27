@@ -64,15 +64,15 @@ every {
 
 
 #### 4. # automatically stub by relaxing
-
+mock 객체에 대해서 mock 하지 함수는 문제가 생기는데 이 경우 전체 함수를 자동으로 mock 하는 경우는 `relaxed` 사용
 ```kotlin
 val navigator = mockk<Navigator>(relaxed = true)
 ```
-
+Unit 을 반환하는 함수만 mock 하는 경우 `relaxUnitFun` 을 사용할 수 있음
 ```kotlin
 val navigator = mockk<Navigator>(relaxUnitFun = true)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ3NzYzMTYsMTcwNTkwMTQ3LDE0Nj
-M0MzEyNCwxOTg5NTM4ODk0XX0=
+eyJoaXN0b3J5IjpbMTYzNDQ1NzA0LDE3MDU5MDE0NywxNDYzND
+MxMjQsMTk4OTUzODg5NF19
 -->
