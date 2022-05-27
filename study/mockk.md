@@ -17,7 +17,25 @@ val mockedBitmap = mockk<Bitmap>()
 justRun { mockedBitmap.write(any()) }
 ```
 
-#### 2. 
+#### 2. assertions with  argument
+
+mockito 의 ArgumentCaptor 와 같은 방법은 mockk 의 slot()
+```kotlin
+val network = mockk<FileNetwork>()
+val slot = slot<String>()
+
+every { network.download(capture(slot)) } returns mockk()
+
+network.download("testfile")
+
+verify {
+  network.download(any())
+}
+assertTrue("testfile" == slot.captured)
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzQzMTI0LDE5ODk1Mzg4OTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMDk4OTU4MjMsMTQ2MzQzMTI0LDE5OD
+k1Mzg4OTRdfQ==
 -->
