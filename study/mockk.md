@@ -47,8 +47,7 @@ verify {
   })
 }
 ```
-
-withNullableArg() 도 있음
+참고: withNullableArg() 
 
 
 #### 3.  Custom matching functions
@@ -61,8 +60,8 @@ every {
   })
 } returns true
 ```
-matchNullable() 도 있음
+참고: matchNullable() 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgyMTYxMSwxNDYzNDMxMjQsMTk4OT
-UzODg5NF19
+eyJoaXN0b3J5IjpbMTcwNTkwMTQ3LDE0NjM0MzEyNCwxOTg5NT
+M4ODk0XX0=
 -->
