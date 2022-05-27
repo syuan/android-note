@@ -50,7 +50,7 @@ verify {
 참고: withNullableArg() 
 
 
-#### 3.  Custom matching functions
+#### 3.  custom matching functions
 
 커스텀한 matcher 를 만드는 방법
 ```kotlin
@@ -61,7 +61,18 @@ every {
 } returns true
 ```
 참고: matchNullable() 
+
+
+#### 4. # automatically stub by relaxing
+
+```kotlin
+val navigator = mockk<Navigator>(relaxed = true)
+```
+
+```kotlin
+val navigator = mockk<Navigator>(relaxUnitFun = true)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTkwMTQ3LDE0NjM0MzEyNCwxOTg5NT
-M4ODk0XX0=
+eyJoaXN0b3J5IjpbLTE2MzQ3NzYzMTYsMTcwNTkwMTQ3LDE0Nj
+M0MzEyNCwxOTg5NTM4ODk0XX0=
 -->
