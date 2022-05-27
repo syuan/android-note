@@ -50,8 +50,19 @@ verify {
 
 withNullableArg() 도 있음
 
-#### 3.  
+
+#### 3.  Custom matching functions
+
+커스텀한 matcher 를 만드는 방법
+```kotlin
+every {
+  mockedCar.drive(match { engine ->
+    engine.type === "Diesel"
+  })
+} returns true
+```
+matchNullable() 도 있음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzg2NTE5NSwxNDYzNDMxMjQsMTk4OT
+eyJoaXN0b3J5IjpbLTEwMjgyMTYxMSwxNDYzNDMxMjQsMTk4OT
 UzODg5NF19
 -->
