@@ -12,7 +12,7 @@ IllegalStateException(
 onSavedInstanceState() 이후에 FragmentTransaction.commitAllowingStateLoss() 을 호출하게 되면 이후 fragment 상태를 저장한 이후이기 때문에 fragment 상태가 저장되진 않습니다. 
 따라서 시스템에 의해서 Activity 가 종료된 이후에 다시 진입해서 Activity 가 복구될때 해당 fragment 를 복구하지 못함
 
-정리하면, 
+정리하면, onSaveInstanceState() 이후에 commitAllowingStateLoss() 를 사용하여 fragment 를 attach 하게 되면, 시스템에 의해도 화면이 ㅂ
 
 
 
@@ -28,6 +28,6 @@ public abstract class FragmentManager implements FragmentResultOwner {
 }
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjUxMDA0LDEzNDI3OTQ4NjYsLTE5Nz
-gwMjkwMjYsLTEyMDE2MTg5MF19
+eyJoaXN0b3J5IjpbMTc5NDQwMjQ2NiwxMzQyNzk0ODY2LC0xOT
+c4MDI5MDI2LC0xMjAxNjE4OTBdfQ==
 -->
