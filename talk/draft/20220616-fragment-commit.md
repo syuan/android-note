@@ -14,7 +14,7 @@ onSavedInstanceState() 이후에 FragmentTransaction.commitAllowingStateLoss() �
 
 -> 정리하면, onSaveInstanceState() 이후에 commitAllowingStateLoss() 를 사용하여 fragment 를 attach 하게 되면, 시스템에 의해도 화면이 복구되었을대 fragment 가 없는 상태로 보여짐
 따라서 상황에 맞게 commit() / commitAllowingStateLoss() 을 사용하는게 맞음 
-dialog fragment 와 같이 복구되지 않아도 크리티컬하지 않다면 commitAllowingStateLoss() 을 사용해도 되지만, 일반적인 경우에 UI bug 가 될수 있음 
+dialog fragment 와 같이 복구되지 않아도 크리티컬하지 않다면 commitAllowingStateLoss() 을 사용해도 되지만, 일반적인 경우에 UI bug 가 될수 있음 ㅐ
 
 
 Fragment 에서 isStateSaved() 를 체크한다는 의미는 
@@ -29,6 +29,6 @@ public abstract class FragmentManager implements FragmentResultOwner {
 }
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA1MDk5NDgsMTM0Mjc5NDg2NiwtMT
-k3ODAyOTAyNiwtMTIwMTYxODkwXX0=
+eyJoaXN0b3J5IjpbMTMxMjQwMDQyNCwtMjAyMDUwOTk0OCwxMz
+QyNzk0ODY2LC0xOTc4MDI5MDI2LC0xMjAxNjE4OTBdfQ==
 -->
