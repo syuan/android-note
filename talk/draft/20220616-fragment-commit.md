@@ -19,7 +19,7 @@ dialog fragment 와 같이 복구되지 않아도 크리티컬하지 않다면 c
 
 Fragment 에서 isStateSaved() 를 체크한다는 의미는 
 onStop(), onSaveInstanceState() 가 불려서 정지 상태가 되었거나 상태를 저장한 이후인지를 확인하는것
-
+(OS 버전 마다 다른데, onStop() 이후에 onSaveInstanceState() 호출 됨)
  ```java 
 public abstract class FragmentManager implements FragmentResultOwner {
 	...
@@ -31,9 +31,9 @@ public abstract class FragmentManager implements FragmentResultOwner {
 
 
 올바른 구현은 
-LiveData 를 사용해서 onStop() 이후의 변화는 
+LiveData 를 사용해서 onStop() 이후의 상태 변화 요청은 홀드하고 onResume() ? 이후 다시 불리도록 작성해야할것 같음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMzNDQwNzAsMTMxMjQwMDQyNCwtMj
-AyMDUwOTk0OCwxMzQyNzk0ODY2LC0xOTc4MDI5MDI2LC0xMjAx
-NjE4OTBdfQ==
+eyJoaXN0b3J5IjpbMTE3OTgzOTkxNSwxMzEyNDAwNDI0LC0yMD
+IwNTA5OTQ4LDEzNDI3OTQ4NjYsLTE5NzgwMjkwMjYsLTEyMDE2
+MTg5MF19
 -->
