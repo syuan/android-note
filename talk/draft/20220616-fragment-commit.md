@@ -6,11 +6,11 @@
 
 IllegalStateException(  
         "Can not perform this action after onSaveInstanceState")
-을 겪에 되는 이후는 onSaveInstanceState() 이후에 FragmentTransaction.commit() 을 호출하는 경우, 이 경우 개발자가 의도한 동작과 다르게 동작할수 있으므로 명시적으로 exception 을 던짐
+을 겪에 되는 이유는 onSaveInstanceState() 이후에 FragmentTransaction.commit() 을 호출하는 경우, 이 경우 개발자가 의도한 동작과 다르게 동작할수 있으므로 시스템에서 명시적으로exception 을 던짐
 
 
-onSavedInstanceState() 이후에 FragmentTransaction.commitAllowingStateLoss() 을 호출하게 되면 이후 fragment 상태를 저장한 이후이기 때문에 fragment 상태가 저장되진 않습니다. 
-따라서 시스템에 의해서 Activity 가 종료된 이후에 다시 진입해서 Activity 가 복구될때 해당 fragment 를 복구하지 못함
+onSavedInstanceState() 이후에 FragmentTransaction.commitAllowingStateLoss() 을 호출하게 되면 이후 fragment 상태를 저장한 이후이기 때문에 fragment 마지막 상태가 저장되진 않음 
+따라서 시스템에 의해서 Activity 가 종료된 이후에 다시 진입해서 Activity 가 복구될때 해당 fragment 를 복구하지 못함 
 
 -> 정리하면, onSaveInstanceState() 이후에 commitAllowingStateLoss() 를 사용하여 fragment 를 attach 하게 되면, 시스템에 의해도 화면이 복구되었을대 fragment 가 없는 상태로 보여짐
 따라서 상황에 맞게 commit() / commitAllowingStateLoss() 을 사용하는게 맞음 
@@ -29,6 +29,7 @@ public abstract class FragmentManager implements FragmentResultOwner {
 }
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjQwMDQyNCwtMjAyMDUwOTk0OCwxMz
-QyNzk0ODY2LC0xOTc4MDI5MDI2LC0xMjAxNjE4OTBdfQ==
+eyJoaXN0b3J5IjpbMTUwODYyODI4NCwxMzEyNDAwNDI0LC0yMD
+IwNTA5OTQ4LDEzNDI3OTQ4NjYsLTE5NzgwMjkwMjYsLTEyMDE2
+MTg5MF19
 -->
