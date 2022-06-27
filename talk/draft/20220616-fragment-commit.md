@@ -39,11 +39,13 @@ fragment dialog 와 같이 상태를 잃어버려도 된다면 commitAllowingSta
 
 
 ### commit() / commitNow()
-트랜잭션의 commit을 예약합니다. commit은 즉시 수행되지 않습니다. commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작업으로 예약됩니다.
+트랜잭션의 commit을 예약, commit은 즉시 수행되지 않음
+commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작업으로 예약
+내부적으로 handler.post() 사용
+기존에 만약 바로 수행하고 싶었다면, excutePendingTransactions() 을 사용했으나 의도하지 않게 다른 pending transaction 들을 수행하므로 주의해야했음
 
-commit은 즉시 수행되지 않습니다. commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작업으로 예약됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjEyOTczMywtMTQ1MzY3OTkzMCwxMT
-c5ODM5OTE1LDEzMTI0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5
-NDg2NiwtMTk3ODAyOTAyNiwtMTIwMTYxODkwXX0=
+eyJoaXN0b3J5IjpbLTExMDkwNTg3NjYsLTE0NTM2Nzk5MzAsMT
+E3OTgzOTkxNSwxMzEyNDAwNDI0LC0yMDIwNTA5OTQ4LDEzNDI3
+OTQ4NjYsLTE5NzgwMjkwMjYsLTEyMDE2MTg5MF19
 -->
