@@ -46,9 +46,11 @@ commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작�
 
 commitNow 는 동기식으로 바로 수행 됨
 commit(), commitNow() 를 같이 사용하는 경우 순서를 보장 할 수 없음
-그래서 발생할 문제를 차단하는 명목으로 commitNow() 에는 BackStack 을 사용하 
+그래서 발생할 문제를 차단하는 명목으로 commitNow() 에는 BackStack 을 사용할 수 없도록 함 (순서 보장이 안되니 back stack 도 보장 못하므로) 
+
+> FragmentManager.findFragmentById() 를 해보면 동기/비동기의 차이를 이해하게 됨 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk1MDIzNDcsLTE0NTM2Nzk5MzAsMT
-E3OTgzOTkxNSwxMzEyNDAwNDI0LC0yMDIwNTA5OTQ4LDEzNDI3
-OTQ4NjYsLTE5NzgwMjkwMjYsLTEyMDE2MTg5MF19
+eyJoaXN0b3J5IjpbLTI4MzIyNDc2NywtMTQ1MzY3OTkzMCwxMT
+c5ODM5OTE1LDEzMTI0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5
+NDg2NiwtMTk3ODAyOTAyNiwtMTIwMTYxODkwXX0=
 -->
