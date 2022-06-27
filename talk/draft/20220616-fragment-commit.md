@@ -20,9 +20,6 @@ dialog fragment 와 같이 복구되지 않아도 크리티컬하지 않다면 c
 
 
 ### FragmentManager.isStateSaved()
-Fragment 에서 isStateSaved() 를 체크한다는 의미는 
-onStop(), onSaveInstanceState() 가 불려서 정지 상태가 되었거나 상태를 저장한 이후인지를 확인하는것
-(OS 버전 마다 다른데, onStop() 이후에 onSaveInstanceState() 호출 됨)
 ```java
 if (fragmentManager.isStateSaved()) {  
 	transaction.commitAllowingStateLoss();  
@@ -30,6 +27,8 @@ if (fragmentManager.isStateSaved()) {
 	transaction.commit();  
 }
 ```
+이렇게 하는건 크래시만 방지할뿐 근본적인 문제 해결이 안됨
+
 
  ```java 
 public abstract class FragmentManager implements FragmentResultOwner {
@@ -39,6 +38,9 @@ public abstract class FragmentManager implements FragmentResultOwner {
 	} 
 }
  ```
+Fragment 에서 isStateSaved() 를 체크한다는 의미는 
+onStop(), onSaveInstanceState() 가 불려서 정지 상태가 되었거나 상태를 저장한 이후인지를 확인하는것
+(OS 버전 마다 다른데, onStop() 이후에 onSaveInstanceState() 호출 됨)
 
 
 ### Conclusion
@@ -59,8 +61,8 @@ commit(), commitNow() 를 같이 사용하는 경우 순서를 보장 할 수 �
 > FragmentManager.findFragmentById() 를 해보면 동기/비동기의 차이를 왜 두었는지 이해 됨
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM3NTUzOTEsNTMxMTg4OTQ3LC0xND
-UzNjc5OTMwLDExNzk4Mzk5MTUsMTMxMjQwMDQyNCwtMjAyMDUw
-OTk0OCwxMzQyNzk0ODY2LC0xOTc4MDI5MDI2LC0xMjAxNjE4OT
-BdfQ==
+eyJoaXN0b3J5IjpbOTI3MzAxMDI4LDUzMTE4ODk0NywtMTQ1Mz
+Y3OTkzMCwxMTc5ODM5OTE1LDEzMTI0MDA0MjQsLTIwMjA1MDk5
+NDgsMTM0Mjc5NDg2NiwtMTk3ODAyOTAyNiwtMTIwMTYxODkwXX
+0=
 -->
