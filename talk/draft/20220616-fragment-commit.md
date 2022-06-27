@@ -38,9 +38,9 @@ public abstract class FragmentManager implements FragmentResultOwner {
 fragment dialog 와 같이 상태를 잃어버려도 된다면 commitAllowingStateLoss() 사용해도 됨.
 
 
-### 
+### commi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM2Nzk5MzAsMTE3OTgzOTkxNSwxMz
-EyNDAwNDI0LC0yMDIwNTA5OTQ4LDEzNDI3OTQ4NjYsLTE5Nzgw
-MjkwMjYsLTEyMDE2MTg5MF19
+eyJoaXN0b3J5IjpbMTM3NjgwNzgyNSwtMTQ1MzY3OTkzMCwxMT
+c5ODM5OTE1LDEzMTI0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5
+NDg2NiwtMTk3ODAyOTAyNiwtMTIwMTYxODkwXX0=
 -->
