@@ -4,6 +4,9 @@
 
 # IllegalStateException("Can not perform this action after onSaveInstanceState")
 
+> https://medium.com/@LIP/fragment-transactions-activity-state-loss-da5a7bc1792a
+> 
+
 ### Cause
 IllegalStateException(  
         "Can not perform this action after onSaveInstanceState")
@@ -62,8 +65,8 @@ commit(), commitNow() 를 같이 사용하는 경우 순서를 보장 할 수 �
 > FragmentManager.findFragmentById() 를 해보면 동기/비동기의 차이를 왜 두었는지 이해 됨
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc4NDg2MDgsOTI3MzAxMDI4LDUzMT
-E4ODk0NywtMTQ1MzY3OTkzMCwxMTc5ODM5OTE1LDEzMTI0MDA0
-MjQsLTIwMjA1MDk5NDgsMTM0Mjc5NDg2NiwtMTk3ODAyOTAyNi
-wtMTIwMTYxODkwXX0=
+eyJoaXN0b3J5IjpbNjg0OTY2OTcyLDkyNzMwMTAyOCw1MzExOD
+g5NDcsLTE0NTM2Nzk5MzAsMTE3OTgzOTkxNSwxMzEyNDAwNDI0
+LC0yMDIwNTA5OTQ4LDEzNDI3OTQ4NjYsLTE5NzgwMjkwMjYsLT
+EyMDE2MTg5MF19
 -->
