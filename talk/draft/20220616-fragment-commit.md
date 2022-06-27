@@ -33,10 +33,11 @@ public abstract class FragmentManager implements FragmentResultOwner {
  ```
 
 
-올바른 구현은 
-LiveData 를 사용해서 onStop() 이후의 상태 변화 요청은 홀드하고 onResume() ? 이후 다시 불리도록 작성해야할것 같음
+### Conclusion
+올바른 구현은 LiveData 를 사용해서 onStop() 이후의 상태 변화는 hold하고 onResume() ? 이후 다시 변화가 관찰되도록 구현해야할것 같음
+fra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzMDYxMTgyLDExNzk4Mzk5MTUsMTMxMj
-QwMDQyNCwtMjAyMDUwOTk0OCwxMzQyNzk0ODY2LC0xOTc4MDI5
-MDI2LC0xMjAxNjE4OTBdfQ==
+eyJoaXN0b3J5IjpbMTMzNjk5Mzk1OSwxMTc5ODM5OTE1LDEzMT
+I0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5NDg2NiwtMTk3ODAy
+OTAyNiwtMTIwMTYxODkwXX0=
 -->
