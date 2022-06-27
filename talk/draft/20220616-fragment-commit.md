@@ -44,8 +44,11 @@ commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작�
 내부적으로 handler.post() 사용
 기존에 만약 바로 수행하고 싶었다면, excutePendingTransactions() 을 사용했으나 의도하지 않게 다른 pending transaction 들을 수행하므로 주의해야했음
 
+commitNow 는 동기식으로 바로 수행 됨
+commit(), commitNow() 를 같이 사용하는 경우 순서를 보장 할 수 없음
+그래서 발생할 문제를 차단하는 명목으로 commitNow() 에는 BackStack 을 사용하 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkwNTg3NjYsLTE0NTM2Nzk5MzAsMT
+eyJoaXN0b3J5IjpbLTIxMzk1MDIzNDcsLTE0NTM2Nzk5MzAsMT
 E3OTgzOTkxNSwxMzEyNDAwNDI0LC0yMDIwNTA5OTQ4LDEzNDI3
 OTQ4NjYsLTE5NzgwMjkwMjYsLTEyMDE2MTg5MF19
 -->
