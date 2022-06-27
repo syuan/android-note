@@ -38,9 +38,12 @@ public abstract class FragmentManager implements FragmentResultOwner {
 fragment dialog 와 같이 상태를 잃어버려도 된다면 commitAllowingStateLoss() 사용해도 됨.
 
 
-### commi
+### commit() / commitNow()
+트랜잭션의 commit을 예약합니다. commit은 즉시 수행되지 않습니다. commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작업으로 예약됩니다.
+
+commit은 즉시 수행되지 않습니다. commit은 다음 번 스레드가 준비될 때 메인 스레드에 대한 작업으로 예약됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjgwNzgyNSwtMTQ1MzY3OTkzMCwxMT
+eyJoaXN0b3J5IjpbMTY4NjEyOTczMywtMTQ1MzY3OTkzMCwxMT
 c5ODM5OTE1LDEzMTI0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5
 NDg2NiwtMTk3ODAyOTAyNiwtMTIwMTYxODkwXX0=
 -->
