@@ -2,19 +2,19 @@
 
 
 
-## IllegalStateException("Can not perform this action after onSaveInstanceState")
+# IllegalStateException("Can not perform this action after onSaveInstanceState")
 
-### cause
--
+### Cause
 IllegalStateException(  
         "Can not perform this action after onSaveInstanceState")
 을 겪에 되는 이유는 onSaveInstanceState() 이후에 FragmentTransaction.commit() 을 호출하는 경우, 이 경우 개발자가 의도한 동작과 다르게 동작할수 있으므로 시스템에서 명시적으로exception 을 던짐
 
-
+### commitAllowingStateLoss()
 onSavedInstanceState() 이후에 FragmentTransaction.commitAllowingStateLoss() 을 호출하게 되면 이후 fragment 상태를 저장한 이후이기 때문에 fragment 마지막 상태가 저장되진 않음 
 따라서 시스템에 의해서 Activity 가 종료된 이후에 다시 진입해서 Activity 가 복구될때 해당 fragment 를 복구하지 못함 (fragment add 동작이였다면 이 add 상태도 저장 안됨)
 
--> 정리하면, onSaveInstanceState() 이후에 commitAllowingStateLoss() 를 사용하여 fragment 를 attach 하게 되면, 시스템에 의해도 화면이 복구되었을대 fragment 가 없는 상태로 보여짐
+```
+정리하면, onSaveInstanceState() 이후에 commitAllowingStateLoss() 를 사용하여 fragment 를 attach 하게 되면, 시스템에 의해도 화면이 복구되었을대 fragment 가 없는 상태로 보여짐
 따라서 상황에 맞게 commit() / commitAllowingStateLoss() 을 사용하는게 맞음 
 dialog fragment 와 같이 복구되지 않아도 크리티컬하지 않다면 commitAllowingStateLoss() 을 사용해도 되지만, 일반적인 경우에 UI bug 가 될수 있음
 
@@ -35,7 +35,7 @@ public abstract class FragmentManager implements FragmentResultOwner {
 올바른 구현은 
 LiveData 를 사용해서 onStop() 이후의 상태 변화 요청은 홀드하고 onResume() ? 이후 다시 불리도록 작성해야할것 같음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTc4NzAyMCwxMTc5ODM5OTE1LDEzMT
-I0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5NDg2NiwtMTk3ODAy
-OTAyNiwtMTIwMTYxODkwXX0=
+eyJoaXN0b3J5IjpbMTI0NzcwOTgzLDExNzk4Mzk5MTUsMTMxMj
+QwMDQyNCwtMjAyMDUwOTk0OCwxMzQyNzk0ODY2LC0xOTc4MDI5
+MDI2LC0xMjAxNjE4OTBdfQ==
 -->
