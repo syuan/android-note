@@ -4,6 +4,8 @@
 
 ## IllegalStateException("Can not perform this action after onSaveInstanceState")
 
+### cause
+-
 IllegalStateException(  
         "Can not perform this action after onSaveInstanceState")
 을 겪에 되는 이유는 onSaveInstanceState() 이후에 FragmentTransaction.commit() 을 호출하는 경우, 이 경우 개발자가 의도한 동작과 다르게 동작할수 있으므로 시스템에서 명시적으로exception 을 던짐
@@ -33,7 +35,7 @@ public abstract class FragmentManager implements FragmentResultOwner {
 올바른 구현은 
 LiveData 를 사용해서 onStop() 이후의 상태 변화 요청은 홀드하고 onResume() ? 이후 다시 불리도록 작성해야할것 같음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTgzOTkxNSwxMzEyNDAwNDI0LC0yMD
-IwNTA5OTQ4LDEzNDI3OTQ4NjYsLTE5NzgwMjkwMjYsLTEyMDE2
-MTg5MF19
+eyJoaXN0b3J5IjpbMTMxMTc4NzAyMCwxMTc5ODM5OTE1LDEzMT
+I0MDA0MjQsLTIwMjA1MDk5NDgsMTM0Mjc5NDg2NiwtMTk3ODAy
+OTAyNiwtMTIwMTYxODkwXX0=
 -->
