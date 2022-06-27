@@ -40,7 +40,8 @@ public abstract class FragmentManager implements FragmentResultOwner {
  ```
 Fragment 에서 isStateSaved() 를 체크한다는 의미는 
 onStop(), onSaveInstanceState() 가 불려서 정지 상태가 되었거나 상태를 저장한 이후인지를 확인하는것
-(OS 버전 마다 다른데, onStop() 이후에 onSaveInstanceState() 호출 됨)
+> onSaveInstanceState() 호출 시점은 OS 버전 마다 다른데 Honeycomb 이후에는 onStop() 이후에 onSaveInstanceState() 호출 됨, Honeycomb 이전에는 onPause() 바로 전에? 호출
+> Honeycomb 이전에는 onPause 이후에 Activity 종료될수 있었으나 이후에는 onStop() 이후에 Activity 가 종료될 수 있다고 바뀌었기 때문에
 
 
 ### Conclusion
@@ -61,8 +62,8 @@ commit(), commitNow() 를 같이 사용하는 경우 순서를 보장 할 수 �
 > FragmentManager.findFragmentById() 를 해보면 동기/비동기의 차이를 왜 두었는지 이해 됨
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MzAxMDI4LDUzMTE4ODk0NywtMTQ1Mz
-Y3OTkzMCwxMTc5ODM5OTE1LDEzMTI0MDA0MjQsLTIwMjA1MDk5
-NDgsMTM0Mjc5NDg2NiwtMTk3ODAyOTAyNiwtMTIwMTYxODkwXX
-0=
+eyJoaXN0b3J5IjpbLTE4OTc4NDg2MDgsOTI3MzAxMDI4LDUzMT
+E4ODk0NywtMTQ1MzY3OTkzMCwxMTc5ODM5OTE1LDEzMTI0MDA0
+MjQsLTIwMjA1MDk5NDgsMTM0Mjc5NDg2NiwtMTk3ODAyOTAyNi
+wtMTIwMTYxODkwXX0=
 -->
