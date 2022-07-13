@@ -1,14 +1,14 @@
 
 
 
-## ### Fixed timeout of 120 seconds when running `connectedReleaseAndroidTest`
+## ### Fixed timeout of 120 seconds when running connectedReleaseAndroidTest
 
 
 > https://issuetracker.google.com/issues/223435826
 
 동일한 error stack 은 아니나 에러의 내용은 거의 유사
 AGP 7.3.0-alpha07 에서 수행하니 해결 된듯
-
+> https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
 
 > Unknown platform error occurred when running the UTP test suite. Please check logs for details.
 
@@ -107,5 +107,5 @@ Jul 12, 2022 9:38:08 PM com.google.testing.platform.server.strategy.NonInteracti
 INFO: Shutting down runner.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkwMDEwOTksMTA0ODkyMjQ3Nl19
+eyJoaXN0b3J5IjpbLTEwMjY4Mjg5MTAsMTA0ODkyMjQ3Nl19
 -->
