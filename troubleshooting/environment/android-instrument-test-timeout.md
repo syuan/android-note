@@ -5,11 +5,14 @@
 
 
 > https://issuetracker.google.com/issues/223435826
-동일한 stack 은 아니나 에러의 내용은 거의 유사
+
+동일한 error stack 은 아니나 에러의 내용은 거의 유사
 AGP 7.3.0-alpha07 에서 수행하니 해결 된듯
 
 
+> Unknown platform error occurred when running the UTP test suite. Please check logs for details.
 
+전체 로그 --debug
 ```
 com.google.testing.platform.api.plugin.PluginException: Exception thrown during onBeforeAll invocation of plugin com.google.testing.platform.plugin.android.AndroidDevicePlugin.
 
@@ -104,5 +107,5 @@ Jul 12, 2022 9:38:08 PM com.google.testing.platform.server.strategy.NonInteracti
 INFO: Shutting down runner.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjg1OTMyOF19
+eyJoaXN0b3J5IjpbMTA0ODkyMjQ3Nl19
 -->
