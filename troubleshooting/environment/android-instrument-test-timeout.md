@@ -1,7 +1,7 @@
 
 
 
-##
+## ### Fixed timeout of 120 seconds when running `connectedReleaseAndroidTest`
 
 
 > https://issuetracker.google.com/issues/223435826
@@ -107,5 +107,5 @@ Jul 12, 2022 9:38:08 PM com.google.testing.platform.server.strategy.NonInteracti
 INFO: Shutting down runner.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODkyMjQ3Nl19
+eyJoaXN0b3J5IjpbLTExODkwMDEwOTksMTA0ODkyMjQ3Nl19
 -->
