@@ -1,6 +1,8 @@
 
+## com.android.ddmlib.TimeoutException
+
 target sdk 31, agp 7.2.1 
--> 
+-> android sdk platform-tools 를 업그레이드 (33.0.2), adb 문제인듯?
 
 ```
 java.lang.Throwable: TimeoutException getting properties for device LMG710N34fa250f
@@ -26,5 +28,5 @@ at com.android.ddmlib.internal.DeviceImpl.executeShellCommand(DeviceImpl.java:70
 at com.android.ddmlib.PropertyFetcher$1.run(PropertyFetcher.java:207)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3MjMyNDBdfQ==
+eyJoaXN0b3J5IjpbMTUyODE3NDcyOV19
 -->
