@@ -5,7 +5,9 @@
 
 
 > https://issuetracker.google.com/issues/223435826
-동일한 stack 은 아니나 에러의 내용은 거의 유사, 
+동일한 stack 은 아니나 에러의 내용은 거의 유사
+AGP 7.3.0-alpha07 에서 수행하니 해결 된듯
+
 
 
 ```
@@ -102,5 +104,5 @@ Jul 12, 2022 9:38:08 PM com.google.testing.platform.server.strategy.NonInteracti
 INFO: Shutting down runner.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTMzOTA3MF19
+eyJoaXN0b3J5IjpbLTUyMjg1OTMyOF19
 -->
