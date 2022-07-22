@@ -1,6 +1,8 @@
 
 오늘은  무엇을  배웠습니까? 또는  무엇을 처음 해보았는가?
 
+
+
 - checkmarx -> secure coding guide
 - text 개행 위치 조절
 
@@ -134,6 +136,7 @@ ksp
 
 https://github.com/google/android-fhir
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY0MDQ5MTIsLTE1NjYzOTAxNTYsLT
-Q5OTEwNjg0LC0xNzE2NjY1ODUsMTkzOTA2MzY1MV19
+eyJoaXN0b3J5IjpbLTEzMDQ0MzAyMCwtMTQ2NjQwNDkxMiwtMT
+U2NjM5MDE1NiwtNDk5MTA2ODQsLTE3MTY2NjU4NSwxOTM5MDYz
+NjUxXX0=
 -->
