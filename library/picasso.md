@@ -12,8 +12,11 @@ PriorityBlockingQueue
 
 android.util.LruCache
 
-Bitmpa
+Bitmap.prepareToDraw() ?
+
+
+Handler.hasMessages() : sendEmptyMessageDelayed 로 보낸 message 가 있는지 체크하는 군
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU1ODU3NzYsMTE3ODc2MDAzNywtMT
-IwMzAyNDU5NV19
+eyJoaXN0b3J5IjpbMTA5MzE5ODAzNCwxMTc4NzYwMDM3LC0xMj
+AzMDI0NTk1XX0=
 -->
