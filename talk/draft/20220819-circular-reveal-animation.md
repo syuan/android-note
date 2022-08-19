@@ -1,7 +1,9 @@
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
+## Circular Reveal Animation
+
+> https://guides.codepath.com/android/circular-reveal-animation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU5MjUyNTgyLDczMDk5ODExNl19
 -->
