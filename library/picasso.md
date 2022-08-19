@@ -9,6 +9,8 @@ PriorityBlockingQueue
 
 
 초기화 시점에 context 를 통해서 network 상태 변화 감지를 위한 NetworkBroadcastReceiver 를 등록
+
+android.util.LruCache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNDA5MzYzLC0xMjAzMDI0NTk1XX0=
+eyJoaXN0b3J5IjpbMTE3ODc2MDAzNywtMTIwMzAyNDU5NV19
 -->
