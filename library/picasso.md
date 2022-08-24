@@ -25,8 +25,9 @@ dispatcher 는 전체적인 요청들을 처리, 중간 연결자 역할?, handl
 3. Action 이라는 객체를 생성, request, target, callback 의묶음
 4. 같은 target 이 있으면 기존 요청 취소, 
 5. Action 을 dispatcher 에 submit()
-6. 
+6. Hunter (Runnable) 을 만듬, action, cache, dispatcher 를 갖고 실제 http request 역할
+7. Hunter 를 ExecutorService 에 submit()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU3NjAyNjUsMTA5MzE5ODAzNCwxMT
-c4NzYwMDM3LC0xMjAzMDI0NTk1XX0=
+eyJoaXN0b3J5IjpbLTQwMjYyNzYyMCwxMDkzMTk4MDM0LDExNz
+g3NjAwMzcsLTEyMDMwMjQ1OTVdfQ==
 -->
