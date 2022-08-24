@@ -27,7 +27,11 @@ dispatcher 는 전체적인 요청들을 처리, 중간 연결자 역할?, handl
 5. Action 을 dispatcher 에 submit()
 6. Hunter (Runnable) 을 만듬, action, cache, dispatcher 를 갖고 실제 http request 역할
 7. Hunter 를 ExecutorService 에 submit()
+8. Runnable 안에서 okhttp 를 사용해서 Response 받아옴 buffer 는 넘김
+9. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjYyNzYyMCwxMDkzMTk4MDM0LDExNz
-g3NjAwMzcsLTEyMDMwMjQ1OTVdfQ==
+eyJoaXN0b3J5IjpbLTE5OTcyMDQyNzUsLTQwMjYyNzYyMCwxMD
+kzMTk4MDM0LDExNzg3NjAwMzcsLTEyMDMwMjQ1OTVdfQ==
 -->
