@@ -19,9 +19,10 @@ Handler.hasMessages() : sendEmptyMessageDelayed 로 보낸 message 가 있는지
 
 
 1. 옵션 정보와 함께 Request 를 만들고, 
-2. memcache 확인
-3. 
+2. memcache 확인, 이전 요청 취소
+3. Action 이라는 객체를 생성, request, target, callback 의묶음
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDgwMTM3MDMsMTA5MzE5ODAzNCwxMT
-c4NzYwMDM3LC0xMjAzMDI0NTk1XX0=
+eyJoaXN0b3J5IjpbNzg5Mjc1Mzc4LDEwOTMxOTgwMzQsMTE3OD
+c2MDAzNywtMTIwMzAyNDU5NV19
 -->
