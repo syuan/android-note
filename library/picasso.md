@@ -18,7 +18,9 @@ Bitmap.prepareToDraw() ?
 Handler.hasMessages() : sendEmptyMessageDelayed 로 보낸 message 가 있는지 체크하는 군
 
 dispatcher 는 전체적인 요청들을 처리, 중간 연결자 역할?, handler 를 갖고 모든 요청(Action) 을 순차적으로 처리
+dispatcher 전체적인 step 관리역할
 
+-
 
 1. 옵션 정보와 함께 Request 를 만들고, 
 2. memcache 확인, 이전 요청 취소
@@ -28,10 +30,11 @@ dispatcher 는 전체적인 요청들을 처리, 중간 연결자 역할?, handl
 6. Hunter (Runnable) 을 만듬, action, cache, dispatcher 를 갖고 실제 http request 역할
 7. Hunter 를 ExecutorService 에 submit()
 8. Runnable 안에서 okhttp 를 사용해서 Response 받아옴 buffer 는 넘김
-9. 
+9. Runnable.run 을 전체 try-catch 잡아서 error callback 핸들링
+10.성공하면 dispatch 에서 전달해서 다른 step 진행  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTcyMDQyNzUsLTQwMjYyNzYyMCwxMD
-kzMTk4MDM0LDExNzg3NjAwMzcsLTEyMDMwMjQ1OTVdfQ==
+eyJoaXN0b3J5IjpbMjEwMTM4NTQxNSwtNDAyNjI3NjIwLDEwOT
+MxOTgwMzQsMTE3ODc2MDAzNywtMTIwMzAyNDU5NV19
 -->
