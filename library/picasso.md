@@ -17,6 +17,8 @@ Bitmap.prepareToDraw() ?
 
 Handler.hasMessages() : sendEmptyMessageDelayed 로 보낸 message 가 있는지 체크하는 군
 
+dispatcher 는 전체적인 요청들을 처리, 중간 연결자 역할?, handler 를 갖고 모든 요청(Action) 을 순차적으로 처리
+
 
 1. 옵션 정보와 함께 Request 를 만들고, 
 2. memcache 확인, 이전 요청 취소
@@ -25,6 +27,6 @@ Handler.hasMessages() : sendEmptyMessageDelayed 로 보낸 message 가 있는지
 5. Action 을 dispatcher 에 submit()
 6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MjM0MTUyLDEwOTMxOTgwMzQsMTE3OD
-c2MDAzNywtMTIwMzAyNDU5NV19
+eyJoaXN0b3J5IjpbLTE3NjU3NjAyNjUsMTA5MzE5ODAzNCwxMT
+c4NzYwMDM3LC0xMjAzMDI0NTk1XX0=
 -->
