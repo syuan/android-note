@@ -32,10 +32,11 @@ Flow
 7. Hunter 를 ExecutorService 에 submit()
 8. Runnable 안에서 okhttp 를 사용해서 Response 받아옴 buffer 는 넘김
 9. Runnable.run 을 전체 try-catch 잡아서 error callback 핸들링
-10.성공하면 dispatch 에서 전달해서 다른 step 진행  
+10. 성공하면 dispatch 에서 전달해서 다른 step 진행  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzcwOTkyOTgsLTQwMjYyNzYyMCwxMD
-kzMTk4MDM0LDExNzg3NjAwMzcsLTEyMDMwMjQ1OTVdfQ==
+eyJoaXN0b3J5IjpbLTEyNTE3NDM0MDgsLTE3NzcwOTkyOTgsLT
+QwMjYyNzYyMCwxMDkzMTk4MDM0LDExNzg3NjAwMzcsLTEyMDMw
+MjQ1OTVdfQ==
 -->
