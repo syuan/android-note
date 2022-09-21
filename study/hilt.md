@@ -5,6 +5,9 @@ droidknight - hilt
 
 참고
 > https://nanamare.tistory.com/177
+
+
+EntryPointAccessors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjYyNDIxXX0=
+eyJoaXN0b3J5IjpbLTEyMTY1Mjg5MTEsLTU4MjYyNDIxXX0=
 -->
