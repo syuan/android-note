@@ -8,12 +8,10 @@
 
 
 - sunflower
-- 
 - 코루틴
 - kotlin block
 - mvvm, mvp 에서 자식<-> 부모 이벤트 전달 방법 / 
 - 상태전이 일반 머클 확장 페트리샤 트리 (주화입마)
-- Hilt
 - Flow !
 - mvvm
 - Kotlin DSL
@@ -136,7 +134,7 @@ ksp
 
 https://github.com/google/android-fhir
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ0MzAyMCwtMTQ2NjQwNDkxMiwtMT
+eyJoaXN0b3J5IjpbMTgxMDA2ODUwOSwtMTQ2NjQwNDkxMiwtMT
 U2NjM5MDE1NiwtNDk5MTA2ODQsLTE3MTY2NjU4NSwxOTM5MDYz
 NjUxXX0=
 -->
