@@ -9,7 +9,8 @@
 
 
 CountDownLatch
-
+> https://github.com/firebase/firebase-android-sdk/blob/master/firebase-crashlytics/src/main/java/com/google/firebase/crashlytics/internal/analytics/BlockingAnalyticsEventLogger.java
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzc0NTYwMywtNTcwMDI5ODc4XX0=
+eyJoaXN0b3J5IjpbLTE1ODMyNDg4NDUsLTU3MDAyOTg3OF19
 -->
