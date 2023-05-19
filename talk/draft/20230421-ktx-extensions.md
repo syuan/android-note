@@ -9,8 +9,8 @@ inline fun <reified T : Any> Any?.safeAs(): T? = this as? T
 inline fun <reified T : Any> Any?.cast(): T = this as T
 ```
 
-r
+orEmpty()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzA4NTg5MCw2MjAzMTEwOCwtMTYzMz
+eyJoaXN0b3J5IjpbLTg5MzcyNTI3MSw2MjAzMTEwOCwtMTYzMz
 k2NTA3M119
 -->
