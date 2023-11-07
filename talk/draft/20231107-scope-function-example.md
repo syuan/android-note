@@ -12,7 +12,12 @@ open fun createFromFile(
 }
 ```
 
-
+```kotlin
+val intent = Intent().apply {  
+	  setDataAndType(request.uri, request.mimeType)  
+	  action = request.action  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2Mjc3MDMyXX0=
+eyJoaXN0b3J5IjpbMTYyOTI4NDg1Ml19
 -->
